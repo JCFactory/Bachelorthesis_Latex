@@ -1,0 +1,88 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{none/global/}
+    \entry{considering_rfid}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{Considering {RFID} to Track Healthcare Inventory?}
+      \field{titleaddon}{{DAIC}}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/32/considering-rfid-track-healthcare-inventory.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.dicardiology.com/videos/considering-rfid-track-healthcare-inventory
+      \endverb
+    \endentry
+    \entry{dipole}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labeltitlesource}{title}
+      \field{title}{{RFID} Hospital Sanidad Dipole}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb RFID Hospital Sanidad | Dipole:files/31/RFID-Hospital-Sanidad.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.dipolerfid.es/es/RFID-Hospital-Sanidad
+      \endverb
+    \endentry
+    \entry{nsarchitecture}{software}{}
+      \list{publisher}{1}{%
+        {NativeScript}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{7}
+      \field{month}{3}
+      \field{note}{original-date: 2014-06-30T10:21:20Z}
+      \field{shorttitle}{nativescript-cli}
+      \field{title}{nativescript-cli: Command-line interface for building {NativeScript} apps}
+      \field{urlday}{8}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/35/ns-cli.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://github.com/NativeScript/nativescript-cli
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
