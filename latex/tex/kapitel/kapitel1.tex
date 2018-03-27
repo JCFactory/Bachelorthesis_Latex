@@ -1,16 +1,47 @@
 
 \chapter{RFID Technology}
 
+The following chapter will discuss the reasons why choosing the technology and the scope of the RFID technology. It will start by explaining fundamental information and functionalities of RFID readers, tags and further equipment to build a RFID application. After that, some 'State of the Art' applications and use cases will be shown. In the end, there will be mentioned some large companies which provide medical RFID solutions.
+
 \section{Motivation}
-\subsection{Aim and Scope}
-\section{General Information}
-different types of RFID (frequency: small, middle, large - distances)
-\subsection{State of the Art}
+
 
 \cite{considering_rfid}
 
-\cite{dipole}
-spanish company Dipole 
+\subsection{Aim and Scope}
+uhf, reaching signal
+
+
+\section{General Information}
+different types of RFID (frequency: small, middle, large - distances)
+passive active hybride 
+
+
+\subsection{State of the Art}
+
+There exist many companies which develop \ac{RFID} solutions and applications. In this paragraph, three important medical companies which provide RFID solutions, will be presented.
+
+\subsubsection{Dipole Company}
+
+To start with the first company, in the following, the spanish company 'Dipole' \cite{dipole} will be depicted. 'Dipole RFID' was found in Barcelona 20 years ago with the aim of developing systems for intelligent identification, data capture and systems integration. In their product scope, Dipole provides three main products. The first product contains RFID as well as \ac{NFC} solutions which should improve optimizing processes, realizing industry 4.0 and the \ac{IoT}. The second product consists in manufacturing RFID tags to measure the according user needs of Dipole's users. The third product is composed of consulting services, RFID software and systems integration.
+In their section 'RFID Hospital and Health', Dipole mentions some use cases for their RFID solutions. To give an example, the correct administration of banked blood can be controlled by using RFID tags. Or, when product stock or termination date of medication and drugs in a hospital have to be observed, RFID tags provide a simple and large-scale use instead of controlling the stock manually (which also brings the risk of human errors). For broader use in hospitals, such as managing whole buildings and improving their workflows, RFID solutions should be considered as well. There exist many hospitals which administrate their workflows with paper-based solutions. As a consequence, the processes are getting very slow and data is duplicated. Furthermore, the communication between several departments is flawed and causes further problems.
+Another health service, provided by Dipole, is the 'Traceability of Analysis'. In a hospital or a healthcare institution, there are many processes which embody information about clinical analysis, blood tests and blood preservation. These information are very important for patient's diagnosis and treatment. In a laboratory, all tissue samples are stored and several cultivation processes have to be controlled. To increase efficiency of these processes, establishing a RFID system to track and identify all samples correctly would be a useful solution.
+When it comes to the management of buildings and workflows, the asset tracking forms an important part. Dipole distinguishes two different classifications of assets: \ac{RTI} and products of high value, e.g. elements from the IT and mobile machines. The second type of elements needs specific control in real-time. For an appropriate tracking of IT elements it should be possible to locate each item in a global and detail view to be sure that it is settled in the correct place and under the right conditions, such as the correct temperature or low air humidity.
+Another use case is guaranteeing the correct dosage of medication to patients which is very important for patient's health and and the work of nursing staff. To simplify the dosage of medication to each patient, RFID tags can be sticked to the pill cases to ensure the correct distribution in real-time. 
+Concerning the management of patients, it is possible to track patients indiviually by wearing bracelets which contain a RFID tag. Currently, the tracking of persons is very controversial because the patient's privacy is offended by enabling his persecution. On the other side, RFID bracelets enable to register patient's actions in real-time and ensure their safety. For example, if a patient suffers from epilepsy, it is dificult to predict an epileptic shock. But if he wore a bracelet which constantly synchronizes his health status with the system, doctors would be able to act preventively against such shocks and could minimize his risk to die of his illness.
+Not only managing whole buildings is important but also the tracking and control of material in the operating rooms plays a significant role. For instance, in operating room A exists a mobile \ac{CT} whereas operating room B only has set of instruments for surgery. When there is a emergency and the patient needs a CT because the doctor cannot say if he needs the suggested operation but in the operating room B does not exist a CT, it is necessary to detect the next mobile CT rapidly and not to deteriorate the patient's health status. 
+
+\subsubsection{Cardinal Health Inc.}
+
+Cardinal Health Inc., with its headquarters in Dublin and Ohio, founded 100 years ago,  \cite{cardinal_web} is a global company which provides integrated healthcare services and products. There exist four product fields in the scope of Cardinal Health Inc.: logistics, caring of patients, business solutions, and guidance of patients.
+Cardinal Health Inc. provides Inventory Management Solutions \cite{cardinal_video} which are specialized on hospital's inventory. In a promotional video, they quote different types of inventory systems, such as the '2-Bin-Kanban' system which is adapted for low cost items needing right sizing and bulk level. A second inventory system which provides management for low cost items needing oversight at the each level is the 'Barcode' system. For high value implantables and physician preference items, the company advertises RFID as best used technology. In the video \cite{cardinal_video}, they claim that reading RFID tags is fast, e.g. 100 tags can be read in seconds. Moreover, RFID tags implicate ease of use for users and support user's needs very quickly. The physician does not have to care about the data capture of his observation because all RFID tagged items are automatically tracked and the measured data is captured by backend interfaces which synchronize to other IT systems (like Materials Management System or Billing Systems). In addition to that, automatic data capture avoids redundant data entries, provides errors and saves time.
+Another important fact about RFID technology is its accuracy and uniqueness. Cardinal Healthcare Inc. advertises that RFID applications enable automated real-time tracking at a unique item level. Beyond, these applications provide a pro-active management of expired and recalled products. As a result, RFID applications lead to a streamlined workflow in which charges are automatically captured for accurate billing and compliants as well as clinical documentation are supported. 
+All in all, Cardinal Health Inc. claims that by using its Inventory Management Solution for hospitals will enable physicians and nurses to focus more on patient care and spend less time on managing supplies  \cite{cardinal_video}.
+
+\subsubsection{Terso Solutions Inc.}
+
+Terso Solutions Inc., formed in 2005 in Madison (Wisconsin, U.S.), is specialized on RFID product development and provides several \ac{RAIN} RFID solutions. RAIN RFID \cite{rainrfid} is a wireless technology which enables the wireless connection of items to the internet. As a global alliance, RAIN RFID promotes the universal adoption of \ac{UHF} RFID technology which can be compared to the WiFi Alliance. RAIN uses a standardized GS1 UHF Gen2 protocol to connect all members (network, software, readers, tags, items) of its solution.
+However, Terso Solutions Inc. has developed a solution for Medical Field Inventory Tracking which prevents a wide range of services to hospitals. In a promo \cite{terso_video}, the company shows its solution which connects the RFID technology to medical field by integrating RFID into the medical kit. By using this Medical Field Inventory Tracking, sales can be instantly recorded, field inventories and reverse overstock situations can be run. Besides, automated inventory reporting is possible which brings the side benefit of eliminating shipping costs. Each wrap can be located by the system and the closest needed device is shown. The advantages that accrued are better handled recalls, eliminated overnight shipping demands and reduced expired products. All in all, Terso Solutions Inc. provides two large RFID applications: The 'RFID for Compliance and Product Integrity' and the 'RFID for Compliance and Implant Tracking' which have also been approved for case studies in two hospitals in the U.S.. The first hospital where Terso Solutions Inc. performed its 'TrackCore' case study was the North Kansas City Hospital. RAIN RFID-enabled intelligent cabinets, integrated with TrackCore Inc.'s tissue and implant tracking software as well as the 'TrackCore Operating Room' were tested. Furthermore, 'Jetstream', a cloud-based platform from Terso was proved at 'North Kansas City Hospital'. The second case study was implemented at St. Dominic Hospital. The tested application included Terso's autoated tissue and implant tracking solution using RFID.
 
 \subsection{Examples}
 
