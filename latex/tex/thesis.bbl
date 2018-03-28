@@ -19,10 +19,82 @@
 
 \refsection{0}
   \sortlist[entry]{none/global/}
-    \entry{considering_rfid}{online}{}
+    \entry{ncbi}{article}{}
+      \name{author}{2}{}{%
+        {{hash=87d9cd5f64746eaa6c3d338592fd4da9}{%
+           family={Ajami},
+           familyi={A\bibinitperiod},
+           given={Sima},
+           giveni={S\bibinitperiod}}}%
+        {{hash=45c45931c8cd2eef815bd0c1e5e6ad39}{%
+           family={Rajabzadeh},
+           familyi={R\bibinitperiod},
+           given={Ahmad},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d0b3b851c069652d59c660086f96742f}
+      \strng{fullhash}{d0b3b851c069652d59c660086f96742f}
+      \strng{authornamehash}{d0b3b851c069652d59c660086f96742f}
+      \strng{authorfullhash}{d0b3b851c069652d59c660086f96742f}
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{issn}{1735-1995}
+      \field{journaltitle}{J Res Med Sci}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Radio Frequency Identification ({RFID}) technology and patient safety}
+      \field{urlday}{12}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{volume}{18}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{809\bibrangedash 813}
+      \range{pages}{5}
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3872592/
+      \endverb
+    \endentry
+    \entry{dipole}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labeltitlesource}{title}
+      \field{title}{{RFID} Hospital Sanidad {|} Dipole}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb RFID Hospital Sanidad | Dipole:files/31/RFID-Hospital-Sanidad.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.dipolerfid.es/es/RFID-Hospital-Sanidad
+      \endverb
+    \endentry
+    \entry{cardinal_web}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labeltitlesource}{title}
+      \field{title}{Cardinal Health: Healthcare Solutions, Logistics \& Supplies}
+      \field{urlday}{27}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Cardinal Health\: Healthcare Solutions, Logistics & Supplies:files/98/en.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.cardinalhealth.com/en.html
+      \endverb
+    \endentry
+    \entry{cardinal_video}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Healthcare reform is changing the way you provide care. With a focus on cost efficiency and quality, tracking utilization and efficient inventory management are big opportunities in your cardiovascular suite to help you manage costs and support patient safety initiatives. See how using the right tool for the right supply is key to demonstrating {ROI}. Watch a webinar on cath lab inventory tracking — Stop the Emotional Stocking! Revitalize your Cath Lab.}
       \field{day}{15}
       \field{langid}{english}
       \field{month}{4}
@@ -41,48 +113,53 @@
       \verb https://www.dicardiology.com/videos/considering-rfid-track-healthcare-inventory
       \endverb
     \endentry
-    \entry{dipole}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+    \entry{rainrfid}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labeltitlesource}{title}
-      \field{title}{{RFID} Hospital Sanidad Dipole}
-      \field{urlday}{7}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb RFID Hospital Sanidad | Dipole:files/31/RFID-Hospital-Sanidad.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://www.dipolerfid.es/es/RFID-Hospital-Sanidad
-      \endverb
-    \endentry
-    \entry{nsarchitecture}{software}{}
-      \list{publisher}{1}{%
-        {NativeScript}%
-      }
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
-      \field{labeltitlesource}{shorttitle}
-      \field{day}{7}
-      \field{month}{3}
-      \field{note}{original-date: 2014-06-30T10:21:20Z}
-      \field{shorttitle}{nativescript-cli}
-      \field{title}{nativescript-cli: Command-line interface for building {NativeScript} apps}
-      \field{urlday}{8}
-      \field{urlmonth}{3}
+      \field{abstract}{The {RAIN} {RFID} Alliance is a global organization promoting the universal adoption of {RAIN} technology solutions across many different vertical markets.}
+      \field{day}{11}
+      \field{langid}{american}
+      \field{month}{2}
+      \field{title}{{RAIN} {RFID}}
+      \field{titleaddon}{{RAIN} {RFID}}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
       \field{urlyear}{2018}
       \field{year}{2018}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \verb{file}
-      \verb Snapshot:files/35/ns-cli.html:text/html
-      \endverb
       \verb{url}
-      \verb https://github.com/NativeScript/nativescript-cli
+      \verb https://rainrfid.org/
       \endverb
     \endentry
+    \entry{terso_video}{video}{}
+      \name{author}{1}{}{%
+        {{hash=17da911c03e22fe687e8ccefbf7b2c04}{%
+           family={{Terso Rfid}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{17da911c03e22fe687e8ccefbf7b2c04}
+      \strng{fullhash}{17da911c03e22fe687e8ccefbf7b2c04}
+      \strng{authornamehash}{17da911c03e22fe687e8ccefbf7b2c04}
+      \strng{authorfullhash}{17da911c03e22fe687e8ccefbf7b2c04}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{RFID} for Medical Field Inventory Tracking}
+      \field{urlday}{12}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=-G9XNpuH8iQ
+      \endverb
+      \keyw{Consingment Inventory Management,Field Inventory Tracking,Hospital {RFID},Industrial Internet,Intelligent Hospital,Internet of Things,{IoT},Medical Device Inventory,Real Time Healthcare System,Real Time Hospital System,{RFID},{RFID} in Healthcare,{RFID} Inventory Tracking,{RFID} Medical Device,{RFID} Storage,Technology,Terso Solutions}
+    \endentry
   \endsortlist
+  \missing{nsarchitecture}
+  \missing{considering_rfid}
 \endrefsection
 \endinput
 

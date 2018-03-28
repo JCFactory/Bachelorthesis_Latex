@@ -2121,10 +2121,18 @@
     <bcf:datasource type="file" datatype="bibtex">literatur.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">considering_rfid</bcf:citekey>
-    <bcf:citekey order="2">dipole</bcf:citekey>
-    <bcf:citekey order="3">nsarchitecture</bcf:citekey>
-    <bcf:citekey order="4">nsarchitecture</bcf:citekey>
+    <bcf:citekey order="1">ncbi</bcf:citekey>
+    <bcf:citekey order="2">considering_rfid</bcf:citekey>
+    <bcf:citekey order="3">ncbi</bcf:citekey>
+    <bcf:citekey order="4">dipole</bcf:citekey>
+    <bcf:citekey order="5">cardinal_web</bcf:citekey>
+    <bcf:citekey order="6">cardinal_video</bcf:citekey>
+    <bcf:citekey order="7">cardinal_video</bcf:citekey>
+    <bcf:citekey order="8">cardinal_video</bcf:citekey>
+    <bcf:citekey order="9">rainrfid</bcf:citekey>
+    <bcf:citekey order="10">terso_video</bcf:citekey>
+    <bcf:citekey order="11">nsarchitecture</bcf:citekey>
+    <bcf:citekey order="12">nsarchitecture</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
