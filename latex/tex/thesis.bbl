@@ -59,13 +59,17 @@
       \endverb
     \endentry
     \entry{dipole}{online}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labeltitlesource}{title}
-      \field{title}{{RFID} Hospital Sanidad {|} Dipole}
+      \field{day}{7}
+      \field{month}{3}
+      \field{title}{RFID Hospital Sanidad {|} Dipole}
       \field{urlday}{7}
       \field{urlmonth}{3}
       \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{file}
       \verb RFID Hospital Sanidad | Dipole:files/31/RFID-Hospital-Sanidad.html:text/html
@@ -75,13 +79,17 @@
       \endverb
     \endentry
     \entry{cardinal_web}{online}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labeltitlesource}{title}
-      \field{title}{Cardinal Health: Healthcare Solutions, Logistics \& Supplies}
+      \field{day}{27}
+      \field{month}{3}
+      \field{title}{Cardinal Health: Healthcare Solutions, Logistics Supplies}
       \field{urlday}{27}
       \field{urlmonth}{3}
       \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{file}
       \verb Cardinal Health\: Healthcare Solutions, Logistics & Supplies:files/98/en.html:text/html
@@ -91,8 +99,8 @@
       \endverb
     \endentry
     \entry{cardinal_video}{online}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labeltitlesource}{title}
       \field{abstract}{Healthcare reform is changing the way you provide care. With a focus on cost efficiency and quality, tracking utilization and efficient inventory management are big opportunities in your cardiovascular suite to help you manage costs and support patient safety initiatives. See how using the right tool for the right supply is key to demonstrating {ROI}. Watch a webinar on cath lab inventory tracking — Stop the Emotional Stocking! Revitalize your Cath Lab.}
       \field{day}{15}
@@ -114,8 +122,8 @@
       \endverb
     \endentry
     \entry{rainrfid}{online}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labeltitlesource}{title}
       \field{abstract}{The {RAIN} {RFID} Alliance is a global organization promoting the universal adoption of {RAIN} technology solutions across many different vertical markets.}
       \field{day}{11}
@@ -157,8 +165,32 @@
       \endverb
       \keyw{Consingment Inventory Management,Field Inventory Tracking,Hospital {RFID},Industrial Internet,Intelligent Hospital,Internet of Things,{IoT},Medical Device Inventory,Real Time Healthcare System,Real Time Hospital System,{RFID},{RFID} in Healthcare,{RFID} Inventory Tracking,{RFID} Medical Device,{RFID} Storage,Technology,Terso Solutions}
     \endentry
+    \entry{nsarchitecture}{software}{}
+      \list{publisher}{1}{%
+        {NativeScript}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{7}
+      \field{month}{3}
+      \field{note}{original-date: 2014-06-30T10:21:20Z}
+      \field{shorttitle}{nativescript-cli}
+      \field{title}{nativescript-cli: Command-line interface for building {NativeScript} apps}
+      \field{urlday}{8}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/35/ns-cli.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://github.com/NativeScript/nativescript-cli
+      \endverb
+    \endentry
   \endsortlist
-  \missing{nsarchitecture}
   \missing{considering_rfid}
 \endrefsection
 \endinput
