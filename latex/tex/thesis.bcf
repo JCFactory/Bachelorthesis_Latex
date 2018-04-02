@@ -2130,15 +2130,17 @@
     <bcf:citekey order="7">ncbi</bcf:citekey>
     <bcf:citekey order="8">ncbi</bcf:citekey>
     <bcf:citekey order="9">ncbi</bcf:citekey>
-    <bcf:citekey order="10">dipole</bcf:citekey>
-    <bcf:citekey order="11">cardinal_web</bcf:citekey>
-    <bcf:citekey order="12">cardinal_video</bcf:citekey>
-    <bcf:citekey order="13">cardinal_video</bcf:citekey>
+    <bcf:citekey order="10">ncbi</bcf:citekey>
+    <bcf:citekey order="11">ncbi</bcf:citekey>
+    <bcf:citekey order="12">dipole</bcf:citekey>
+    <bcf:citekey order="13">cardinal_web</bcf:citekey>
     <bcf:citekey order="14">cardinal_video</bcf:citekey>
-    <bcf:citekey order="15">rainrfid</bcf:citekey>
-    <bcf:citekey order="16">terso_video</bcf:citekey>
-    <bcf:citekey order="17">nsarchitecture</bcf:citekey>
-    <bcf:citekey order="18">nsarchitecture</bcf:citekey>
+    <bcf:citekey order="15">cardinal_video</bcf:citekey>
+    <bcf:citekey order="16">cardinal_video</bcf:citekey>
+    <bcf:citekey order="17">rainrfid</bcf:citekey>
+    <bcf:citekey order="18">terso_video</bcf:citekey>
+    <bcf:citekey order="19">nsarchitecture</bcf:citekey>
+    <bcf:citekey order="20">nsarchitecture</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
