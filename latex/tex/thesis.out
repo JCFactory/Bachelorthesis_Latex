@@ -1,34 +1,35 @@
 \BOOKMARK [0][-]{Contents.0}{Contents}{}% 1
 \BOOKMARK [0][-]{chapter.1}{RFID Technology}{}% 2
 \BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 3
-\BOOKMARK [2][-]{subsection.1.1.1}{Aim and Scope}{section.1.1}% 4
-\BOOKMARK [1][-]{section.1.2}{General Information}{chapter.1}% 5
-\BOOKMARK [2][-]{subsection.1.2.1}{Components of an RFID application}{section.1.2}% 6
-\BOOKMARK [2][-]{subsection.1.2.2}{Functionality of RFID system}{section.1.2}% 7
-\BOOKMARK [2][-]{subsection.1.2.3}{Different types of RFID tags}{section.1.2}% 8
-\BOOKMARK [2][-]{subsection.1.2.4}{Security and Privacy of RFID systems}{section.1.2}% 9
-\BOOKMARK [2][-]{subsection.1.2.5}{State of the Art}{section.1.2}% 10
-\BOOKMARK [2][-]{subsection.1.2.6}{Examples}{section.1.2}% 11
-\BOOKMARK [0][-]{chapter.2}{Development of Medication Tracking Application}{}% 12
-\BOOKMARK [1][-]{section.2.1}{Used platforms and technologies}{chapter.2}% 13
-\BOOKMARK [2][-]{subsection.2.1.1}{Native Development with NativeScript}{section.2.1}% 14
-\BOOKMARK [2][-]{subsection.2.1.2}{NoSQL Technology: MongoDB}{section.2.1}% 15
-\BOOKMARK [2][-]{subsection.2.1.3}{Impinj RFID Lector and Antenna}{section.2.1}% 16
-\BOOKMARK [1][-]{section.2.2}{Application development}{chapter.2}% 17
-\BOOKMARK [2][-]{subsection.2.2.1}{Challenges during development}{section.2.2}% 18
-\BOOKMARK [2][-]{subsection.2.2.2}{Progress of development}{section.2.2}% 19
-\BOOKMARK [2][-]{subsection.2.2.3}{Possibilities of extension}{section.2.2}% 20
-\BOOKMARK [0][-]{chapter.3}{Einbinden von Grafiken und Sourcecode}{}% 21
-\BOOKMARK [1][-]{section.3.1}{Bilder}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.2}{Formelsatz}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.3}{Sourcecode}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.3.1}{Aus einer Datei}{section.3.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.2}{Inline}{section.3.3}% 26
-\BOOKMARK [0][-]{chapter*.30}{List of Abbreviations}{}% 27
-\BOOKMARK [0][-]{section*.31}{List of Tables}{}% 28
-\BOOKMARK [0][-]{section*.33}{List of Figures}{}% 29
-\BOOKMARK [0][-]{section*.35}{Listings}{}% 30
-\BOOKMARK [0][-]{chapter*.37}{Bibliography}{}% 31
-\BOOKMARK [0][-]{section*.38}{Index}{}% 32
-\BOOKMARK [0][-]{appendix.A}{Erster Anhang}{}% 33
-\BOOKMARK [0][-]{appendix.B}{Zweiter Anhang}{}% 34
+\BOOKMARK [1][-]{section.1.2}{Aim and Scope}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{General Information}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.3.1}{Components of an RFID application}{section.1.3}% 6
+\BOOKMARK [2][-]{subsection.1.3.2}{Functionality of RFID system}{section.1.3}% 7
+\BOOKMARK [2][-]{subsection.1.3.3}{RFID tags}{section.1.3}% 8
+\BOOKMARK [2][-]{subsection.1.3.4}{RFID readers}{section.1.3}% 9
+\BOOKMARK [2][-]{subsection.1.3.5}{Security and Privacy of RFID systems}{section.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.3.6}{State of the Art}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.7}{Examples}{section.1.3}% 12
+\BOOKMARK [0][-]{chapter.2}{Development of Medication Tracking Application}{}% 13
+\BOOKMARK [1][-]{section.2.1}{Used platforms and technologies}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.1.1}{Native Development with NativeScript}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.1.2}{NoSQL Technology: MongoDB}{section.2.1}% 16
+\BOOKMARK [2][-]{subsection.2.1.3}{Impinj RFID Lector and Antenna}{section.2.1}% 17
+\BOOKMARK [1][-]{section.2.2}{Application development}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.1}{Challenges during development}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.2}{Progress of development}{section.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.3}{Possibilities of extension}{section.2.2}% 21
+\BOOKMARK [0][-]{chapter.3}{Einbinden von Grafiken und Sourcecode}{}% 22
+\BOOKMARK [1][-]{section.3.1}{Bilder}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.2}{Formelsatz}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.3}{Sourcecode}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.1}{Aus einer Datei}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.2}{Inline}{section.3.3}% 27
+\BOOKMARK [0][-]{chapter*.34}{List of Abbreviations}{}% 28
+\BOOKMARK [0][-]{section*.35}{List of Tables}{}% 29
+\BOOKMARK [0][-]{section*.37}{List of Figures}{}% 30
+\BOOKMARK [0][-]{section*.39}{Listings}{}% 31
+\BOOKMARK [0][-]{chapter*.41}{Bibliography}{}% 32
+\BOOKMARK [0][-]{section*.42}{Index}{}% 33
+\BOOKMARK [0][-]{appendix.A}{Erster Anhang}{}% 34
+\BOOKMARK [0][-]{appendix.B}{Zweiter Anhang}{}% 35

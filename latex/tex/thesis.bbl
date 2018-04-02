@@ -58,6 +58,41 @@
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3872592/
       \endverb
     \endentry
+    \entry{henrici}{book}{}
+      \name{author}{1}{}{%
+        {{hash=10a6458f278e70fb53813dd1547208ff}{%
+           family={Henrici},
+           familyi={H\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{10a6458f278e70fb53813dd1547208ff}
+      \strng{fullhash}{10a6458f278e70fb53813dd1547208ff}
+      \strng{authornamehash}{10a6458f278e70fb53813dd1547208ff}
+      \strng{authorfullhash}{10a6458f278e70fb53813dd1547208ff}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-540-79075-4 978-3-540-79076-1}
+      \field{note}{{OCLC}: 244058698}
+      \field{number}{17}
+      \field{pagetotal}{269}
+      \field{series}{Lecture notes electrical engineering}
+      \field{shorttitle}{{RFID} security and privacy}
+      \field{title}{{RFID} security and privacy: concepts, protocols, and architectures}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Henrici - 2008 - RFID security and privacy concepts, protocols, an.pdf:files/69/Henrici - 2008 - RFID security and privacy concepts, protocols, an.pdf:application/pdf
+      \endverb
+    \endentry
     \entry{dipole}{online}{}
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
@@ -122,8 +157,8 @@
       \endverb
     \endentry
     \entry{rainrfid}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{title}
       \field{abstract}{The {RAIN} {RFID} Alliance is a global organization promoting the universal adoption of {RAIN} technology solutions across many different vertical markets.}
       \field{day}{11}
@@ -151,8 +186,8 @@
       \strng{fullhash}{17da911c03e22fe687e8ccefbf7b2c04}
       \strng{authornamehash}{17da911c03e22fe687e8ccefbf7b2c04}
       \strng{authorfullhash}{17da911c03e22fe687e8ccefbf7b2c04}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{RFID} for Medical Field Inventory Tracking}
@@ -169,8 +204,8 @@
       \list{publisher}{1}{%
         {NativeScript}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{shorttitle}
       \field{day}{7}
       \field{month}{3}
@@ -191,7 +226,6 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{considering_rfid}
 \endrefsection
 \endinput
 
