@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.12)  3 APR 2018 10:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.12)  4 APR 2018 09:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1775,7 +1775,16 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 (./thesis.aux
 
-LaTeX Warning: Label `Kap3' multiply defined.
+LaTeX Warning: Label `tags' multiply defined.
+
+
+LaTeX Warning: Label `reader' multiply defined.
+
+
+LaTeX Warning: Label `backend' multiply defined.
+
+
+LaTeX Warning: Label `inventory' multiply defined.
 
 )
 \openout1 = `thesis.aux'.
@@ -1904,7 +1913,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \bindekorrektur=\skip85
 \seitenanfang=\skip86
 \seitenbreite=\skip87
- <bilder/hsma-logo.pdf, id=139, 642.4pt x 177.66376pt>
+ <bilder/hsma-logo.pdf, id=163, 642.4pt x 177.66376pt>
 File: bilder/hsma-logo.pdf Graphic file (type pdf)
 
 <use bilder/hsma-logo.pdf>
@@ -2005,12 +2014,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
-Overfull \hbox (0.4147pt too wide) detected at line 91
+Overfull \hbox (0.4147pt too wide) detected at line 123
  [][][]\T1/phv/b/n/12 xvii[][]
  []
 
 
-Overfull \hbox (0.4147pt too wide) detected at line 93
+Overfull \hbox (0.4147pt too wide) detected at line 125
  [][][]\T1/phv/b/n/12 xvii[][]
  []
 
@@ -2022,18 +2031,6 @@ Overfull \hbox (0.4147pt too wide) detected at line 93
 \c@frontmatterpage=\count414
  (./kapitel/kapitel1.tex
 chapter 1.
-Package acronym Info: Label `acro:HIS' newly defined as it shall be overridden
-although it is yet undefined on input line 11.
-Package acronym Info: Label `acro:RIS' newly defined as it shall be overridden
-although it is yet undefined on input line 11.
-Package acronym Info: Label `acro:LIS' newly defined as it shall be overridden
-although it is yet undefined on input line 11.
-Package acronym Info: Label `acro:WARD' newly defined as it shall be overridden
-
-although it is yet undefined on input line 13.
-Package acronym Info: Label `acro:MIMS' newly defined as it shall be overridden
-
-although it is yet undefined on input line 14.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2045,6 +2042,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
+Package acronym Info: Label `acro:HIS' newly defined as it shall be overridden
+although it is yet undefined on input line 17.
+Package acronym Info: Label `acro:RIS' newly defined as it shall be overridden
+although it is yet undefined on input line 17.
+Package acronym Info: Label `acro:LIS' newly defined as it shall be overridden
+although it is yet undefined on input line 17.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2052,6 +2056,13 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [2]
+Package acronym Info: Label `acro:WARD' newly defined as it shall be overridden
+
+although it is yet undefined on input line 23.
+Package acronym Info: Label `acro:MIMS' newly defined as it shall be overridden
+
+although it is yet undefined on input line 24.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2060,7 +2071,7 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 [3]
 Package acronym Info: Label `acro:IT' newly defined as it shall be overridden
-although it is yet undefined on input line 30.
+although it is yet undefined on input line 40.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2070,16 +2081,10 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 [4]
 Package acronym Info: Label `acro:EPC' newly defined as it shall be overridden
-although it is yet undefined on input line 38.
+although it is yet undefined on input line 48.
 Package acronym Info: Label `acro:WORM' newly defined as it shall be overridden
 
-although it is yet undefined on input line 38.
-Package acronym Info: Label `acro:LF' newly defined as it shall be overridden
-although it is yet undefined on input line 44.
-Package acronym Info: Label `acro:HF' newly defined as it shall be overridden
-although it is yet undefined on input line 44.
-Package acronym Info: Label `acro:UHF' newly defined as it shall be overridden
-although it is yet undefined on input line 44.
+although it is yet undefined on input line 48.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2088,10 +2093,12 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [5]
-Package acronym Info: Label `acro:SSL' newly defined as it shall be overridden
-although it is yet undefined on input line 51.
-Package acronym Info: Label `acro:TLS' newly defined as it shall be overridden
-although it is yet undefined on input line 51.
+Package acronym Info: Label `acro:LF' newly defined as it shall be overridden
+although it is yet undefined on input line 54.
+Package acronym Info: Label `acro:HF' newly defined as it shall be overridden
+although it is yet undefined on input line 54.
+Package acronym Info: Label `acro:UHF' newly defined as it shall be overridden
+although it is yet undefined on input line 54.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2100,17 +2107,10 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [6]
-Package acronym Info: Label `acro:RFID' newly defined as it shall be overridden
-
-although it is yet undefined on input line 65.
-Package acronym Info: Label `acro:NFC' newly defined as it shall be overridden
-although it is yet undefined on input line 69.
-Package acronym Info: Label `acro:IoT' newly defined as it shall be overridden
-although it is yet undefined on input line 69.
-Package acronym Info: Label `acro:RTI' newly defined as it shall be overridden
-although it is yet undefined on input line 72.
-Package acronym Info: Label `acro:CT' newly defined as it shall be overridden
-although it is yet undefined on input line 75.
+Package acronym Info: Label `acro:SSL' newly defined as it shall be overridden
+although it is yet undefined on input line 61.
+Package acronym Info: Label `acro:TLS' newly defined as it shall be overridden
+although it is yet undefined on input line 61.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2119,6 +2119,12 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [7]
+Package acronym Info: Label `acro:FDA' newly defined as it shall be overridden
+although it is yet undefined on input line 74.
+Package acronym Info: Label `acro:RFID' newly defined as it shall be overridden
+
+although it is yet undefined on input line 82.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2126,6 +2132,15 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [8]
+Package acronym Info: Label `acro:NFC' newly defined as it shall be overridden
+although it is yet undefined on input line 86.
+Package acronym Info: Label `acro:IoT' newly defined as it shall be overridden
+although it is yet undefined on input line 86.
+Package acronym Info: Label `acro:RTI' newly defined as it shall be overridden
+although it is yet undefined on input line 89.
+Package acronym Info: Label `acro:CT' newly defined as it shall be overridden
+although it is yet undefined on input line 92.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2133,9 +2148,16 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[10]
 Package acronym Info: Label `acro:RAIN' newly defined as it shall be overridden
 
-although it is yet undefined on input line 86.
+although it is yet undefined on input line 103.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2143,16 +2165,77 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[10]) (./kapitel/kapitel2.tex
+[11]) (./kapitel/kapitel2.tex
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[11] [12
+[12]
+chapter 2.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13
 
 
 ]
-chapter 2.
-<bilder/nativescript_functionality.png, id=407, 718.18312pt x 490.08093pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[20]) (./kapitel/kapitel3.tex
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[21] [22
+
+
+]
+chapter 3.
+<bilder/nativescript_functionality.png, id=543, 718.18312pt x 490.08093pt>
 File: bilder/nativescript_functionality.png Graphic file (type png)
 
 <use bilder/nativescript_functionality.png>
@@ -2168,8 +2251,8 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
-<bilder/app_architecture.png, id=416, 586.19pt x 775.89874pt>
+ [23]
+<bilder/app_architecture.png, id=553, 586.19pt x 775.89874pt>
 File: bilder/app_architecture.png Graphic file (type png)
 
 <use bilder/app_architecture.png>
@@ -2179,82 +2262,21 @@ Package pdftex.def Info: bilder/app_architecture.png used on input line 59.
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[14 <./bilder/nativescript_functionality.png>]
+[24 <./bilder/nativescript_functionality.png>]
 Overfull \hbox (6.53639pt too wide) in paragraph at lines 63--65
 \T1/ptm/m/n/12 picture of gen-eral soft-ware ar-chi-tec-ture: 2 an-ten-nas, 1 l
 ec-tor (RFID Im-p-inj), Database
  []
 
-) (./kapitel/kapitel3.tex
+)
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[15]
+[25]
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[16 <./bilder/app_architecture.png>]
-chapter 3.
-<bilder/kapitel3/nasa_rover.jpg, id=442, 1027.84pt x 822.07124pt>
-File: bilder/kapitel3/nasa_rover.jpg Graphic file (type jpg)
-
-<use bilder/kapitel3/nasa_rover.jpg>
-Package pdftex.def Info: bilder/kapitel3/nasa_rover.jpg used on input line 10.
-(pdftex.def)             Requested size: 170.71652pt x 136.53905pt.
-
-<bilder/kapitel3/modell_point_to_point.pdf, id=443, 307.58743pt x 184.85773pt>
-File: bilder/kapitel3/modell_point_to_point.pdf Graphic file (type pdf)
-
-<use bilder/kapitel3/modell_point_to_point.pdf>
-Package pdftex.def Info: bilder/kapitel3/modell_point_to_point.pdf used on inpu
-t line 18.
-(pdftex.def)             Requested size: 170.71652pt x 102.60005pt.
-
-<bilder/kapitel3/ws-wsdl20-fehler.pdf, id=444, 689.57625pt x 446.66875pt>
-File: bilder/kapitel3/ws-wsdl20-fehler.pdf Graphic file (type pdf)
-
-<use bilder/kapitel3/ws-wsdl20-fehler.pdf>
-Package pdftex.def Info: bilder/kapitel3/ws-wsdl20-fehler.pdf used on input lin
-e 21.
-(pdftex.def)             Requested size: 625.96062pt x 405.4673pt.
- [17
-
-
- <./bilder/kapitel3/nasa_rover.jpg> <./bilder/kapitel3/modell_point_to_point.pd
-f>]
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[18 <./bilder/kapitel3/ws-wsdl20-fehler.pdf>]
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 59.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Package csquotes Info: Input encoding change on input line 59.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-)
-(./src//Crypter.java)
-Package csquotes Info: Input encoding change on input line 64.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-)
-Overfull \vbox (0.59724pt too high) has occurred while \output is active []
-
-
-[19
-
-])
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[20]
+[26 <./bilder/app_architecture.png>]
 chapter without number
 (./kapitel/abkuerzungen.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
@@ -2336,7 +2358,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BC738AFC1DF8FB0D1815B52055FB2E75;2157.
+(rerunfilecheck)             Checksum: 337B3AB4A230AC8A5A106C4FFFFF12CD;2709.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2346,31 +2368,24 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38733 strings out of 492995
- 715603 string characters out of 6132704
- 1324889 words of memory out of 5000000
- 41467 multiletter control sequences out of 15000+600000
- 60003 words of font info for 70 fonts, out of 8000000 for 9000
+ 38276 strings out of 492995
+ 710002 string characters out of 6132704
+ 1262098 words of memory out of 5000000
+ 41056 multiletter control sequences out of 15000+600000
+ 57733 words of font info for 67 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 75i,9n,66p,10499b,3621s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
-exlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2017/texmf-dist/fo
-nts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
-e1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/tim
-es/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a
-.pfb>
-Output written on thesis.pdf (41 pages, 628655 bytes).
+ 75i,8n,66p,10499b,2323s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
+ype1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on thesis.pdf (47 pages, 244300 bytes).
 PDF statistics:
- 850 PDF objects out of 1000 (max. 8388607)
- 733 compressed objects within 8 object streams
- 188 named destinations out of 1000 (max. 500000)
- 307 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 710 PDF objects out of 1000 (max. 8388607)
+ 641 compressed objects within 7 object streams
+ 166 named destinations out of 1000 (max. 500000)
+ 340 words of extra memory for PDF output out of 10000 (max. 10000000)
 

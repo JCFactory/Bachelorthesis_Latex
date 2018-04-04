@@ -1,83 +1,66 @@
-\chapter{Einbinden von Grafiken und Sourcecode}
+\chapter{Development of Medication Tracking Application}
 \label{Kap3}
 
-\section{Bilder}
+%talking about platforms in general, to get a common understanding 
+\section{Used platforms and technologies}
+\subsection{Native Development with NativeScript}
 
-Natürlich können auch Grafiken und Bilder eingebunden werden, siehe z.\,B. Abbildung~\ref{Kap2:NasaRover}.
+There exist several ways to create a mobile application. But the challenge is to develop a consistent solution for the existing systems, like e.g. Android or iOS.
+To face the challenge of developing both an Android and iOS application, one has to think of the usage of web development technologies, like for example HTML5, CSS and Javascript. These technologies provide the advantage of using the access to browser/internet  connection.
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=6cm]{kapitel3/nasa_rover}
-  \caption{Ein Nasa Rover}
-  \label{Kap2:NasaRover}
+\subsubsection{NativeScript Sidekick}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{nativescript_functionality} The architecture of NativeScript Applications
+\caption{\label{fig:nsarchitecture}The adopted from \cite{nsarchitecture}} 
 \end{figure}
 
 
-Man kann sich auch selber ein Makro für das Einfügen von Bildern schreiben:
 
-\bild{kapitel3/modell_point_to_point}{6cm}{Point to Point}
+editor for writing simultaneously apps at one moment (both for Android and iOS devices)
 
-\begin{sidewaysfigure}
- \includegraphics[width=22cm]{kapitel3/ws-wsdl20-fehler}
-  \caption{Sehr große Grafiken kann man drehen, damit sie auf die Seite passen}
-  \label{Kap2:wsdl-fehler}
-\end{sidewaysfigure}
+\subsection{NoSQL Technology: MongoDB}
 
+\subsubsection{Characteristics of NoSQL Databases}
 
-\clearpage % Alle Bilder, die bisher kamen ausgeben
+\subsubsection{Reasons and Advantages of MongoDB}
 
-\section{Formelsatz}
+strong consistency and atomicity
+secondary indexes 
+ad hoc queries
+querying/indexing/updating similar to relative databases (like SQL/Microsoft Access)
 
-Eine Formel gefällig? Mitten im Text $a_2 = \sqrt{x^3}$ oder als eigener Absatz (siehe Formel~\ref{Formel}):
+\subsection{Impinj RFID Lector and Antenna}
 
-\begin{equation}
-\begin{bmatrix}         
-   1 &  4 &  2 \\
-   4 &  0 & -3 
-\end{bmatrix}        
-        \cdot
-\begin{bmatrix}                
-   1 &  1 &  0 \\
-  -2 &  3 &  5 \\
-   0 &  1 &  4 
-\end{bmatrix}        
-       {=} 
-\begin{bmatrix}               
-  -7 &  15 &  28 \\
-   4 &   1 & -12 
-\end{bmatrix}
-\label{Formel}
-\end{equation}
+\subsubsection{General Information}
 
+\subsubsection{Examples}
 
-\section{Sourcecode}
+%
+% talking about application, more details
+%
+\section{Application development}
 
-Man kann mit Latex auch ganz toll Sourcecode in den Text aufnehmen.
+\subsection{Challenges during development}
 
-\subsection{Aus einer Datei}
+Mongodb integration within nativescript application 
+--> with Node JS package installer 
+but synchronization with data from Mongodb was difficult
 
-\lstinputlisting[firstline=2,language=Java,caption={Crypter-Interface},label=lst:CrypterInterface]{\srcloc/Crypter.java}
+\subsection{Progress of development}
 
+\subsubsection{User Scenario}
 
-\subsection{Inline}
+\subsubsection{Software Architecture}
 
-\begin{lstlisting}[language=Java,caption=Methode checkKey()]
-    /**
-     * Testet den Schlüssel auf Korrektheit: Er muss mindestens die Länge 1
-     * haben und darf nur Zeichen von A-Z enthalten.
-     *
-     * @param key zu testender Schlüssel
-     * @throws CrypterException wenn der Schlüssel nicht OK ist.
-     */
-    protected void checkKey(Key key) throws CrypterException {
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{app_architecture} The developed system architecture of the mobile RFID application
+\caption{\label{fig:apparchitecture}} 
+\end{figure}
 
-        // Passt die Länge?
-        if (key.getKey().length == 0) {
-            throw new CrypterException("Der Schlüssel muss mindestens " +
-                    "ein Zeichen lang sein");
-        }
+picture of general software architecture: 
+2 antennas, 1 lector (RFID Impinj), Database (MongoDB), GUI: Android and  iOS Application 
 
-        checkCharacters(key.getKey(), ALPHABET);
-    }
-\end{lstlisting}
-
+\subsection{Possibilities of extension}
