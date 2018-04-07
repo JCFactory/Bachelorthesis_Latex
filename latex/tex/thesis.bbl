@@ -76,11 +76,11 @@
       \strng{fullhash}{10a6458f278e70fb53813dd1547208ff}
       \strng{authornamehash}{10a6458f278e70fb53813dd1547208ff}
       \strng{authorfullhash}{10a6458f278e70fb53813dd1547208ff}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{isbn}{978-3-540-79075-4 978-3-540-79076-1}
+      \field{isbn}{978-3-540-79075-4}
       \field{note}{{OCLC}: 244058698}
       \field{number}{17}
       \field{pagetotal}{269}
@@ -93,9 +93,57 @@
       \verb Henrici - 2008 - RFID security and privacy concepts, protocols, an.pdf:files/69/Henrici - 2008 - RFID security and privacy concepts, protocols, an.pdf:application/pdf
       \endverb
     \endentry
+    \entry{casestudy}{book}{}
+      \name{author}{5}{}{%
+        {{hash=36e24605fe57b7aef7a886b2c51fa67b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Shang-Wei},
+           giveni={S\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=76fc44487967eefa4e775e69bcd0ab0f}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Wun-Hwa},
+           giveni={W\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=01e6949b01072fe0663503d9133d16e1}{%
+           family={Ong},
+           familyi={O\bibinitperiod},
+           given={Chorng-Shyong},
+           giveni={C\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=fa3e4da50b3416b1a04c39a932b2344c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ac0d9c00f5b71d36c908f22402da523b}{%
+           family={Chuang},
+           familyi={C\bibinitperiod},
+           given={Yun-Wen},
+           giveni={Y\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{fef7529694aae0e5475bced4fad8c70b}
+      \strng{fullhash}{1b432ead97951e4249a4221cc5c8d01f}
+      \strng{authornamehash}{fef7529694aae0e5475bced4fad8c70b}
+      \strng{authorfullhash}{1b432ead97951e4249a4221cc5c8d01f}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 39th Annual Hawaii International Conference on System Sciences (HICSS'06)}
+      \field{issn}{1530-1605}
+      \field{title}{RFID Application in Hospitals: A Case Study on a Demonstration RFID Project in a Taiwan Hospital}
+      \field{volume}{8}
+      \field{year}{2006}
+      \field{pages}{184a\bibrangedash 184a}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/HICSS.2006.422
+      \endverb
+      \keyw{Computer aided software engineering;Costs;Government;Health and safety;Health information management;Hospitals;Manufacturing;Medical services;Radiofrequency identification;Supply chain management}
+    \endentry
     \entry{dipole}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labeltitlesource}{title}
       \field{day}{7}
       \field{month}{3}
@@ -114,8 +162,8 @@
       \endverb
     \endentry
     \entry{cardinal_web}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labeltitlesource}{title}
       \field{day}{27}
       \field{month}{3}
@@ -134,8 +182,8 @@
       \endverb
     \endentry
     \entry{cardinal_video}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labeltitlesource}{title}
       \field{abstract}{Healthcare reform is changing the way you provide care. With a focus on cost efficiency and quality, tracking utilization and efficient inventory management are big opportunities in your cardiovascular suite to help you manage costs and support patient safety initiatives. See how using the right tool for the right supply is key to demonstrating {ROI}. Watch a webinar on cath lab inventory tracking — Stop the Emotional Stocking! Revitalize your Cath Lab.}
       \field{day}{15}
@@ -157,8 +205,8 @@
       \endverb
     \endentry
     \entry{rainrfid}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labeltitlesource}{title}
       \field{abstract}{The {RAIN} {RFID} Alliance is a global organization promoting the universal adoption of {RAIN} technology solutions across many different vertical markets.}
       \field{day}{11}
@@ -186,8 +234,8 @@
       \strng{fullhash}{17da911c03e22fe687e8ccefbf7b2c04}
       \strng{authornamehash}{17da911c03e22fe687e8ccefbf7b2c04}
       \strng{authorfullhash}{17da911c03e22fe687e8ccefbf7b2c04}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{RFID} for Medical Field Inventory Tracking}
@@ -204,8 +252,8 @@
       \list{publisher}{1}{%
         {NativeScript}%
       }
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labeltitlesource}{shorttitle}
       \field{day}{7}
       \field{month}{3}

@@ -41,7 +41,7 @@ Since the hospital decided that the system should have active real-time position
 
 Reaching an adequate system integration without loss of performance, functionality and security was a big challenge. With the use of a field generator, a small tag wake-up device that communicates directly with the reader, the real-time communication should be realized \cite[p.4]{casestudy}. The generator periodically turns on and calls tags for a specific time. There exist three different types of generators: Normal, floor and area generators.
 Furthermore, Wang et al. bring up the challenge of the entire device management \cite[p.5]{casestudy} with the purpose of collecting and transmitting reads that are as complete and clean as possible. Realizing a complete device management was limited by compartments, rooms, walls and doors because of their buildling layouts and materials which interfere with radiowaves. Besides, the balance between accuracy requirements and investment costs has to be maintained. Moreover, unauthorized removal of tags has to be managed carefully, since there might be some patients who try to take off their RFID wristband. In this case, an additional alarm has to be designed. All in all, the design and deployment of RFID devices depend on the environment and the context in which they are used. 
-Not only the device management was challenging but also the data management as Wang et al. mention. The authors describe two general problems of data management in their RFID system. On the one hand, there occur intermittent and unreliable reads. These might be compensated by developing algorithms to process missing and incomplete reads. On the other hand, there will be generated high-volume data in a very short time. To prohibit this, the data should be filtered by algorithms and only the necessary data should be transmitted. For instance, if a tagged patient exceeded the present degree of 0.5°C, his data would be transmitted. To come to a conclusion, data management is tied to medical knowledge and practices which can substantially reduce the volume of data to be handled. As a result, meaningful information for decision making will be generated.
+Not only the device management was challenging but also the data management as Wang et al. mention. The authors describe two general problems of data management in their RFID system. On the one hand, there occur intermittent and unreliable reads. These might be compensated by developing algorithms to process missing and incomplete reads. On the other hand, there will be generated high-volume data in a very short time. To prohibit this, the data should be filtered by algorithms and only the necessary data should be transmitted. For instance, if a tagged patient exceeded the present degree of 0.5\celsius, his data would be transmitted. To come to a conclusion, data management is tied to medical knowledge and practices which can substantially reduce the volume of data to be handled. As a result, meaningful information for decision making will be generated.
  
 Besides the LBMS project \cite[p.2 ff.]{casestudy}, Wang et al. depict some existing RFID applications. To give an example of a succesful use of RFID, the U.S. Department of Defence has been using the technology for years. 
 To give an overview of the usual hospital applications until 2006, Wang et al. depict applications for tracking and managing equipment such as wheelchairs, portable heart monitors. Moreover, trials on tagging patients, staff and equipment in rooms were conducted in several hospitals. Besides, the Washington Hospital Center (Washington D.C.) deployed a RFID system to track the status and the exact location of patients, staff as well as the essential equipment.
@@ -56,7 +56,46 @@ Ajami and Rajabzadeh \cite{ncbi} mention three important purposes of RFID techno
 The second purpose for which RFID technology is appropriate is the inventory management (see section \pageref{inventory}). Inventory Management is significant for managing an organization, like a hospital. There are many complex processes where information about the location, time and the amount of material is necessary (e.g. towels, duvet covers).
 The third and last purpose of RFID technology, mentioned by Ajami and Rajabzadeh \cite{ncbi}, is validation. Using RFID to identify and validate data is an effective method for ensuring the quality of a hospital or healthcare setting. It ensures that the patient being treated is the right patient.
 
-uhf, reaching signal -->see chapter \chapterref{Kap2}
+\subsection{RFID and the IoT}
+
+There exist many applications, which should help us living smarter, not caring about the ordinary things, like for example turning off the washing machine or closing the windows before stepping out. These smart houses form a part of the term \ac{IoT}. Often, the smart solutions are based on RFID technology to identify the exact window or the item that has to be controlled from outside. 
+In their book 'RFID Technologies for the Internet of Things', Chen et al. \cite[p.2 f.]{chen} depict smart applications and a specific problem which they call 'tag search problem'. The problem usually appears on large-scale RFID systems and describes the complexity of identifying the wanted tags which exist in the current system. To solve this identification problem, Chen et al. describe the method 'Filtering vectors' which will be explained in the following. 
+Firstly, a compact one-dimension bit array is constructed from the tag IDs which are used for filtering the unwanted tags. After that, a novel iterative tag search protocol is run. This protocol progressively improves the accuracy of search results and reduces the time by using information which were detected from previous iterations.
+As a second problem of IoT applications, Chen et al. mention the conflict with people's privacy \cite[p.3 f.]{chen}. Since every tag transmits its ID to the nearest reader, the transmission can be exploited by attackers. To prevent eavesdropping, the authors describe a anonymous RFID authentication mechanism which designs anonymous authentication protocols. The protocol is based on cryptographic hash functions which require considerable hardware to randomize the authentication data in order to make the tags untrackable. At this point, one should keep in mind that the provided solution requires valuable hardware and is not suited for low-cost tags which augments the production costs. Thus, manufacturers have to face the challenge of designing anonymous authentication protocols for low-cost tags give limited hardware resources. 
+To face the problem of limited hardware resources, Chen et al. suggest an 'asymmetric design principle' \cite[p.4]{chen} which means pushing most of the system's complexity to the reader and leaving the tags as simple as possible. 
+Besides the anonymous RFID authentication, tags can be identified by their network \cite[p.4 f.]{chen}. To give an example, in large warehouses there exist a great number of readers and antennas which must be deployed to provide full coverage. To accomplish the full coverage, networked  tags which relay transmissions towards the otherwise-inaccessible reader can be used. As a characteristic of networked RFID tags, they are powered by batteries and rechargeable energy sources (harvest solar, piezoelectric, thermal energy from surrounding environment).
+Generally, there can be distinguished two types of ID collection protocols: On the one hand, there is the contention-based ID collection protocol which creates too much overhead in multihop networked tag systems. This leads to an increased collision in the network towards the reader and causes excessive energy costs. On the other hand, Chen et al. mention a serialized ID collection protocol. This solution is based on serial numbers that balance the load and reduce worst-case energy costs. 
+As a conclusion, one can say, that imbalanced load in network leads to worst-case energy costs which should be avoided.
+
+To avoid the above mentioned energy costs, resulting from inefficient protocols, Chen et al. describe several tag searching protocols \cite[p.13 ff.]{chen} which will be discussed in the following. 
+To begin with, one should keep in mind the method 'Filtering vectors' mentioned at the very beginning of this paragraph in which the tag ID was converted into a one-dimension bit array. This first step can be compared with the first step of \ac{CATS}, a two-phased protocol to address the tag identification and it polling problem. The idea of CATS is to encode the tag IDs into a 'Bloom' filter and to transmit the Bloom filter instead of the ID. 
+Consequently, in the first phase of CATS, the RFID reader encodes all IDs of the wanted tags into a Bloom filter. After encoding, the reader broadcasts the filter together with some parameters to tags in the coverage area. Each tag receives its Bloom filter and tests whether it belongs to  set X. Unwanted tags will be stored in a second set Y and will keep silent for the remaining time. After filtration, the number of candidate tags in Y is reduced.
+The second phase of CATS deals with the remaining candidate tags from phase 1. These tags report their particular Bloom filter during several time slots. Each candidate tag transmits in k (variable) slots that it is mapped to a certain set. During the transmission, the reader is listening to the channel and builds a second Bloom filter based on the status of time slots: '1' stands for busy slot which means that at least one tag is transmitting whereas '0' stands for idle slot during which no tag is transmitting. 
+These two phases build the main activities of the CATS protocol and seem to be realized very easily. Nevertheless, Chen et al. introduce some raising problems by using CATS. One problem is optimizing the Bloom filter sizes. CATS approximates two Bloom filters together as the first. 
+
+
+
+
+
+
+
+
+%uhf, reaching signal -->see chapter \chapterref{Kap2}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -6,28 +6,29 @@
 \BOOKMARK [2][-]{subsection.1.1.3}{Investment possibilities}{section.1.1}% 6
 \BOOKMARK [2][-]{subsection.1.1.4}{Medication Administration System}{section.1.1}% 7
 \BOOKMARK [2][-]{subsection.1.1.5}{Wisely Aware RFID Dosage}{section.1.1}% 8
-\BOOKMARK [1][-]{section.1.2}{Aim and Scope}{chapter.1}% 9
-\BOOKMARK [0][-]{chapter.2}{General Information about RFID technology}{}% 10
-\BOOKMARK [1][-]{section.2.1}{General Information}{chapter.2}% 11
-\BOOKMARK [2][-]{subsection.2.1.1}{Components of an RFID application}{section.2.1}% 12
-\BOOKMARK [2][-]{subsection.2.1.2}{Functionality of RFID system}{section.2.1}% 13
-\BOOKMARK [2][-]{subsection.2.1.3}{Security and Privacy of RFID systems}{section.2.1}% 14
-\BOOKMARK [2][-]{subsection.2.1.4}{State of the Art}{section.2.1}% 15
-\BOOKMARK [2][-]{subsection.2.1.5}{Examples}{section.2.1}% 16
-\BOOKMARK [0][-]{chapter.3}{Development of Medication Tracking Application}{}% 17
-\BOOKMARK [1][-]{section.3.1}{Used platforms and technologies}{chapter.3}% 18
-\BOOKMARK [2][-]{subsection.3.1.1}{Native Development with NativeScript}{section.3.1}% 19
-\BOOKMARK [2][-]{subsection.3.1.2}{NoSQL Technology: MongoDB}{section.3.1}% 20
-\BOOKMARK [2][-]{subsection.3.1.3}{Impinj RFID Lector and Antenna}{section.3.1}% 21
-\BOOKMARK [1][-]{section.3.2}{Application development}{chapter.3}% 22
-\BOOKMARK [2][-]{subsection.3.2.1}{Challenges during development}{section.3.2}% 23
-\BOOKMARK [2][-]{subsection.3.2.2}{Progress of development}{section.3.2}% 24
-\BOOKMARK [2][-]{subsection.3.2.3}{Possibilities of extension}{section.3.2}% 25
-\BOOKMARK [0][-]{chapter*.42}{List of Abbreviations}{}% 26
-\BOOKMARK [0][-]{section*.43}{List of Tables}{}% 27
-\BOOKMARK [0][-]{section*.45}{List of Figures}{}% 28
-\BOOKMARK [0][-]{section*.47}{Listings}{}% 29
-\BOOKMARK [0][-]{chapter*.49}{Bibliography}{}% 30
-\BOOKMARK [0][-]{section*.50}{Index}{}% 31
-\BOOKMARK [0][-]{appendix.A}{Erster Anhang}{}% 32
-\BOOKMARK [0][-]{appendix.B}{Zweiter Anhang}{}% 33
+\BOOKMARK [2][-]{subsection.1.1.6}{RFID applications in hospitals: A case study}{section.1.1}% 9
+\BOOKMARK [1][-]{section.1.2}{Aim and Scope}{chapter.1}% 10
+\BOOKMARK [0][-]{chapter.2}{General Information about RFID technology}{}% 11
+\BOOKMARK [1][-]{section.2.1}{General Information}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.1.1}{Components of an RFID application}{section.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.2}{Functionality of RFID system}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.3}{Security and Privacy of RFID systems}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.1.4}{State of the Art}{section.2.1}% 16
+\BOOKMARK [2][-]{subsection.2.1.5}{Examples}{section.2.1}% 17
+\BOOKMARK [0][-]{chapter.3}{Development of Medication Tracking Application}{}% 18
+\BOOKMARK [1][-]{section.3.1}{Used platforms and technologies}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.1.1}{Native Development with NativeScript}{section.3.1}% 20
+\BOOKMARK [2][-]{subsection.3.1.2}{NoSQL Technology: MongoDB}{section.3.1}% 21
+\BOOKMARK [2][-]{subsection.3.1.3}{Impinj RFID Lector and Antenna}{section.3.1}% 22
+\BOOKMARK [1][-]{section.3.2}{Application development}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.2.1}{Challenges during development}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.2}{Progress of development}{section.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.2.3}{Possibilities of extension}{section.3.2}% 26
+\BOOKMARK [0][-]{chapter*.49}{List of Abbreviations}{}% 27
+\BOOKMARK [0][-]{section*.50}{List of Tables}{}% 28
+\BOOKMARK [0][-]{section*.52}{List of Figures}{}% 29
+\BOOKMARK [0][-]{section*.54}{Listings}{}% 30
+\BOOKMARK [0][-]{chapter*.56}{Bibliography}{}% 31
+\BOOKMARK [0][-]{section*.57}{Index}{}% 32
+\BOOKMARK [0][-]{appendix.A}{Erster Anhang}{}% 33
+\BOOKMARK [0][-]{appendix.B}{Zweiter Anhang}{}% 34
