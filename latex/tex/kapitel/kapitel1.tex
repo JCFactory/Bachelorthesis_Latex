@@ -68,38 +68,8 @@ Generally, there can be distinguished two types of ID collection protocols: On t
 As a conclusion, one can say, that imbalanced load in network leads to worst-case energy costs which should be avoided.
 
 To avoid the above mentioned energy costs, resulting from inefficient protocols, Chen et al. describe several tag searching protocols \cite[p.13 ff.]{chen} which will be discussed in the following. 
-To begin with, one should keep in mind the method 'Filtering vectors' mentioned at the very beginning of this paragraph in which the tag ID was converted into a one-dimension bit array. This first step can be compared with the first step of \ac{CATS}, a two-phased protocol to address the tag identification and it polling problem. The idea of CATS is to encode the tag IDs into a 'Bloom' filter and to transmit the Bloom filter instead of the ID. 
-Consequently, in the first phase of CATS, the RFID reader encodes all IDs of the wanted tags into a Bloom filter. After encoding, the reader broadcasts the filter together with some parameters to tags in the coverage area. Each tag receives its Bloom filter and tests whether it belongs to  set X. Unwanted tags will be stored in a second set Y and will keep silent for the remaining time. After filtration, the number of candidate tags in Y is reduced.
-The second phase of CATS deals with the remaining candidate tags from phase 1. These tags report their particular Bloom filter during several time slots. Each candidate tag transmits in k (variable) slots that it is mapped to a certain set. During the transmission, the reader is listening to the channel and builds a second Bloom filter based on the status of time slots: '1' stands for busy slot which means that at least one tag is transmitting whereas '0' stands for idle slot during which no tag is transmitting. 
-These two phases build the main activities of the CATS protocol and seem to be realized very easily. Nevertheless, Chen et al. introduce some raising problems by using CATS. One problem is optimizing the Bloom filter sizes. CATS approximates two Bloom filters together as the first. 
-
-
-
-
-
-
-
-
+To begin with, one should keep in mind the method 'Filtering vectors' mentioned at the very beginning of this paragraph in which the tag ID was converted into a one-dimension bit array. This first step can be compared with the first step of \ac{CATS}, a two-phased protocol to address the tag identification and it polling problem. The idea of CATS is to encode the tag IDs into a 'Bloom' filter \footnote{A Bloom filter is a compact data structure that encodes membership for a set of items $S=\{ e_{1},e_{2},e_{3},...,e_{n}\}$. To represent S, a bit array of length l is needed. At the beginning, all bits are initialized to zeros. To encode each element $e \in S$, k hash functions are used to map the element randomly to k bits in a bit array, so that the zeros turn into ones.}  \cite[p.15]{chen} and to transmit the Bloom filter instead of the ID. 
+Consequently, in the first phase of CATS, the RFID reader encodes all IDs of the wanted tags into a Bloom filter. After encoding, the reader broadcasts the filter together with some parameters to tags in the coverage area. Each tag receives its Bloom filter and tests whether it belongs to  set X. Unwanted tags will be kept silent for the remaining time. Furthermore, a second set Y defines the coverage area of the RFID system. After filtration, the number of candidate tags in Y is reduced.
+The second phase of CATS deals with the remaining candidate tags from phase 1. These tags report their particular Bloom filter during several time slots. Each candidate tag transmits in k slots and is mapped to a certain set. During the transmission, the reader is listening to the channel and builds a second Bloom filter based on the status of time slots: '1' stands for busy slot which means that at least one tag is transmitting whereas '0' stands for idle slot during which no tag is transmitting. 
+These two phases build the main activities of the CATS protocol and seem to be realized very easily. Nevertheless, Chen et al. introduce some raising problems by using CATS. One problem is optimizing the Bloom filter sizes since CATS approximates two Bloom filters together as the first, so that $|X \cap Y|=|X|$. A second problem is that CATS assumes that the first Bloom filter is always smaller than the second one: $|X|<|Y|$. But in reality, the number of wanted tags may be far greater than the number in the coverage area of the RFID system. 
 %uhf, reaching signal -->see chapter \chapterref{Kap2}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

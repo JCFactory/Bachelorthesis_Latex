@@ -141,9 +141,55 @@
       \endverb
       \keyw{Computer aided software engineering;Costs;Government;Health and safety;Health information management;Hospitals;Manufacturing;Medical services;Radiofrequency identification;Supply chain management}
     \endentry
+    \entry{chen}{book}{}
+      \name{author}{2}{}{%
+        {{hash=fb194450e9046854896c4ca5f2dc8d01}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d4274da32eabe2603a3d168e9889458e}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Shigang},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{f710cda1c6f12d2dbb63d1bd694f5f36}
+      \strng{fullhash}{f710cda1c6f12d2dbb63d1bd694f5f36}
+      \strng{authornamehash}{f710cda1c6f12d2dbb63d1bd694f5f36}
+      \strng{authorfullhash}{f710cda1c6f12d2dbb63d1bd694f5f36}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-319-47354-3}
+      \field{series}{Wireless Networks}
+      \field{title}{{RFID} Technologies for Internet of Things}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-319-47355-0
+      \endverb
+      \verb{file}
+      \verb Chen and Chen - 2016 - RFID Technologies for Internet of Things.pdf:files/53/Chen and Chen - 2016 - RFID Technologies for Internet of Things.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-319-47355-0
+      \endverb
+    \endentry
     \entry{dipole}{online}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labeltitlesource}{title}
       \field{day}{7}
       \field{month}{3}
@@ -162,8 +208,8 @@
       \endverb
     \endentry
     \entry{cardinal_web}{online}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labeltitlesource}{title}
       \field{day}{27}
       \field{month}{3}
@@ -182,8 +228,8 @@
       \endverb
     \endentry
     \entry{cardinal_video}{online}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labeltitlesource}{title}
       \field{abstract}{Healthcare reform is changing the way you provide care. With a focus on cost efficiency and quality, tracking utilization and efficient inventory management are big opportunities in your cardiovascular suite to help you manage costs and support patient safety initiatives. See how using the right tool for the right supply is key to demonstrating {ROI}. Watch a webinar on cath lab inventory tracking — Stop the Emotional Stocking! Revitalize your Cath Lab.}
       \field{day}{15}
@@ -252,8 +298,8 @@
       \list{publisher}{1}{%
         {NativeScript}%
       }
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labeltitlesource}{shorttitle}
       \field{day}{7}
       \field{month}{3}
