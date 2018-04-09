@@ -188,8 +188,8 @@
       \endverb
     \endentry
     \entry{dipole}{online}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labeltitlesource}{title}
       \field{day}{7}
       \field{month}{3}
@@ -208,8 +208,8 @@
       \endverb
     \endentry
     \entry{cardinal_web}{online}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labeltitlesource}{title}
       \field{day}{27}
       \field{month}{3}
@@ -228,8 +228,8 @@
       \endverb
     \endentry
     \entry{cardinal_video}{online}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labeltitlesource}{title}
       \field{abstract}{Healthcare reform is changing the way you provide care. With a focus on cost efficiency and quality, tracking utilization and efficient inventory management are big opportunities in your cardiovascular suite to help you manage costs and support patient safety initiatives. See how using the right tool for the right supply is key to demonstrating {ROI}. Watch a webinar on cath lab inventory tracking — Stop the Emotional Stocking! Revitalize your Cath Lab.}
       \field{day}{15}
@@ -251,8 +251,8 @@
       \endverb
     \endentry
     \entry{rainrfid}{online}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labeltitlesource}{title}
       \field{abstract}{The {RAIN} {RFID} Alliance is a global organization promoting the universal adoption of {RAIN} technology solutions across many different vertical markets.}
       \field{day}{11}
@@ -280,8 +280,8 @@
       \strng{fullhash}{17da911c03e22fe687e8ccefbf7b2c04}
       \strng{authornamehash}{17da911c03e22fe687e8ccefbf7b2c04}
       \strng{authorfullhash}{17da911c03e22fe687e8ccefbf7b2c04}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{RFID} for Medical Field Inventory Tracking}
