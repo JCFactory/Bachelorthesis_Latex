@@ -22,6 +22,12 @@ To maintain the security and authenticity of each RFID tag, Henrici \cite[p.93 f
 The first and easiest method is called 'regular identification'. It implies that each tag sends its complete identifier to the reader within a \ac{SMLE}. Another method is called 'implicit identification'. It uses information that has not been provided explicitly for particular identification purpose. Thirdly, a more complexe and secure method to identify tags which is called 'multistep identification' is described by Henrici. As the name of this method is very self-explaining, one has to think of three identification steps: In the first step, only parts of the identification information is revealed. After that, an authentication and authorization step follows. Once, being authenticated and authorized, more identification information will be revealed. 
 Other than the mentioned methods, Henrici describes a fourth and most secure method to identify tags which he calls 'encryption and shared key identification'. As an advantage, this identification method protects every information contained in an identifier which can be transmitted in encrypted form. The vast amount of information requires a high internal storage of the tag, like given by active tags. To arrange an encrypted tranmission of information from passive, low cost tags the identifier needs to be calculated outside the tag and then stored on the tag (directly in enciphered form). So, it would be no additional expenditure to enable encrypted and shared key identification of tags using passive tags. 
 
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{rfidtagdesign} The design of RFID tags 
+\caption{\label{fig:tagdesign}The adopted from \cite[p.13]{chipless}} 
+\end{figure}
+
 \subsubsection{RFID readers} \label{reader}
 
 In this section, RFID readers will be explained in detail. To start with, one has to imagine existing objects which are tagged with a RFID tag. To implement functionality to these tags and to connect them to a middleware or a backend system, a detector is needed. This detector is the RFID reader and consists of an antenna, a power supply for passive tags, a microprocessor (to control devices) and an interface for forwarding data to the processing backend system \cite{henrici}. 
@@ -30,6 +36,12 @@ As mentioned in the section before \pageref{tags}, RFID tags and readers communi
 According to Vizinex \cite{vizinex}, an american company with site in Pennsylvania, U.S HF tags can be used for short read ranges (up to 3 inches). They are usually tagged to tissue samples, blood and critical fluids. Furthermore, HF tags work well in proximidity to liquids as well as human tissues. UHF tags provide longer read ranges and can be detuned by proximity to tissue, fluids and metals. These tags are typically used to track and locate critical medical devices, manage inventories of medical items and track as well as identify patients. Moreover, UHF tags are compatible with worldwide standards and easily deployed because of the compatibility with widely available and competitively priced RFID readers.
 Furthermore, each reader has its own electromagnetic field. Such fields are distinguished into near field and far fields: Near fields, also called magnetic or electric fields work with induction and capacitive coupling whereas far fields consist of electromagnetic waves. The measuring unit of electromagnetic fields is called field strength and the maximal field strength depends on national regulations. These national regulations limit the electromagnetic compatibility to avoid disturbing other systems. The functionality of passive tags within near field is different from passive tags in far field. In near field, the tags send data to the reader using load modulation. This mechanism does not work in far fields: Here, the sended frequency is backscattered \cite{henrici}.
 All in all, readers are able to query tags and to read and write tag data. But the storage of information and the information processing does not take place in readers or tags, but in the middleware or backend systems. These will be explained in the following paragraph.
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{rfidreaderdesign} The design of a RFID reader 
+\caption{\label{fig:readerdesign}The adopted from \cite[p.17]{chipless}} 
+\end{figure}
 
 \subsubsection{RFID backend systems} \label{backend}
 
@@ -41,6 +53,11 @@ Concerning the data management of RFID systems, data is barely stored on RFID ta
 
 First of all, when developing an RFID system, it is important to think about the unique identification of each object. To enable a reliable identification of objects, only one RFID tag should be attached to each object. The tag itself has a 'read-only' or in some cases 'rewrite' internal memory which enables users to get or change the object's information \cite{ncbi}. 
 Secondly, the RFID reader generates magnetic fields to enable the RFID system to locate objects (via tags) within its range. Additionally, the high-frequency electromagnetic energy and the query signal which is generated by the reader triggers tags to reply to the query. Each query can have a frequency of 50 times per second \cite{ncbi}. Thus, it is possible to generate large quantities of data which have to be filtered by supply chain industries. Each filter is routed to a backend information system, using a software similar to 'Savant' which is used to control the data. 'Savant' acts like a buffer between the \ac{HIS} and the RFID reader \cite{ncbi}.
+
+\subsection{Chipless RFID systems}
+
+Rezaiesarlak et al. \cite[p.17]{chipless}}
+
 
 \subsection{Security and Privacy of RFID systems}
 
