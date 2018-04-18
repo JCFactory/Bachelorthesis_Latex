@@ -187,9 +187,143 @@
       \verb http://link.springer.com/10.1007/978-3-319-47355-0
       \endverb
     \endentry
-    \entry{dipole}{online}{}
+    \entry{mobile}{book}{}
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-540-77551-5}
+      \field{langid}{german}
+      \field{title}{Mobile Computing und {RFID} im Facility Management}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-540-77552-2
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-540-77552-2
+      \endverb
+    \endentry
+    \entry{fokus}{book}{}
+      \name{author}{2}{}{%
+        {{hash=3855f0f673ba64f8648e0ce2f17fd1fb}{%
+           family={Tamm},
+           familyi={T\bibinitperiod},
+           given={Gerrit},
+           giveni={G\bibinitperiod}}}%
+        {{hash=87247ac14dd5402c22ea5519860718be}{%
+           family={Tribowski},
+           familyi={T\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c3553e9bdf1673b3a853fa578d23298e}
+      \strng{fullhash}{c3553e9bdf1673b3a853fa578d23298e}
+      \strng{authornamehash}{c3553e9bdf1673b3a853fa578d23298e}
+      \strng{authorfullhash}{c3553e9bdf1673b3a853fa578d23298e}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Der kompakte Schnellüberblick liefert potenziellen Anwendern knappe aber ausreichend ausführliche Informationen über die {RFID}-Technologie, zu Einsatzstrategien und Implementierung und liefert darüber hinaus Beispiele und Erfahrungen von Anwendern. Ein umfangreiches Literaturverzeichnis hilft bei spezielleren Fragen weiter. Umfangreicher aber in der Zielrichtung vergleichbar ist der "Dummies"-Titel von P. Sweeney ({BA} 10/06). Die umfassendste Information liefert weiterhin das Handbuch von K. Finkenzeller ({BA} 1/07, aktualisierte Auflage 2008 ist lieferbar). Auf die Anwendung in Geschäftsprozessen konzentriert sich F. Gillert ({ID} 47/06), vor allem speziellere technische Aspekte behandelt H. Fischer ({ID} 4/07). Zur Erstinformation gut brauchbar, in ausgebauten Beständen sollte zusätzlich die genannte Vergleichsliteratur angeboten werden. (2)}
+      \field{isbn}{978-3-642-11459-5}
+      \field{note}{{OCLC}: 845690868}
+      \field{pagetotal}{144}
+      \field{series}{Informatik im Fokus}
+      \field{title}{{RFID}}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Tamm and Tribowski - 2010 - RFID.pdf:files/87/Tamm and Tribowski - 2010 - RFID.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{chipless}{book}{}
+      \name{author}{2}{}{%
+        {{hash=5c8da23692daf4eae686d250beafe8fd}{%
+           family={Rezaiesarlak},
+           familyi={R\bibinitperiod},
+           given={Reza},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6e17e16d497bc8355b1ee22260afb9f4}{%
+           family={Manteghi},
+           familyi={M\bibinitperiod},
+           given={Majid},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
+      \strng{fullhash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
+      \strng{authornamehash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
+      \strng{authorfullhash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
       \field{sortinit}{5}
       \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-319-10168-2}
+      \field{langid}{english}
+      \field{title}{Chipless {RFID}}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-319-10169-9
+      \endverb
+      \verb{file}
+      \verb Rezaiesarlak and Manteghi - 2015 - Chipless RFID.pdf:files/51/Rezaiesarlak and Manteghi - 2015 - Chipless RFID.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-319-10169-9
+      \endverb
+    \endentry
+    \entry{vizinex}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Over the last ten years, {RFID} product design has come a long way. Things that ten years ago seemed futuristic are now in daily use, especially in the medical field, where progress in the {RFID} product design made advancements in the medical applications possible.}
+      \field{day}{19}
+      \field{langid}{american}
+      \field{month}{2}
+      \field{title}{Medical Uses for {RFID} Products}
+      \field{titleaddon}{Vizinex {RFID}}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/28/medical-uses-for-rfid-products.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.vizinexrfid.com/medical-uses-for-rfid-products/
+      \endverb
+    \endentry
+    \entry{dipole}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labeltitlesource}{title}
       \field{day}{7}
       \field{month}{3}
@@ -208,8 +342,8 @@
       \endverb
     \endentry
     \entry{cardinal_web}{online}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labeltitlesource}{title}
       \field{day}{27}
       \field{month}{3}
@@ -228,8 +362,8 @@
       \endverb
     \endentry
     \entry{cardinal_video}{online}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labeltitlesource}{title}
       \field{abstract}{Healthcare reform is changing the way you provide care. With a focus on cost efficiency and quality, tracking utilization and efficient inventory management are big opportunities in your cardiovascular suite to help you manage costs and support patient safety initiatives. See how using the right tool for the right supply is key to demonstrating {ROI}. Watch a webinar on cath lab inventory tracking — Stop the Emotional Stocking! Revitalize your Cath Lab.}
       \field{day}{15}
@@ -251,8 +385,8 @@
       \endverb
     \endentry
     \entry{rainrfid}{online}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labeltitlesource}{title}
       \field{abstract}{The {RAIN} {RFID} Alliance is a global organization promoting the universal adoption of {RAIN} technology solutions across many different vertical markets.}
       \field{day}{11}
@@ -280,8 +414,8 @@
       \strng{fullhash}{17da911c03e22fe687e8ccefbf7b2c04}
       \strng{authornamehash}{17da911c03e22fe687e8ccefbf7b2c04}
       \strng{authorfullhash}{17da911c03e22fe687e8ccefbf7b2c04}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{RFID} for Medical Field Inventory Tracking}
@@ -298,8 +432,8 @@
       \list{publisher}{1}{%
         {NativeScript}%
       }
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labeltitlesource}{shorttitle}
       \field{day}{7}
       \field{month}{3}
