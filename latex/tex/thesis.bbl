@@ -93,6 +93,45 @@
       \verb Henrici - 2008 - RFID security and privacy concepts, protocols, an.pdf:files/69/Henrici - 2008 - RFID security and privacy concepts, protocols, an.pdf:application/pdf
       \endverb
     \endentry
+    \entry{fokus}{book}{}
+      \name{author}{2}{}{%
+        {{hash=3855f0f673ba64f8648e0ce2f17fd1fb}{%
+           family={Tamm},
+           familyi={T\bibinitperiod},
+           given={Gerrit},
+           giveni={G\bibinitperiod}}}%
+        {{hash=87247ac14dd5402c22ea5519860718be}{%
+           family={Tribowski},
+           familyi={T\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c3553e9bdf1673b3a853fa578d23298e}
+      \strng{fullhash}{c3553e9bdf1673b3a853fa578d23298e}
+      \strng{authornamehash}{c3553e9bdf1673b3a853fa578d23298e}
+      \strng{authorfullhash}{c3553e9bdf1673b3a853fa578d23298e}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Der kompakte Schnellüberblick liefert potenziellen Anwendern knappe aber ausreichend ausführliche Informationen über die {RFID}-Technologie, zu Einsatzstrategien und Implementierung und liefert darüber hinaus Beispiele und Erfahrungen von Anwendern. Ein umfangreiches Literaturverzeichnis hilft bei spezielleren Fragen weiter. Umfangreicher aber in der Zielrichtung vergleichbar ist der "Dummies"-Titel von P. Sweeney ({BA} 10/06). Die umfassendste Information liefert weiterhin das Handbuch von K. Finkenzeller ({BA} 1/07, aktualisierte Auflage 2008 ist lieferbar). Auf die Anwendung in Geschäftsprozessen konzentriert sich F. Gillert ({ID} 47/06), vor allem speziellere technische Aspekte behandelt H. Fischer ({ID} 4/07). Zur Erstinformation gut brauchbar, in ausgebauten Beständen sollte zusätzlich die genannte Vergleichsliteratur angeboten werden. (2)}
+      \field{isbn}{978-3-642-11459-5}
+      \field{note}{{OCLC}: 845690868}
+      \field{pagetotal}{144}
+      \field{series}{Informatik im Fokus}
+      \field{title}{{RFID}}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Tamm and Tribowski - 2010 - RFID.pdf:files/87/Tamm and Tribowski - 2010 - RFID.pdf:application/pdf
+      \endverb
+    \endentry
     \entry{casestudy}{book}{}
       \name{author}{5}{}{%
         {{hash=36e24605fe57b7aef7a886b2c51fa67b}{%
@@ -125,8 +164,8 @@
       \strng{fullhash}{1b432ead97951e4249a4221cc5c8d01f}
       \strng{authornamehash}{fef7529694aae0e5475bced4fad8c70b}
       \strng{authorfullhash}{1b432ead97951e4249a4221cc5c8d01f}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 39th Annual Hawaii International Conference on System Sciences (HICSS'06)}
@@ -194,8 +233,8 @@
       \list{publisher}{1}{%
         {Springer Berlin Heidelberg}%
       }
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-540-77551-5}
       \field{langid}{german}
@@ -211,45 +250,6 @@
       \endverb
       \verb{url}
       \verb http://link.springer.com/10.1007/978-3-540-77552-2
-      \endverb
-    \endentry
-    \entry{fokus}{book}{}
-      \name{author}{2}{}{%
-        {{hash=3855f0f673ba64f8648e0ce2f17fd1fb}{%
-           family={Tamm},
-           familyi={T\bibinitperiod},
-           given={Gerrit},
-           giveni={G\bibinitperiod}}}%
-        {{hash=87247ac14dd5402c22ea5519860718be}{%
-           family={Tribowski},
-           familyi={T\bibinitperiod},
-           given={Christoph},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Berlin}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{c3553e9bdf1673b3a853fa578d23298e}
-      \strng{fullhash}{c3553e9bdf1673b3a853fa578d23298e}
-      \strng{authornamehash}{c3553e9bdf1673b3a853fa578d23298e}
-      \strng{authorfullhash}{c3553e9bdf1673b3a853fa578d23298e}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Der kompakte Schnellüberblick liefert potenziellen Anwendern knappe aber ausreichend ausführliche Informationen über die {RFID}-Technologie, zu Einsatzstrategien und Implementierung und liefert darüber hinaus Beispiele und Erfahrungen von Anwendern. Ein umfangreiches Literaturverzeichnis hilft bei spezielleren Fragen weiter. Umfangreicher aber in der Zielrichtung vergleichbar ist der "Dummies"-Titel von P. Sweeney ({BA} 10/06). Die umfassendste Information liefert weiterhin das Handbuch von K. Finkenzeller ({BA} 1/07, aktualisierte Auflage 2008 ist lieferbar). Auf die Anwendung in Geschäftsprozessen konzentriert sich F. Gillert ({ID} 47/06), vor allem speziellere technische Aspekte behandelt H. Fischer ({ID} 4/07). Zur Erstinformation gut brauchbar, in ausgebauten Beständen sollte zusätzlich die genannte Vergleichsliteratur angeboten werden. (2)}
-      \field{isbn}{978-3-642-11459-5}
-      \field{note}{{OCLC}: 845690868}
-      \field{pagetotal}{144}
-      \field{series}{Informatik im Fokus}
-      \field{title}{{RFID}}
-      \field{year}{2010}
-      \field{dateera}{ce}
-      \verb{file}
-      \verb Tamm and Tribowski - 2010 - RFID.pdf:files/87/Tamm and Tribowski - 2010 - RFID.pdf:application/pdf
       \endverb
     \endentry
     \entry{chipless}{book}{}
@@ -275,8 +275,8 @@
       \strng{fullhash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
       \strng{authornamehash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
       \strng{authorfullhash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-319-10168-2}
@@ -299,8 +299,8 @@
       \endverb
     \endentry
     \entry{vizinex}{online}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labeltitlesource}{title}
       \field{abstract}{Over the last ten years, {RFID} product design has come a long way. Things that ten years ago seemed futuristic are now in daily use, especially in the medical field, where progress in the {RFID} product design made advancements in the medical applications possible.}
       \field{day}{19}
@@ -451,6 +451,151 @@
       \endverb
       \verb{url}
       \verb https://github.com/NativeScript/nativescript-cli
+      \endverb
+    \endentry
+    \entry{nosql_meier}{book}{}
+      \name{author}{2}{}{%
+        {{hash=c85850c63c930c4211bd1baa46598989}{%
+           family={Meier},
+           familyi={M\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9d193ef606aaaf76bdda5c5a747a9f59}{%
+           family={Kaufmann},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{fullhash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{authornamehash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{authorfullhash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-662-47663-5}
+      \field{langid}{german}
+      \field{series}{{eXamen}.press}
+      \field{title}{{SQL}- \& {NoSQL}-Datenbanken}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2018}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-662-47664-2
+      \endverb
+      \verb{file}
+      \verb Meier and Kaufmann - 2016 - SQL- & NoSQL-Datenbanken.pdf:files/121/Meier and Kaufmann - 2016 - SQL- & NoSQL-Datenbanken.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-662-47664-2
+      \endverb
+    \endentry
+    \entry{trends_nosql}{collection}{}
+      \name{editor}{4}{}{%
+        {{hash=a29b7dea70a4ffa096c761be700df088}{%
+           family={Rocha},
+           familyi={R\bibinitperiod},
+           given={Álvaro},
+           giveni={Á\bibinitperiod}}}%
+        {{hash=4018f98afd65b2769cc8756e07428bf9}{%
+           family={Adeli},
+           familyi={A\bibinitperiod},
+           given={Hojjat},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e6523ba9da94a7e590220d25017e1625}{%
+           family={Reis},
+           familyi={R\bibinitperiod},
+           given={Luís\bibnamedelima Paulo},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=e4b198f0337377b41885b3993c951bb8}{%
+           family={Costanzo},
+           familyi={C\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{26a8130d34a7a9ec34213862ef4bd3d1}
+      \strng{fullhash}{4b21236c25b783fb28b2ce8df8b857e5}
+      \strng{editornamehash}{26a8130d34a7a9ec34213862ef4bd3d1}
+      \strng{editorfullhash}{4b21236c25b783fb28b2ce8df8b857e5}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-319-77711-5}
+      \field{langid}{english}
+      \field{series}{Advances in Intelligent Systems and Computing}
+      \field{shorttitle}{Trends and Advances in Information Systems and Technologies}
+      \field{title}{Trends and Advances in Information Systems and Technologies: Volume 2}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/145/9783319777115.html:text/html
+      \endverb
+      \verb{url}
+      \verb //www.springer.com/de/book/9783319777115
+      \endverb
+    \endentry
+    \entry{mongodb_edward}{book}{}
+      \name{author}{2}{}{%
+        {{hash=c7300a76b1674742a906f27bce020a89}{%
+           family={Edward},
+           familyi={E\bibinitperiod},
+           given={Shakuntala\bibnamedelima Gupta},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=744703592d0c02b0b7996c9165f77977}{%
+           family={Sabharwal},
+           familyi={S\bibinitperiod},
+           given={Navin},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berkeley, {CA}}%
+      }
+      \list{publisher}{1}{%
+        {Apress}%
+      }
+      \strng{namehash}{dc762acd484d398c9bf9614073877fca}
+      \strng{fullhash}{dc762acd484d398c9bf9614073877fca}
+      \strng{authornamehash}{dc762acd484d398c9bf9614073877fca}
+      \strng{authorfullhash}{dc762acd484d398c9bf9614073877fca}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4842-0648-5}
+      \field{langid}{english}
+      \field{title}{Practical {MongoDB}}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2018}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-1-4842-0647-8
+      \endverb
+      \verb{file}
+      \verb Edward and Sabharwal - 2015 - Practical MongoDB.pdf:files/103/Edward and Sabharwal - 2015 - Practical MongoDB.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-1-4842-0647-8
       \endverb
     \endentry
   \endsortlist
