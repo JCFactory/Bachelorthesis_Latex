@@ -122,6 +122,8 @@ Mongodb integration within nativescript application
 --> with Node JS package installer 
 but synchronization with data from Mongodb was difficult
 
+Real-time synchronization of mobile application with MongoDB server was difficult. Firstly, HTTP Request/Response was implemented to connect the mobile device with the RFID reader and the database. But only one device was enabled to connect to the server. Thus, another solution had to be considered. Finally, a Socket.IO connection was implemented to both server and client. Socket.IO enables two-way data synchronization and cannot be compared to HTTP Request/Response. Furthermore, with Socket.IO, it was possible to run the application on various mobile devices without any complication. 
+
 \subsection{Progress of development}
 
 \subsubsection{User Scenario}
