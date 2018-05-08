@@ -22,11 +22,17 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces The adopted from \cite {nsarchitecture}\relax }}{46}{figure.caption.95}
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces The architecture of NativeScript Applications, adopted from \cite {nsarchitecture}\relax }}{46}{figure.caption.95}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces \relax }}{52}{figure.caption.116}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Layout of application, Screenshot of iOS Simulator\relax }}{52}{figure.caption.115}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces \relax }}{53}{figure.caption.117}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Start page of application}}}{52}{figure.caption.115}
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Item information page}}}{52}{figure.caption.115}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces The developed system architecture of the mobile RFID application\relax }}{53}{figure.caption.117}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Application scenario of RFID application \relax }}{54}{figure.caption.118}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
