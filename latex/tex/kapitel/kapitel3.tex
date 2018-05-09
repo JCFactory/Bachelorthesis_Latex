@@ -35,8 +35,10 @@ In the next section, some examples for the NoSQL data management will be explain
 In contrast to that, the technology of NoSQL offers more possibilities to store data, like for example in key-value stores, column stores, document stores or graph databases \cite[p.16 ff.]{nosql_meier}. These four types of NoSQL databases are also called 'Core-NoSQL-Models'. Besides, other NoSQL database models like object databases, \ac{XML} databases or grid databases are defined as 'Soft NoSQL Models'. 
 To give some examples of the 'Core-NoSQL-Models', their fundamental characteristics will be described in the following. The key-value stores (e.g. Cassandra) provide the simplest way to store data by using an identification key and a list of values. Document stores (like e.g. MongoDB \pageref{mongodb}) store the data in form of structured text data like \ac{JSON} or XML. In contrast to key-value stores, document stores have a pre-defined structure but are schema-free which means that the data structure can be changed over the time. Graph databases (e.g. Neo4J) introduce a new way to store data: It introduces a graph-based model. Each graph consists of nodes and edges which connect the edges and demonstrate their relations. Each node can have concepts and object. Both, nodes and edges have a label and can contain properties. Each property contains an attribute and a value. The query language for graph databases is called 'Cypher' \cite[p.16 ff.]{nosql_meier} which is a declarative language. Users of Neo4J and other graph databases are able to specify their retrieval query by defining nodes and edges. By evaluating all possible paths (or connections between nodes and edges), the database system calculates all requested patterns.   
 Generally, NoSQL technologies are popular for their high availability as well as their protection against system failures by using different replication concepts, e.g. 'Consistent Hashing' \cite[p.11 ff.]{nosql_meier}. In addition, NoSQL is characterized by its vertical and horizontal aligned scalability, its weak or non-existent restrictions concerning schemas and data models. Along, NoSQL databases offers simple data replication and easy access through API \cite[p.221 ff.]{nosql_meier}.  
+Edward and Sabharwal discuss the pro and cons of NoSQL technologies in their book \cite[p.17 ff.]{mongodb_edward} which will be given in the next paragraph.
+One the one hand, NoSQL offers high scalability, manageability and administration (such as automated repairs, distributed data etc.), low cost and flexible data models. But on the other hand, using NoSQL factors like maturity, limited query capabilities, administration (installing and maintaining solutions) and limited expertise (developer and administrator community are limited).
 
-\paragraph{Document Stores}
+\paragraph{Document Stores} \label{documentstore}
 
 In the last section, there were introduced some examples of NoSQL databases. This paragraph reveals with the characteristics, advantages and disadvantages of document stores because the deployed database, MongoDB, is a document store. 
 Basically, document stores consists of databases, containing collections with documents. Each document can have its own internal structure and is defined by JSON-like files which look like a list of attribute-value-pairs. As a 
@@ -50,11 +52,17 @@ Document stores are exceptional in that they query in a Map/Reduce procedure whi
 To begin with, the method can be divided into two phases: During the first phase (Map, 'group by'-phase), the data is grouped by criteria. This is realized by a Map-function which asociates for each document an appropriate specific processing by establishing an index (= map) and sending it back. A map can be compared to an associative array with one or multiple key-value-pairs per document.  
 After that, in the second phase (Reduce, 'Aggregation'), a Reduce-function (can be compared to SQL statements) returns for each key in the index a row of the Map-Function and aggregates their related values. This second phase is optional.
 
+\paragraph{CAP theorem} \label{CAP}
+
+The \ac{CAP} theorem \cite[p.15 ff.]{mongodb_edward} also known under the name of  'Brewer's Theorem', was developed Eric Brewer in 2000. It describes three important characteristics of a NoSQL database system: Consistency refers to all data which has to remain consistently after every operation. Availability means that the system itself has to be available at any time. Partition tolerance states that every system is working even if is partitioned into groups of independent servers \cite[p.15 ff.]{mongodb_edward}.
+
 \paragraph{ACID vs. BASE}
 
 Concerning the topic of transactions in SQL, Meier and Kaufmann \cite[p.136 ff.]{nosql_meier} mention the \ac{ACID} principle. Atomacity means that a transaction is either performed completely or not. Consistency refers to transactions which cause conviction from one state into another. At this point, Meier and Kaufmann declare a transaction as 'an unit to obtain consistency'. Isolation signifies parallelly run transactions which will produce the same results as single-user environments becaue each transaction is run isolated. The Isolation principle includes the protection from unwanted side-effects. When talking about the isolation of transactions, they can be called 'unit of serializability'. The last principle, durability refers to the different states of databases which have to be maintained until the next transaction. In that case, every transaction can be seen as 'unit of recovery'.
 
-The \ac{BASE} principle which refers to NoSQL technologies says that a consistent state in a distributed database system can take place retartedly.
+The \ac{BASE} principle which refers to NoSQL technologies says that a consistent state in a distributed database system can take place retartedly. Based on the CAP theorem \pageref{CAP}, BASE signifies that the system is always available and that all states in the systems are soft which means that even if there is no input provided to the system, the state will be changed over time \cite[p.15 ff.]{mongodb_edward}. The last feature of BASE stands for eventually consistency which means that the system will attain consistency in long run provided no input is sent.
+
+When comparing both ACID and BASE, apparently there exist many parallels. 'Atomacity' can be compared to 'Basically Available', 'Consistency' to 'Eventually Consistency', 'Isolation' to 'Soft State'. But one criteria of ACID is not realized within BASE: Durability \cite[p.1 ff.]{mongodb_edward}.
 
 \subsubsection{Characteristics of NoSQL Databases}
 
@@ -115,6 +123,13 @@ First of all, there exists a technical and architectural struggle of feeding the
 According to Calolas et al., 'Socii's implementation should be completed to work with other OSN's. Furthermore, it can be extended to perform evaluation and validation of system with users having accounts in several OSNs and several profiles. 
 
 \subsubsection{NoSQL Technology: MongoDB}\label{mongodb}
+
+As mentioned in the section Document Store \pageref{documentstore}, this type of NoSQL database provides high availability, scalability and partitioning options \cite[p.25 ff.]{mongodb_edward}. Nevertheless, there are some disavantages when using MongoDB or any other document stores: For instance, both consistency and transactions are not supported. 
+In contrast to relational databases, MongoDB does not consist of tables and rows, but of documents which make it both flexible and scalable \cite[p.25 ff.]{mongodb_edward}. All data is stored in \ac{BSON} documents which assure that related data is placed all together in one place. Queries in a MongoDB database use the keys in documents which makes it possible to query documents spread across multiple servers.  
+
+
+
+
 \subsubsection{Reasons and Advantages of MongoDB}
 
 \cite{mongodb_edward}
@@ -147,7 +162,7 @@ Real-time synchronization of mobile application with MongoDB server was difficul
 
 \subsubsection{User Scenario}
 
-screenshots of app
+The following two images show the start page and the item information page of the developed application. 
 
 \begin{figure}
 \centering
