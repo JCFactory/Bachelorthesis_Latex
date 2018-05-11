@@ -112,58 +112,80 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.1}Native Development with NativeScript}{45}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline NativeScript Sidekick}{46}{section*.94}
+\contentsline {paragraph}{\nonumberline NativeScript Application Logic}{46}{figure.caption.97}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Technology of NoSQL}{46}{subsection.3.1.2}
+\contentsline {subsubsection}{\nonumberline NativeScript Sidekick}{47}{section*.100}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Document Stores}{48}{section*.99}
+\contentsline {subsection}{\numberline {3.1.2}Technology of NoSQL}{48}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Queries (Map and Reduce)}{49}{section*.101}
+\contentsline {paragraph}{\nonumberline Document Stores}{50}{section*.104}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline ACID vs. BASE}{49}{section*.102}
+\contentsline {paragraph}{\nonumberline Queries (Map and Reduce)}{51}{section*.106}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Characteristics of NoSQL Databases}{50}{section*.105}
+\contentsline {paragraph}{\nonumberline CAP theorem}{51}{section*.107}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Excursus: BIG DATA}{50}{section*.107}
+\contentsline {paragraph}{\nonumberline ACID vs. BASE}{51}{section*.109}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Velocity, Variety, Volume}{50}{section*.108}
+\contentsline {subsubsection}{\nonumberline Characteristics of NoSQL Databases}{52}{section*.112}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Use case of NoSQL Databases: 'Socii System'}{51}{section*.109}
+\contentsline {subsubsection}{\nonumberline Excursus: BIG DATA}{52}{section*.114}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline NoSQL Technology: MongoDB}{51}{section*.110}
+\contentsline {paragraph}{\nonumberline Velocity, Variety, Volume}{53}{section*.116}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Reasons and Advantages of MongoDB}{51}{section*.111}
+\contentsline {paragraph}{\nonumberline Usage of Big Data}{54}{section*.118}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}Impinj RFID Lector and Antenna}{51}{subsection.3.1.3}
+\contentsline {paragraph}{\nonumberline Big Data challenges}{54}{section*.119}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline General Information}{51}{section*.112}
+\contentsline {paragraph}{\nonumberline Big Data technologies}{55}{section*.122}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Examples}{51}{section*.113}
+\contentsline {subsubsection}{\nonumberline Use case of NoSQL Databases: 'Socii System'}{55}{section*.123}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Application development}{51}{section.3.2}
+\contentsline {paragraph}{\nonumberline Structure and flow of data analysis and visualization systems}{56}{section*.124}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Challenges during development}{51}{subsection.3.2.1}
+\contentsline {paragraph}{\nonumberline Main functionalities of 'Socii'}{56}{section*.125}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Progress of development}{51}{subsection.3.2.2}
+\contentsline {paragraph}{\nonumberline Limitations of 'Socii'}{57}{section*.126}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline User Scenario}{51}{section*.114}
+\contentsline {paragraph}{\nonumberline Future outlook of 'Socii'}{57}{section*.127}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Software Architecture}{51}{section*.116}
+\contentsline {subsubsection}{\nonumberline NoSQL Technology: MongoDB}{57}{section*.128}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Possibilities of extension}{54}{subsection.3.2.3}
+\contentsline {paragraph}{\nonumberline Limitations and possibilities of MongoDB}{58}{section*.130}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Abbreviations}{vii}{chapter*.119}
+\contentsline {paragraph}{\nonumberline MongoDB: Best Practices}{60}{section*.134}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{xi}{section*.120}
+\contentsline {subsection}{\numberline {3.1.3}Impinj RFID Lector and Antenna}{61}{subsection.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{xiii}{section*.122}
+\contentsline {subsubsection}{\nonumberline General Information}{61}{section*.138}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Listings}{xv}{section*.124}
+\contentsline {subsubsection}{\nonumberline Examples}{61}{section*.139}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{xvii}{chapter*.126}
+\contentsline {section}{\numberline {3.2}Application development}{62}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Index}{xix}{section*.127}
+\contentsline {subsection}{\numberline {3.2.1}Challenges during development}{62}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}First Appendix}{xix}{appendix.A}
+\contentsline {subsection}{\numberline {3.2.2}Progress of development}{62}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Second Appendix}{xxi}{appendix.B}
+\contentsline {subsubsection}{\nonumberline User Scenario}{62}{section*.140}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Software Architecture}{63}{section*.143}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Datamodel}{63}{section*.145}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Possibilities of extension}{63}{subsection.3.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Abbreviations}{vii}{chapter*.147}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Tables}{xi}{section*.148}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Figures}{xiii}{section*.150}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Listings}{xv}{section*.152}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{xvii}{chapter*.154}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Index}{xxi}{section*.155}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}First Appendix}{xxi}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Second Appendix}{xxiii}{appendix.B}
