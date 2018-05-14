@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.12)  11 MAY 2018 12:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.12)  14 MAY 2018 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2778,39 +2778,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[61] <bilder/app_functionality.png, id=1126, 615.0478pt x 431.36156pt>
-File: bilder/app_functionality.png Graphic file (type png)
-
-<use bilder/app_functionality.png>
-Package pdftex.def Info: bilder/app_functionality.png used on input line 213.
-(pdftex.def)             Requested size: 398.3386pt x 279.37463pt.
-
-<bilder/Mainview.png, id=1127, 368.37625pt x 747.79375pt>
-File: bilder/Mainview.png Graphic file (type png)
-
-<use bilder/Mainview.png>
-Package pdftex.def Info: bilder/Mainview.png used on input line 220.
-(pdftex.def)             Requested size: 170.71422pt x 341.43336pt.
-
-<bilder/Detailview.png, id=1128, 357.335pt x 744.7825pt>
-File: bilder/Detailview.png Graphic file (type png)
-
-<use bilder/Detailview.png>
-Package pdftex.def Info: bilder/Detailview.png used on input line 221.
-(pdftex.def)             Requested size: 170.71733pt x 341.44493pt.
-
-<bilder/app_architecture.jpg, id=1129, 572.1375pt x 805.0075pt>
-File: bilder/app_architecture.jpg Graphic file (type jpg)
-
-<use bilder/app_architecture.jpg>
-Package pdftex.def Info: bilder/app_architecture.jpg used on input line 232.
-(pdftex.def)             Requested size: 398.3386pt x 560.4797pt.
-
-Overfull \hbox (6.53639pt too wide) in paragraph at lines 236--238
-\T1/ptm/m/n/12 picture of gen-eral soft-ware ar-chi-tec-ture: 2 an-ten-nas, 1 l
-ec-tor (RFID Im-p-inj), Database
- []
-
+[61]
+Package acronym Info: Label `acro:SDK' newly defined as it shall be overridden
+although it is yet undefined on input line 197.
+Package acronym Info: Label `acro:AVD' newly defined as it shall be overridden
+although it is yet undefined on input line 197.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2818,36 +2790,75 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[62] <bilder/Mongo_DataModel.png, id=1136, 514.92375pt x 395.4775pt>
+[62] <bilder/app_functionality.png, id=1139, 615.0478pt x 431.36156pt>
+File: bilder/app_functionality.png Graphic file (type png)
+
+<use bilder/app_functionality.png>
+Package pdftex.def Info: bilder/app_functionality.png used on input line 207.
+(pdftex.def)             Requested size: 398.3386pt x 279.37463pt.
+Package acronym Info: Label `acro:PZN' newly defined as it shall be overridden
+although it is yet undefined on input line 212.
+
+<bilder/Mainview.png, id=1142, 368.37625pt x 747.79375pt>
+File: bilder/Mainview.png Graphic file (type png)
+
+<use bilder/Mainview.png>
+Package pdftex.def Info: bilder/Mainview.png used on input line 216.
+(pdftex.def)             Requested size: 170.71422pt x 341.43336pt.
+
+<bilder/Detailview.png, id=1143, 357.335pt x 744.7825pt>
+File: bilder/Detailview.png Graphic file (type png)
+
+<use bilder/Detailview.png>
+Package pdftex.def Info: bilder/Detailview.png used on input line 217.
+(pdftex.def)             Requested size: 170.71733pt x 341.44493pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[63] <bilder/app_architecture.png, id=1154, 608.2725pt x 830.10126pt>
+File: bilder/app_architecture.png Graphic file (type png)
+
+<use bilder/app_architecture.png>
+Package pdftex.def Info: bilder/app_architecture.png used on input line 227.
+(pdftex.def)             Requested size: 398.3386pt x 543.62532pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[64 <./bilder/app_functionality.png>]
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[65 <./bilder/Mainview.png> <./bilder/Detailview.png>]
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[66 <./bilder/app_architecture.png>]
+<bilder/Mongo_DataModel.png, id=1177, 514.92375pt x 395.4775pt>
 File: bilder/Mongo_DataModel.png Graphic file (type png)
 
 <use bilder/Mongo_DataModel.png>
-Package pdftex.def Info: bilder/Mongo_DataModel.png used on input line 247.
+Package pdftex.def Info: bilder/Mongo_DataModel.png used on input line 237.
 (pdftex.def)             Requested size: 398.3386pt x 305.94275pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[63 <./bilder/app_functionality.png>]
+[67 <./bilder/Mongo_DataModel.png>])
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[64 <./bilder/Mainview.png> <./bilder/Detailview.png>]
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[65 <./bilder/app_architecture.jpg>]
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[66 <./bilder/Mongo_DataModel.png>])
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[67] [68
-
-
-]
+[68]
 chapter without number
 (./kapitel/abkuerzungen.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2855,18 +2866,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [7
 
 
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{UHF}) has bee
 n already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.32 ...{TMUH}{Taipei Medical University Hospital}
-                                                  ]pdfTeX warning (ext4): desti
-nation with the same identifier (name{IoT}) has been already used, duplicate ig
-nored
+l.32 \acro{SMLE}{Single Logical Message Exchange}
+                                                 ]pdfTeX warning (ext4): destin
+ation with the same identifier (name{IoT}) has been already used, duplicate ign
+ored
 <to be read again> 
                    \relax 
-l.36 \acro{IoT}{Internet of Things}
+l.39 \acro{IoT}{Internet of Things}
                                    
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2874,7 +2887,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.83 \acro{RAIN}{RAdio frequency IdentificatioN}
+l.86 \acro{RAIN}{RAdio frequency IdentificatioN}
                                                 ) [9] [10
 
 
@@ -2942,7 +2955,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3AF3AF50A4F1B494A45C06D8BE3815FF;2764.
+(rerunfilecheck)             Checksum: 433F0B918C2BB861DF9801C3ACEA8615;2753.
 
 
 LaTeX Warning: There were undefined references.
@@ -2952,10 +2965,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39127 strings out of 492995
- 720515 string characters out of 6132704
- 1272741 words of memory out of 5000000
- 41657 multiletter control sequences out of 15000+600000
+ 39145 strings out of 492995
+ 720716 string characters out of 6132704
+ 1273003 words of memory out of 5000000
+ 41670 multiletter control sequences out of 15000+600000
  76035 words of font info for 86 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  75i,9n,66p,10499b,2713s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2976,10 +2989,10 @@ ype1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/u
 rw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (93 pages, 1073750 bytes).
+Output written on thesis.pdf (93 pages, 1043354 bytes).
 PDF statistics:
- 1452 PDF objects out of 1728 (max. 8388607)
- 1292 compressed objects within 13 object streams
- 382 named destinations out of 1000 (max. 500000)
+ 1469 PDF objects out of 1728 (max. 8388607)
+ 1307 compressed objects within 14 object streams
+ 388 named destinations out of 1000 (max. 500000)
  395 words of extra memory for PDF output out of 10000 (max. 10000000)
 
