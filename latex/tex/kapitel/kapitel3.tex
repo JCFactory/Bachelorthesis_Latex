@@ -9,7 +9,7 @@ This chapter focusses on explaining the used technologies and frameworks for dev
 \subsection{Native Development with NativeScript} 
 
 There exist several ways to create a mobile application. But the challenge is to develop a consistent solution for the existing systems, like e.g. Android or iOS.
-To face the challenge of developing a hybride solution which can be run both on Android and iOS devices, Nativescript has been established in the last years \cite{nativescript}. The free and open source technology enables developers to easily build cross-platform native apps with either Javascript, Nativescript or by using Angular \cite{nativescript}. 
+To face the challenge of developing a hybride solution which can be run both on Android and iOS devices, Nativescript has been established as an open-source project from Telerik in the last years \cite{nativescript}. The free and open source technology enables developers to easily build cross-platform native apps with either Javascript, Nativescript or by using Angular \cite{nativescript}. 
 Regarding its design philosophy, Nativescript was designed to be approachable to developers from various backgrounds \cite{nativescript}. Moreover, it was designed to be both performant and giving access to native APIs, such as Android or iOS.
 Figure \ref{fig:nsarchitecture} gives an impression of the general architecture of Nativescript applications. When developing such applications, one of the given frameworks can be used (e.g. '\{N\} Core', Angular or Vue). Additionally, several Nativescript plugins can be selected. Below the 'NativeScript Core Modules', there are located the 'NativeScript Runtimes' which have direct access to the Native system. By running several commands on the NativeScript \ac{CLI}, the developed Nativescript application can be executed on any physically connected device as well as on the installed emulator or in the cloud. 
 
@@ -187,26 +187,20 @@ Impinj (also known as NASDAQ:PI) enables wireless connection of multiple everyda
 Impinj mentions some example use cases when implementing the Speedway R420 RAIN RFID READER: Inventory Management, Asset Tracking and enhanced shopper experience. 
 The DeRoyal Industries, Inc. which was founded 1973 is a medical device facturer\cite{deroyal}. With the aim of improving clinical quality and economic health of customers, DeRoyal provides surgical devices, unitized delivery systems, orthopedic supports and bracing wound care dressings. One of their software solutions is the system 'DeRoyal Continuum Safe' \cite{deroyal}. By using the Impinj platform and RAIN RFID, DeRoyal Continuum Safe automatically captures and tracks data from medical supplies in the operating room, emergency department and catherterization lab. The solution includes packaging which is tagged with RAIN RFID tags. According to DeRoyal, the system provides many advantages, such as reducing the time staff spend managing supplies so that they can focus more on patient care. Besides, DeRoyal Continuum Safe improves billing accuracy for supplies used during procedures. After that, the likelihood of infections is reduced by ensuring the availability of necessary supplies. Lastly, DeRoyal achieved to provide a data-driven supply chain management \cite{deroyal}. 
 
-%
-% talking about application, more details
-%
 \section{Application development} \label{app_development}
-
-\subsection{Challenges during development}
-
-Mongodb integration within nativescript application 
---> with Node JS package installer 
-but synchronization with data from Mongodb was difficult
-
-Real-time synchronization of mobile application with MongoDB server was difficult. Firstly, HTTP Request/Response was implemented to connect the mobile device with the RFID reader and the database. But only one device was enabled to connect to the server. Thus, another solution had to be considered. Finally, a Socket.IO connection was implemented to both server and client. Socket.IO enables two-way data synchronization and cannot be compared to HTTP Request/Response. Furthermore, with Socket.IO, it was possible to run the application on various mobile devices without any complication. 
 
 \subsection{Progress of development}
 
+\subsubsection{Challenges during development} \label{challenge}
+
+During the development, many difficulties and challenges had been faced. The following section will focuss on some big problems during development.
+To start with, the setup of the development environment of a NativeScript application was complicate because for example on Windows computers there cannot be installed XCode. So, the only solution to develop and run the application both on Android and iOS devices was to use a MacOS computer or to execute the application on Nativescript Sidekick (using its cloud service). Furthermore, during the setup of Android Studio and the runtime environment of Android on MacOS caused other complications. To give an example, sometimes having installed the Android \ac{SDK} 25 the Android \ac{AVD} Manager required exactly the same version being installed on its virtual device. 
+Another challenge was the real-time synchronization of the mobile application with MongoDB server was difficult. Firstly, a HTTP request/response was implemented to connect the mobile device with the RFID reader and the database. But using the HTTP request/response was a very static and non-scalable solution (only one device was enabled to connect to the server). Furthermore, refreshing the page was not automated. Thus, another solution had to be considered. Finally, a Socket.IO connection was implemented between both server and client. Socket.IO enables automatic two-way data synchronization and cannot be compared to HTTP Request/Response. By opening a Socket connection between the server and all clients, it was possible to run the application on various mobile devices without any complication. 
+After that, another complication was the connection between MongoDB, Matlab and the NativeScript application. This was solved by using a server instance which both connects the database as well as the Nativescript application. Section \ref{section_architecture} explains the exact implementation and the used architecture to connect all system components. 
+
 \subsubsection{User Scenario}
 
-The following two images show the start page and the item information page of the developed application. 
-
-
+Figure \ref{fig:appfunctionality} gives an example of one user scenario. The figure shows two treatment rooms in a hospital, both equipped with a RFID antenna. In the hallway, there are two additional antennas applied which are connected to the RFID reader. When passing one room, the nurse or doctor will roll a trolley with the needed drugs (all marked with a RFID tag). If the trolley is near to the RFID antenna \#4, it will send the current drug information to the RFID reader which synchronizes them with the computer and the tablet or smartphone. When entering a treatment room, RFID antenna \#3 or \#2 receive the tag's information and synchronize them similarly as before. At the bottom of the figure, there is a drawn a intranet/internet connection. This means, that the system can be both set up in the local intranet (which enables a higher privacy and security) as well as in the internet. In the end, each RFID antenna can signify a different action, e.g. antenna \#4 = 'medication will be administered', antenna \#3 and \#2 = 'medication is dosed to patient X', \#1 = 'medication has been dosed successfully'.
 
 \begin{figure}
 \centering
@@ -214,18 +208,19 @@ The following two images show the start page and the item information page of th
 \caption{\label{fig:appfunctionality}Application scenario of RFID application} 
 \end{figure}
 
+Figure \ref{fig:app_sceenshot} shows two screenshots of both the start and the item information page of the developed application. The photo on the left shows a list of all drugs which are stored in the database. The red point on the right of each data entry signifies that the drug is not available and was not detected successfully. When detecting the specific drug, the colour of the point changes to green.
+The picture on the right gives further information of the selected item. Each drug is stored with an 'ID' (which is the same as the RFID tag number). The 'Countrycode' attribute refers to the country-specific number of each drug. For example, in Germany 'Aspirin' has a specific unique code which is called \ac{PZN}, and contains a 7- or 8-place number (e.g. 04114918). The 'Location' attribute describes the exact location of a drug and refers to the location system in the stock (e.g. in pharmacies). The information, 'Timestamp' refers to the last time a drug was detected. The value on the right side of 'Timestamp' is the default value for storing timestamps in MongoDB. If another date format is required, this can be easily defined in the MongoDB schema definition.
 
 \begin{figure}
 \centering
-\subfigure[Start page of application]{\label{fig:a}\includegraphics[width=6cm, height=12cm]{Mainview}}
-\subfigure[Item information page]{\label{fig:b}\includegraphics[width=6cm, height=12cm]{Detailview}}
-\caption{Layout of application, Screenshot of iOS Simulator}
+\subfigure[Start page of application]{\includegraphics[width=6cm, height=12cm]{Mainview}}
+\subfigure[Item information page]{\includegraphics[width=6cm, height=12cm]{Detailview}}
+\caption{\label{fig:app_screenshot}Layout of application, Screenshot of iOS Simulator}
 \end{figure}
 
+\subsection{Software Architecture} \label{section_architecture}
 
-
-
-\subsubsection{Software Architecture}
+The following section focusses on the system's architecture which can be seen on figure \ref{fig:apparchitecture}. In the top right corner, there are displayed drugs and patients which can be tagged with a RFID tag. When approximating an antenna of an RFID reader, information about medication (e.g. stock availability ect.) are transmitted. At the same time, the RFID reader registers the detected tag and captures its information using Matlab. Matlab synchronizes the transmitted information with the MongoDB database. When receiving new drug information, the server instance sends the data through a Socket.IO connection to the client (smartphone or tablet). Synchronously, all data is transmitted and displayed on the mobile device.
 
 \begin{figure}
 \centering
@@ -233,14 +228,9 @@ The following two images show the start page and the item information page of th
 \caption{\label{fig:apparchitecture}The developed system architecture of the mobile RFID application} 
 \end{figure}
 
-picture of general software architecture: 
-2 antennas, 1 lector (RFID Impinj), Database (MongoDB), GUI: Android and  iOS Application 
+\subsubsection{Datamodel}
 
-
-
-\paragraph{Datamodel}
-
-\ref{fig:datamodel}
+Concerning a useful datamodel, the following figure \ref{fig:datamodel} reflects the outline of the developed MongoDB document related to its context and the MongoDB database. As described in figure \ref{fig:app_screenshot}, 'Details', each drug entry contains information about its ID, name, countrycode, size, location and timestamp. All documents are pooled in a drugs collection which forms a part of medication database. This data model can be extended for example, with other collections, containing information about several equipment or patients. 
 
 \begin{figure}
 \centering
@@ -248,7 +238,7 @@ picture of general software architecture:
 \caption{\label{fig:datamodel}Applied data model} 
 \end{figure}
 
-\subsection{Possibilities of extension}
+\subsection{Extension possibilities}
 
 Henrici \cite[p.121 ff.]{henrici} describes four alternative channels to authenticate and authorized the right tags and to prevent attacks on RFID applications. 
 The first possibility of an alternative channel is to use written text to authenticate special operations, for instance on packaging. The master key can be printed on the interior of the product package and is proposed as key recovery mechanism.
