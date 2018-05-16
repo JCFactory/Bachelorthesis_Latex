@@ -5,9 +5,22 @@
 
 \subsection{Scope of developed system}
 
+
+
 \subsection{Aim of developed system}
 
-\subsection{First concept of system}
+\subsection{First concept of system} \label{firstconcept}
+
+Figure \ref{fig:first_draft} describes the very first draft of the workflow of the application. Actually, it is not very precise but should help to describe the general scope of the medication tracking system. 
+At the top of the picture, there is an Excel program which stores all data of the database and converts them into *.CSV files. These converted files should be imported into the running MongoDB instance on the PC. On the same computer is running Matlab which is connected with the RFID reader. All along, MongoDB and Matlab are synchronizing each other. Beneath the PC, the figure shows the RFID reader which is connected to four antennas. At the bottom of figure \ref{fig:first_draft}, there are drawn four zoned antennas. Each zone can be seen as a different area or room and can represent a different state, e.g. 'entering' or 'leaving' the stockroom. In the bottom left corner, there can be depicted RFID tags which pass one antenna after another. Each time, an antenna recognizes a tag, it sends the transmitted information to the reader which transfers the data to Matlab.  
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{first_draft} 
+\caption{\label{fig:first_draft}The first draft of the developed system} 
+\end{figure}
+
+This first concept was changed due to the 'MongoDB' plugin, which offers Matlab \cite{matlab_mongodb}. This is much easier than exporting all received data from Matlab in *.CSV format and then including it into MongoDB as *.CSV data. Furthermore, it supports developing a very fast and real-time application which enables a higher data integrity because of the direct connection to the database (see also figure \ref{fig:app_architecture}.  
 
 %talking about platforms in general, to get a common understanding 
 \section{Used platforms and technologies} \label{platforms}
@@ -148,6 +161,46 @@ Concerning a useful datamodel, the following figure \ref{fig:datamodel} reflects
 \includegraphics[width=\textwidth]{Mongo_DataModel} 
 \caption{\label{fig:datamodel}Applied data model} 
 \end{figure}
+
+\subsubsection{\ac{LAN} Architecture}
+
+Figure \ref{fig:hub_architecture} represents the realization of connecting all relevant components into one LAN. There exist two networks: On the one hand, the LAN between RFID reader, laptop and desktop PC. On the other hand, a local network between the laptop and various mobile devices, like smartphones or tablets is established. The only connecting point between both networks is the laptop with the IP 169.254.1.2.
+At the top of figure \ref{fig:hub_architecture}, there is a '5-Port-Ethernet-Hub' which enables connecting up to five different devices or computers via ethernet. 
+On the left of the picture, there can be depicted the RFID reader which has the default IP of 169.254.1.1. Each time, when detecting a RFID tag, the RFID reader sends the information to Matlab which is running on the desktop PC with the IP 169.254.1.3. After receiving the detected RFID tag's information, the desktop PC transmits the data to MongoDB database running on the laptop with the IP 169.254.1.2. 
+The purpose of the second local network between laptop and mobile devices is to execute the NativeScript app and to visualize currently detected RFID tags in the app.
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{hub_architecture} 
+\caption{\label{fig:hub_architecture}The LAN architecture of the developed system} 
+\end{figure}
+
+\subsubsection{Reading Process in Matlab}
+
+The following section focusses on the reading process which is implemented in Matlab. Matlab uses the Impinj Octane SDK \cite{octanesdk} which easily connects the RFID reader to Matlab. The usual reading process in Matlab can be seen in figure \ref{fig:reading_matlab}. In the top left corner of figure \ref{fig:reading_matlab}, after starting the Matlab code, a setup method triggers the initialize method. After initilizing, Matlab starts reading tags during a predefined time (t). In a loop, every time is read. When reaching the limit of time, the method eventhandlerChanged() is executed. EventhandlerChanged() notices the changes in the detected tags and triggers a new action 'store data'. After that, analogous to the first concept of the system (see section \ref{firstconcept}), the *.mat data is converted into *.csv data and as such exported. In the most current version of the system, the two last actions (conversion and export) are brought together and data is directely transfered into the MongoDB database. 
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{reading_matlab} 
+\caption{\label{fig:reading_matlab}Activity diagram: reading process in Matlab} 
+\end{figure}
+
+\section{Tests of system}
+
+HUCA hospital, permission photo
+
+\subsection{Planned tests of system}
+
+drawing/image of test scenarios...
+
+\subsection{Test results}
+
+\subsection{Evaluation of test results}
+
+\subsection{Summary and Outlook of application}
+
+which are the problems when employing the system? 
+costs of RFID, size of RFID...
 
 \subsection{Extension possibilities}
 
