@@ -10,33 +10,39 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces The design of RFID tags \cite [p.13]{chipless}\relax }}{26}{figure.caption.49}
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces The design of RFID tags \cite [p.13]{chipless}\relax }}{30}{figure.caption.58}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces The adopted from \cite [p.17]{chipless}\relax }}{28}{figure.caption.56}
+\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces The adopted from \cite [p.17]{chipless}\relax }}{32}{figure.caption.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces The architecture of chipless RFID systems \cite [p.17]{chipless}\relax }}{31}{figure.caption.67}
+\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces The architecture of chipless RFID systems \cite [p.17]{chipless}\relax }}{35}{figure.caption.75}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces The design of chipless RFID tags \cite [p.19]{chipless}\relax }}{32}{figure.caption.68}
+\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces The design of chipless RFID tags \cite [p.19]{chipless}\relax }}{36}{figure.caption.76}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces The design of chipless RFID readers \cite [p.20]{chipless}\relax }}{33}{figure.caption.70}
+\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces The design of chipless RFID readers \cite [p.20]{chipless}\relax }}{37}{figure.caption.78}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces The architecture of NativeScript Applications, adopted from \cite {nsarchitecture}\relax }}{46}{figure.caption.95}
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces The first draft of the developed system\relax }}{56}{figure.caption.114}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces The MVVM application logic, adopted from \cite {nativescript}\relax }}{47}{figure.caption.97}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces The architecture of NativeScript Applications, adopted from \cite {nsarchitecture}\relax }}{58}{figure.caption.116}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Application scenario of RFID application\relax }}{64}{figure.caption.144}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces The MVVM application logic, adopted from \cite {nativescript}\relax }}{59}{figure.caption.118}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Layout of application, Screenshot of iOS Simulator\relax }}{65}{figure.caption.146}
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Application scenario of RFID application\relax }}{66}{figure.caption.137}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Start page of application}}}{65}{figure.caption.146}
+\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Layout of application, Screenshot of iOS Simulator\relax }}{67}{figure.caption.139}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Item information page}}}{65}{figure.caption.146}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Start page of application}}}{67}{figure.caption.139}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces The developed system architecture of the mobile RFID application\relax }}{66}{figure.caption.147}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Item information page}}}{67}{figure.caption.139}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Applied data model\relax }}{67}{figure.caption.149}
+\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces The developed system architecture of the mobile RFID application\relax }}{69}{figure.caption.140}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces Applied data model\relax }}{70}{figure.caption.142}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces The LAN architecture of the developed system\relax }}{71}{figure.caption.145}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces Activity diagram: reading process in Matlab\relax }}{73}{figure.caption.147}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
