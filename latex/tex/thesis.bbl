@@ -745,6 +745,59 @@
       \verb http://www.deroyal.com/medicalproducts/default.aspx
       \endverb
     \endentry
+    \entry{introduction_matlab}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labeltitlesource}{title}
+      \field{langid}{american}
+      \field{title}{An Introduction to {MATLAB}}
+      \field{titleaddon}{{IEEE} {UFFC}}
+      \field{urlday}{17}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/174/an-introduction-to-matlab.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://ieee-uffc.org/ultrasonics/software/an-introduction-to-matlab/
+      \endverb
+    \endentry
+    \entry{simulink}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{{Chapter 8} - Simulink Tutorial}
+      \field{urlday}{17}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb chapter8.pdfl
+      \endverb
+      \verb{url}
+      \verb https://ewh.ieee.org/r1/ct/sps/PDF/MATLAB/chapter8.pdfl
+      \endverb
+    \endentry
+    \entry{mathworks}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Learn more about {MATLAB}, Simulink, and other toolboxes and blocksets for math and analysis, data acquisition and import, signal and image processing, control design, financial modeling and analysis, and embedded targets.}
+      \field{langid}{spanish}
+      \field{title}{{MathWorks} - Información de la compañía}
+      \field{urlday}{17}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/177/aboutus.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://es.mathworks.com/company/aboutus.html
+      \endverb
+    \endentry
     \entry{octanesdk}{online}{}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
@@ -761,6 +814,22 @@
       \endverb
       \verb{url}
       \verb http://support.impinj.com/hc/en-us/articles/202755268-Octane-SDK
+      \endverb
+    \endentry
+    \entry{huca}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labeltitlesource}{title}
+      \field{title}{{HUCA}}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb HUCA:files/180/index.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.hca.es/huca/web/index.asp
       \endverb
     \endentry
   \endsortlist

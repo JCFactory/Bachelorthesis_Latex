@@ -2328,8 +2328,16 @@
     <bcf:citekey order="205">deroyal</bcf:citekey>
     <bcf:citekey order="206">deroyal</bcf:citekey>
     <bcf:citekey order="207">deroyal</bcf:citekey>
-    <bcf:citekey order="208">octanesdk</bcf:citekey>
-    <bcf:citekey order="209">henrici</bcf:citekey>
+    <bcf:citekey order="208">introduction_matlab</bcf:citekey>
+    <bcf:citekey order="209">introduction_matlab</bcf:citekey>
+    <bcf:citekey order="210">introduction_matlab</bcf:citekey>
+    <bcf:citekey order="211">simulink</bcf:citekey>
+    <bcf:citekey order="212">simulink</bcf:citekey>
+    <bcf:citekey order="213">mathworks</bcf:citekey>
+    <bcf:citekey order="214">octanesdk</bcf:citekey>
+    <bcf:citekey order="215">huca</bcf:citekey>
+    <bcf:citekey order="216">huca</bcf:citekey>
+    <bcf:citekey order="217">henrici</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

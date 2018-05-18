@@ -68,7 +68,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Vizinex RFID}{24}{section*.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Functionality of RFID technology, NoSQL technologies}{27}{chapter.2}
+\contentsline {chapter}{\numberline {2}Functionality of RFID technology, NoSQL technology}{27}{chapter.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}RFID technology}{27}{section.2.1}
 \defcounter {refsection}{0}\relax 
@@ -170,45 +170,47 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.4}Matlab}{64}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Application development}{64}{section.3.3}
+\contentsline {subsubsection}{\nonumberline Mathworks}{65}{section*.133}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Progress of development}{64}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.3}Application development}{65}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Challenges during development}{64}{section*.133}
+\contentsline {subsection}{\numberline {3.3.1}Progress of development}{65}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline User Scenario}{65}{section*.136}
+\contentsline {subsubsection}{\nonumberline Challenges during development}{65}{section*.134}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Software Architecture}{66}{subsection.3.3.2}
+\contentsline {subsubsection}{\nonumberline User Scenario}{66}{section*.137}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Datamodel}{68}{section*.141}
+\contentsline {subsection}{\numberline {3.3.2}Software Architecture}{67}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \ac {LAN} Architecture}{68}{section*.143}
+\contentsline {subsubsection}{\nonumberline Datamodel}{69}{section*.142}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Reading Process in Matlab}{72}{section*.146}
+\contentsline {subsubsection}{\nonumberline \ac {LAN} Architecture}{69}{section*.144}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Tests of system}{72}{section.3.4}
+\contentsline {subsubsection}{\nonumberline Reading Process in Matlab}{73}{section*.147}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Planned tests of system}{72}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.4}Tests of system}{73}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Test results}{72}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.1}Planned tests of system}{75}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Evaluation of test results}{72}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.2}Test results}{75}{subsection.3.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.4}Summary and Outlook of application}{72}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.3}Evaluation of test results}{75}{subsection.3.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.5}Extension possibilities}{72}{subsection.3.4.5}
+\contentsline {section}{\numberline {3.5}Summary and Outlook of application}{75}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Abbreviations}{vii}{chapter*.148}
+\contentsline {subsubsection}{\nonumberline Extension possibilities}{75}{section*.154}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{xi}{section*.149}
+\contentsline {chapter}{\nonumberline List of Abbreviations}{vii}{chapter*.155}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{xiii}{section*.151}
+\contentsline {chapter}{List of Tables}{xi}{section*.156}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Listings}{xv}{section*.153}
+\contentsline {chapter}{List of Figures}{xiii}{section*.158}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{xvii}{chapter*.155}
+\contentsline {chapter}{Listings}{xv}{section*.160}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Index}{xxi}{section*.156}
+\contentsline {chapter}{\nonumberline Bibliography}{xvii}{chapter*.162}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Index}{xxi}{section*.163}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}First Appendix}{xxi}{appendix.A}
 \defcounter {refsection}{0}\relax 
