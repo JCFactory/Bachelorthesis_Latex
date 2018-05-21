@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.12)  18 MAY 2018 11:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.12)  21 MAY 2018 11:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1968,13 +1968,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
  <./bilder/hsma-logo.pdf>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 401.
-
-Overfull \hbox (1.71588pt too wide) in paragraph at lines 401--402
-\T1/ptm/m/n/10.95 Entwicklung einer mo-bilen RFID-Anwendung zum Arznei-Manageme
-nt in Kranken-häusern
- []
-
-[1]
+ [1]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 11.39996pt on input line 407.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
@@ -2017,13 +2011,14 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
 (Font)              Font shape `T1/phv/b/sl' tried instead on input line 444.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
 (Font)              scaled to size 10.40245pt on input line 444.
-) [3
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3
 
 
-] [4
-
-
-] (./thesis.toc
+]
+[4] (./thesis.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 9.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -2034,6 +2029,8 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 9.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [5
+
+
 
 
 ]
@@ -2332,6 +2329,8 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 ]
 chapter 2.
+Package acronym Info: Label `acro:LOS' newly defined as it shall be overridden
+although it is yet undefined on input line 6.
 Package acronym Info: Label `acro:IT' newly defined as it shall be overridden
 although it is yet undefined on input line 10.
 
@@ -2353,12 +2352,6 @@ although it is yet undefined on input line 20.
 Package acronym Info: Label `acro:SMLE' newly defined as it shall be overridden
 
 although it is yet undefined on input line 23.
- <bilder/rfidtagdesign.png, id=740, 342.5297pt x 136.25906pt>
-File: bilder/rfidtagdesign.png Graphic file (type png)
-
-<use bilder/rfidtagdesign.png>
-Package pdftex.def Info: bilder/rfidtagdesign.png used on input line 28.
-(pdftex.def)             Requested size: 398.3386pt x 158.47227pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2366,21 +2359,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[29]
-Package acronym Info: Label `acro:VHF' newly defined as it shall be overridden
-although it is yet undefined on input line 32.
+[29] <bilder/rfidtagdesign.png, id=754, 342.5297pt x 136.25906pt>
+File: bilder/rfidtagdesign.png Graphic file (type png)
+
+<use bilder/rfidtagdesign.png>
+Package pdftex.def Info: bilder/rfidtagdesign.png used on input line 28.
+(pdftex.def)             Requested size: 398.3386pt x 158.47227pt.
 Package acronym Info: Label `acro:PC' newly defined as it shall be overridden
 although it is yet undefined on input line 39.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 41.
-
-
-LaTeX Warning: Reference `tags' on page 30 undefined on input line 41.
-
-Package acronym Info: Label `acro:LF' newly defined as it shall be overridden
-although it is yet undefined on input line 41.
-Package acronym Info: Label `acro:HF' newly defined as it shall be overridden
-although it is yet undefined on input line 41.
 
 Underfull \vbox (badness 3386) has occurred while \output is active []
 
@@ -2389,6 +2375,17 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [30 <./bilder/rfidtagdesign.png>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 42.
+
+
+LaTeX Warning: Reference `tags' on page 31 undefined on input line 42.
+
+Package acronym Info: Label `acro:LF' newly defined as it shall be overridden
+although it is yet undefined on input line 42.
+Package acronym Info: Label `acro:HF' newly defined as it shall be overridden
+although it is yet undefined on input line 42.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2399,27 +2396,30 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 File: bilder/rfidreaderdesign.png Graphic file (type png)
 
 <use bilder/rfidreaderdesign.png>
-Package pdftex.def Info: bilder/rfidreaderdesign.png used on input line 48.
+Package pdftex.def Info: bilder/rfidreaderdesign.png used on input line 50.
 (pdftex.def)             Requested size: 398.3386pt x 200.26198pt.
+
+Underfull \vbox (badness 4779) has occurred while \output is active []
+
 
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [32 <./bilder/rfidreaderdesign.png>]
 Package acronym Info: Label `acro:CEP' newly defined as it shall be overridden
-although it is yet undefined on input line 65.
+although it is yet undefined on input line 67.
 
-Overfull \hbox (0.63022pt too wide) in paragraph at lines 63--66
+Overfull \hbox (0.63022pt too wide) in paragraph at lines 65--68
 [] []\T1/phv/b/n/10.95 Data stor-age con-cepts[][] \T1/ptm/m/n/12 Con-cern-ing 
 the data man-age-ment of RFID sys-tems, Tamm
  []
 
 Package acronym Info: Label `acro:SSL' newly defined as it shall be overridden
-although it is yet undefined on input line 67.
+although it is yet undefined on input line 69.
 Package acronym Info: Label `acro:TLS' newly defined as it shall be overridden
-although it is yet undefined on input line 67.
+although it is yet undefined on input line 69.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3019) has occurred while \output is active []
 
 
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
@@ -2427,9 +2427,9 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 [33]
 Package acronym Info: Label `acro:CW' newly defined as it shall be overridden
-although it is yet undefined on input line 80.
+although it is yet undefined on input line 82.
 Package acronym Info: Label `acro:RCS' newly defined as it shall be overridden
-although it is yet undefined on input line 80.
+although it is yet undefined on input line 82.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2440,16 +2440,16 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 [34]
 Package acronym Info: Label `acro:FMCW' newly defined as it shall be overridden
 
-although it is yet undefined on input line 83.
+although it is yet undefined on input line 85.
  <bilder/chipless_architecture.png, id=841, 415.5525pt x 146.04562pt>
 File: bilder/chipless_architecture.png Graphic file (type png)
 
 <use bilder/chipless_architecture.png>
-Package pdftex.def Info: bilder/chipless_architecture.png used on input line 87
+Package pdftex.def Info: bilder/chipless_architecture.png used on input line 89
 .
 (pdftex.def)             Requested size: 398.3386pt x 140.00162pt.
 
-Overfull \hbox (0.25003pt too wide) in paragraph at lines 91--93
+Overfull \hbox (0.25003pt too wide) in paragraph at lines 93--95
 \T1/ptm/m/n/12 em-ploy static in-for-ma-tion in-cor-po-rated in com-plex fre-qu
 ency do-mains of the tag[[][]13[][],
  []
@@ -2461,40 +2461,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[35 <./bilder/chipless_architecture.png>]
-<bilder/chiplesstag.png, id=859, 296.60812pt x 183.68625pt>
+[35] <bilder/chiplesstag.png, id=859, 296.60812pt x 183.68625pt>
 File: bilder/chiplesstag.png Graphic file (type png)
 
 <use bilder/chiplesstag.png>
-Package pdftex.def Info: bilder/chiplesstag.png used on input line 96.
+Package pdftex.def Info: bilder/chiplesstag.png used on input line 98.
 (pdftex.def)             Requested size: 398.3386pt x 246.69601pt.
 Package acronym Info: Label `acro:UWB' newly defined as it shall be overridden
-although it is yet undefined on input line 101.
-
-<bilder/chiplessreader.png, id=865, 414.04688pt x 197.98969pt>
-File: bilder/chiplessreader.png Graphic file (type png)
-
-<use bilder/chiplessreader.png>
-Package pdftex.def Info: bilder/chiplessreader.png used on input line 105.
-(pdftex.def)             Requested size: 398.3386pt x 190.48483pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+although it is yet undefined on input line 103.
 
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[36 <./bilder/chiplesstag.png>]
+[36 <./bilder/chipless_architecture.png> <./bilder/chiplesstag.png>]
+<bilder/chiplessreader.png, id=871, 414.04688pt x 197.98969pt>
+File: bilder/chiplessreader.png Graphic file (type png)
+
+<use bilder/chiplessreader.png>
+Package pdftex.def Info: bilder/chiplessreader.png used on input line 107.
+(pdftex.def)             Requested size: 398.3386pt x 190.48483pt.
 Package acronym Info: Label `acro:SNR' newly defined as it shall be overridden
-although it is yet undefined on input line 111.
+although it is yet undefined on input line 113.
 Package acronym Info: Label `acro:TDR' newly defined as it shall be overridden
-although it is yet undefined on input line 112.
+although it is yet undefined on input line 114.
 Package acronym Info: Label `acro:SAW' newly defined as it shall be overridden
-although it is yet undefined on input line 112.
+although it is yet undefined on input line 114.
 Package acronym Info: Label `acro:CMT' newly defined as it shall be overridden
-although it is yet undefined on input line 112.
+although it is yet undefined on input line 114.
 Package acronym Info: Label `acro:SEM' newly defined as it shall be overridden
-although it is yet undefined on input line 112.
+although it is yet undefined on input line 114.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2503,13 +2498,10 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [37 <./bilder/chiplessreader.png>]
-Overfull \hbox (2.5955pt too wide) in paragraph at lines 122--123
+Overfull \hbox (2.5955pt too wide) in paragraph at lines 124--125
 [] []\T1/phv/b/n/10.95 Identification[][] \T1/ptm/m/n/12 When it comes to the i
 den-ti-fi-ca-tion pro-cess of chip-less tags, it should
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
@@ -2517,11 +2509,11 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 [38]
 Package acronym Info: Label `acro:TOA' newly defined as it shall be overridden
-although it is yet undefined on input line 127.
+although it is yet undefined on input line 129.
 Package acronym Info: Label `acro:MF' newly defined as it shall be overridden
-although it is yet undefined on input line 128.
+although it is yet undefined on input line 130.
 
-Overfull \hbox (3.33952pt too wide) in paragraph at lines 126--129
+Overfull \hbox (3.33952pt too wide) in paragraph at lines 128--131
 [] []\T1/phv/b/n/10.95 Localization[][] \T1/ptm/m/n/12 Dis-cussing the lo-cal-i
 za-tion in chip-less RFID sys-tems pri-mar-ily brings
  []
@@ -2532,10 +2524,10 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 [39]
 
-LaTeX Warning: Reference `tags' on page 40 undefined on input line 139.
+LaTeX Warning: Reference `tags' on page 40 undefined on input line 141.
 
 Package acronym Info: Label `acro:FDA' newly defined as it shall be overridden
-although it is yet undefined on input line 140.
+although it is yet undefined on input line 142.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2559,9 +2551,9 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 [42]
 Package acronym Info: Label `acro:SQL' newly defined as it shall be overridden
-although it is yet undefined on input line 165.
+although it is yet undefined on input line 167.
 
-Overfull \hbox (1.88036pt too wide) in paragraph at lines 167--169
+Overfull \hbox (1.88036pt too wide) in paragraph at lines 169--171
 \T1/ptm/m/n/12 well as mi-gra-tion strate-gies for the op-ti-mal ap-pli-ca-tion
  of 'post-relational databases'.
  []
@@ -2575,10 +2567,10 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 [43]
 Package acronym Info: Label `acro:XML' newly defined as it shall be overridden
-although it is yet undefined on input line 174.
+although it is yet undefined on input line 176.
 Package acronym Info: Label `acro:JSON' newly defined as it shall be overridden
 
-although it is yet undefined on input line 175.
+although it is yet undefined on input line 177.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2589,7 +2581,7 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 [44]
 Package acronym Info: Label `acro:HTTP' newly defined as it shall be overridden
 
-although it is yet undefined on input line 184.
+although it is yet undefined on input line 186.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2599,7 +2591,7 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 [45]
 Package acronym Info: Label `acro:CAP' newly defined as it shall be overridden
-although it is yet undefined on input line 196.
+although it is yet undefined on input line 198.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2610,15 +2602,15 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 [46]
 Package acronym Info: Label `acro:ACID' newly defined as it shall be overridden
 
-although it is yet undefined on input line 200.
+although it is yet undefined on input line 202.
 Package acronym Info: Label `acro:BASE' newly defined as it shall be overridden
 
-although it is yet undefined on input line 202.
+although it is yet undefined on input line 204.
 Package acronym Info: Label `acro:DBMS' newly defined as it shall be overridden
 
-although it is yet undefined on input line 208.
+although it is yet undefined on input line 210.
 
-Overfull \hbox (5.73245pt too wide) in paragraph at lines 208--209
+Overfull \hbox (5.73245pt too wide) in paragraph at lines 210--211
 \T1/ptm/m/n/12 A [][][]Database Man-age-ment Sys-tem ([])[] de-fines a soft-war
 e which de-scribes, stores,
  []
@@ -2633,7 +2625,7 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 [47]
 Package acronym Info: Label `acro:RDBMS' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 214.
+although it is yet undefined on input line 216.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2643,7 +2635,7 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 [48]
 Package acronym Info: Label `acro:OSN' newly defined as it shall be overridden
-although it is yet undefined on input line 223.
+although it is yet undefined on input line 225.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2653,9 +2645,9 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 [49]
 Package acronym Info: Label `acro:NAS' newly defined as it shall be overridden
-although it is yet undefined on input line 232.
+although it is yet undefined on input line 234.
 Package acronym Info: Label `acro:SAN' newly defined as it shall be overridden
-although it is yet undefined on input line 232.
+although it is yet undefined on input line 234.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3068,10 +3060,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39274 strings out of 492995
- 722954 string characters out of 6132704
- 1274815 words of memory out of 5000000
- 41753 multiletter control sequences out of 15000+600000
+ 39276 strings out of 492995
+ 722970 string characters out of 6132704
+ 1276301 words of memory out of 5000000
+ 41755 multiletter control sequences out of 15000+600000
  76035 words of font info for 86 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  75i,9n,66p,10499b,2707s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3092,7 +3084,7 @@ ype1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/u
 rw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (101 pages, 2111404 bytes).
+Output written on thesis.pdf (101 pages, 2112946 bytes).
 PDF statistics:
  1673 PDF objects out of 1728 (max. 8388607)
  1495 compressed objects within 15 object streams
