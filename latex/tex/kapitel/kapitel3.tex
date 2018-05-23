@@ -16,7 +16,7 @@ At the top of the picture, there is an Excel program which stores all data of th
 
 On the same computer is running Matlab which is connected with the RFID reader. All along, MongoDB and Matlab are synchronizing each other. Beneath the PC, the figure shows the RFID reader which is connected to four antennas. At the bottom of figure \ref{fig:first_draft}, there are drawn four zoned antennas. Each zone can be seen as a different area or room and can represent a different state, e.g. 'entering' or 'leaving' the stockroom. In the bottom left corner, there can be depicted RFID tags which pass one antenna after another. Each time, an antenna recognizes a tag, it sends the transmitted information to the reader which transfers the data to Matlab.  
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{first_draft} 
 \caption{\label{fig:first_draft}The first draft of the developed system} 
@@ -39,7 +39,7 @@ Regarding its design philosophy, Nativescript was designed to be approachable to
 
 Figure \ref{fig:nsarchitecture} gives an impression of the general architecture of Nativescript applications. When developing such applications, one of the given frameworks can be used (e.g. '\{N\} Core', Angular or Vue). Additionally, several Nativescript plugins can be selected. Below the 'NativeScript Core Modules', there are located the 'NativeScript Runtimes' which have direct access to the Native system. By running several commands on the NativeScript \ac{CLI}, the developed Nativescript application can be executed on any physically connected device as well as on the installed emulator or in the cloud. 
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{ns-architecture} 
 \caption{\label{fig:nsarchitecture}The architecture of NativeScript Applications, adopted from \cite{nsarchitecture}} 
@@ -49,7 +49,7 @@ NativeScript applications can also be developed, built and run on the 'NativeScr
 
 \paragraph{NativeScript Application Logic}
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{mvvm_ns} 
 \caption{\label{fig:mvvm}The MVVM application logic, adopted from \cite{nativescript}} 
@@ -165,7 +165,7 @@ Figure \ref{fig:appfunctionality} gives an example of one user scenario. The fig
 
 At the bottom of the figure, there is a drawn a intranet/internet connection. This means, that the system can be both set up in the local intranet (which enables a higher privacy and security) as well as in the internet. In the end, each RFID antenna can signify a different action, e.g. antenna \#4 = 'medication will be administered', antenna \#3 and \#2 = 'medication is dosed to patient X', \#1 = 'medication has been dosed successfully'.
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{app_functionality} 
 \caption{\label{fig:appfunctionality}Application scenario of RFID application} 
@@ -175,7 +175,7 @@ Figure \ref{fig:app_screenshot} shows two screenshots of both the start and the 
 
 The picture on the right gives further information of the selected item. Each drug is stored with an 'ID' (which is the same as the RFID tag number). The 'Countrycode' attribute refers to the country-specific number of each drug. For example, in Germany 'Aspirin' has a specific unique code which is called \ac{PZN}, and contains a 7- or 8-place number (e.g. 04114918). The 'Location' attribute describes the exact location of a drug and refers to the location system in the stock (e.g. in pharmacies). The information, 'Timestamp' refers to the last time a drug was detected. The value on the right side of 'Timestamp' is the default value for storing timestamps in MongoDB. If another date format is required, this can be easily defined in the MongoDB schema definition.
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \subfigure[Start page of application]{\includegraphics[width=6cm, height=12cm]{Mainview}}
 \subfigure[Item information page]{\includegraphics[width=6cm, height=12cm]{Detailview}}
@@ -186,7 +186,7 @@ The picture on the right gives further information of the selected item. Each dr
 
 The following section focusses on the system's architecture which can be seen on figure \ref{fig:apparchitecture}. In the top right corner, there are displayed drugs and patients which can be tagged with a RFID tag. When approximating an antenna of an RFID reader, information about medication (e.g. stock availability ect.) are transmitted. At the same time, the RFID reader registers the detected tag and captures its information using Matlab. Matlab synchronizes the transmitted information with the MongoDB database. When receiving new drug information, the server instance sends the data through a Socket.IO connection to the client (smartphone or tablet). Synchronously, all data is transmitted and displayed on the mobile device.
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{app_architecture} 
 \caption{\label{fig:apparchitecture}The developed system architecture of the mobile RFID application} 
@@ -196,9 +196,9 @@ The following section focusses on the system's architecture which can be seen on
 
 Concerning a useful datamodel, the following figure \ref{fig:datamodel} reflects the outline of the developed MongoDB document related to its context and the MongoDB database. As described in figure \ref{fig:app_screenshot}, 'Details', each drug entry contains information about its ID, name, countrycode, size, location and timestamp. All documents are pooled in a drugs collection which forms a part of medication database. This data model can be extended for example, with other collections, containing information about several equipment or patients. 
 
-\begin{figure}
+\begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{Mongo_DataModel} 
+\includegraphics[width=8cm, height=6cm]{Mongo_DataModel} 
 \caption{\label{fig:datamodel}Applied data model} 
 \end{figure}
 
@@ -212,7 +212,7 @@ On the left of the picture, there can be depicted the RFID reader which has the 
 After receiving the detected RFID tag's information, the desktop PC transmits the data to MongoDB database running on the laptop with the IP 169.254.1.2. 
 The purpose of the second local network between laptop and mobile devices is to execute the NativeScript app and to visualize currently detected RFID tags in the app.
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{hub_architecture} 
 \caption{\label{fig:hub_architecture}The LAN architecture of the developed system} 
@@ -224,7 +224,7 @@ The following section focusses on the reading process which is implemented in Ma
 
 In the time following initializing, Matlab starts reading tags during a predefined time (t). In a loop, every time is read. When reaching the limit of time, the method eventhandlerChanged() is executed. EventhandlerChanged() notices the changes in the detected tags and triggers a new action 'store data'. After that, analogous to the first concept of the system (see section \ref{firstconcept}), the *.mat data is converted into *.csv data and as such exported. In the most current version of the system, the two last actions (conversion and export) are brought together and data is directely transfered into the MongoDB database. 
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{reading_matlab} 
 \caption{\label{fig:reading_matlab}Activity diagram: reading process in Matlab} 
@@ -240,7 +240,7 @@ Besides, HUCA forms a part of the 'unit of national reference for work-related i
 Figure \ref{fig:permission} shows the permission letter, signed by the director Gloria Herías Correal of HUCA on 8 May 2018 in Oviedo.
 The tests are planned for June 2018, an exact date is not fixed already (effective 18 May 2018). 
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{permission_HUCA} 
 \caption{\label{fig:permission}Permission letter about application tests in HUCA} 

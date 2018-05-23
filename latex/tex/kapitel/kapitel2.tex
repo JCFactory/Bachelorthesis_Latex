@@ -28,10 +28,10 @@ The first and easiest method is called 'regular identification'. It implies that
 
 Other than the mentioned methods, Henrici describes a fourth and most secure method to identify tags which he calls 'encryption and shared key identification'. As an advantage, this identification method protects every information contained in an identifier which can be transmitted in encrypted form. The vast amount of information requires a high internal storage of the tag, like given by active tags. To arrange an encrypted transmission of the information from passive, low cost tags the identifier needs to be calculated outside the tag and then stored on the tag (directly in enciphered form). So, there would be no additional expenditure to enable encrypted and shared key identification. 
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{rfidtagdesign} 
-\caption{\label{fig:tagdesign}The design of RFID tags  \cite[p.13]{chipless}} 
+\caption{\label{fig:tagdesign}The design of a RFID tag \cite[p.13]{chipless}} 
 \end{figure}
 
 As above mentioned, RFID tags can be categorized in different ways. In contrast to Tamm and Tribowski \ref{classes}, Rezaiesarlak et al. \cite{chipless} describe three different categories \cite[p.9 ff.]{chipless}: Firstly, RFID tags can be distinguished between inductive and radiative (or backscattering-based) tags. Inductive tags are the ones which work below a frequency of 100 MHz and their operating principle is based on inductive coupling between the reader and the tag coil-like antennas. Radiative tags work in the UHF (300 - 3000 MHz) frequency band, providing more reading range as no coupling between reader and dipole-like tag antenna is required. Secondly, there can be differentiated between active and passive tags as mentioned above. Lastly, there are both chipped and chipless tags (see Section Chipless RFID systems \ref{chipless}). 
@@ -46,7 +46,7 @@ Generally, two different types of readers can be distinguished: Stationary and m
 On the opposite, mobile readers do not need permanent network connection and are used for instance to query prices in a supermarket. They are usually integrated into mobile devices, connected to laptops, \ac{PC}s or tablets. To connect themselves to an existing system, mobile RFID readers need a device driver which enables the communication between reader and the installed application on the device \cite[p.133 ff.]{mobile}. Furthermore, the antenna as well as the reader itself are integrated into their casing \cite[p.17 ff.]{fokus}.
 
 Nevertheless, there exists the possibility of conntecting various antennas to one reader to extend the range of field.
-As mentioned in the section before \ref{tags}, RFID tags and readers communicate via electromagnetism. The reader's detection range depends on the frequency as well as the electromagnetic field \cite{henrici}. In general, four frequency ranges can be differenced: \ac{LF} (125-134 kHz),\ac{HF} (13,56 MHz), UHF (868 MHz-915 MHz) and Microwave (2,54 GHz-5,8 GHz). Each frequency range has its own physical characteristics, such as the needed size of antennas or the read range.
+As mentioned in the section before \ref{tag}, RFID tags and readers communicate via electromagnetism. The reader's detection range depends on the frequency as well as the electromagnetic field \cite{henrici}. In general, four frequency ranges can be differenced: \ac{LF} (125-134 kHz),\ac{HF} (13,56 MHz), UHF (868 MHz-915 MHz) and Microwave (2,54 GHz-5,8 GHz). Each frequency range has its own physical characteristics, such as the needed size of antennas or the read range.
 
 According to Vizinex \cite{vizinex}, an american company with site in Pennsylvania (U.S), HF tags can be used for short read ranges (up to 3 inches). They are usually tagged to tissue samples, blood and critical fluids. Furthermore, HF tags work well in proximidity to liquids as well as human tissues. UHF tags provide longer read ranges and can be detuned by proximity to tissue, fluids and metals. These tags are typically used to track and locate critical medical devices, manage inventories of medical items and track as well as identify patients. Moreover, UHF tags are compatible with worldwide standards and easily deployed because of the compatibility with widely available and competitively priced RFID readers.
 
@@ -55,10 +55,10 @@ Furthermore, each reader has its own electromagnetic field. Such fields are dist
 This mechanism does not work in far fields: Here, the sended frequency is backscattered \cite{henrici}.
 All in all, readers are able to query tags and to read and write tag data. But the storage of information and the information processing does not take place in readers or tags, but in the middleware or backend systems. These will be explained in the following paragraph.
 
-\begin{figure}
+\begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{rfidreaderdesign} The design of a RFID reader 
-\caption{\label{fig:readerdesign}The adopted from \cite[p.17]{chipless}} 
+\includegraphics[width=\textwidth]{rfidreaderdesign} 
+\caption{\label{fig:readerdesign}The design of a RFID reader \cite[p.17]{chipless}} 
 \end{figure}
 
 \subsubsection{RFID backend systems} \label{backend}
@@ -105,7 +105,7 @@ On the other hand, chipless RFID tags do not have any electronic circuitry in th
 
 Figure \ref{fig:chipless_architecture} represents a simplified architecture of a chipless RFID system. The main difference between this architecture and the architecture of conventional RFID systems is the communication between reader and tag. These are realized by an 'Interrogation impulse' sent by the reader and a 'Backscattered waveform' reflected by the tag. Experts talk about a \ac{FMCW} chirped radar while discussing chipless RFID systems. 
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{chipless_architecture}
 \caption{\label{fig:chipless_architecture} The architecture of chipless RFID systems \cite[p.17]{chipless}} 
@@ -114,7 +114,7 @@ Figure \ref{fig:chipless_architecture} represents a simplified architecture of a
 As already mentioned, chipless RFID tags act both as scatterer and encoder. They employ static information incorporated in complex frequency domains of the tag \cite[p.18 ff.]{chipless}. Concerning their exact structure, the given figure \ref{fig:chipless_tag} explains some features of chipless tags. To start with, each chipless tag is made of an arbitrary metallic body with some narrow-band-resonant frequencies which means that these are resonant structures like mono poles, dipoles, rings half-wavelength slots or quarter-wavelength slots. 
 As mentioned above, chipless RFID tags can be constructed very easily: By using a planar metallic patch with a few quarter-wavelength slots as identifications.
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{chiplesstag}
 \caption{\label{fig:chipless_tag} The design of chipless RFID tags \cite[p.19]{chipless}} 
@@ -123,7 +123,7 @@ As mentioned above, chipless RFID tags can be constructed very easily: By using 
 Not only the chipless RFID tags are important for developing a chipless system, but also the chipless readers have to be considered. As Rezaiesarlak et al. \cite[p.18 ff.]{chipless} explain, chipless RFID readers do not have any integrated logic circuitry to implement any communication protocol. This makes the detection procedure even more challenging compared with conventional UHF tags. Nevertheless, the reader should be able to extract complex natural frequencies from a scattered signal which will collide with signals from other scatterers or tags. 
 As can be seen from figure \ref{fig:chipless_reader}, the proposed \ac{UWB} (3.1-10.6 GHz) reader uses a direct-down-conversion in the receiving path to overcome the transmitter interferences. Both transmitter and receiver can have two different UWB antennas or share one antenna and one UWB circulator.   
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{chiplessreader}
 \caption{\label{fig:chipless_reader} The design of chipless RFID readers \cite[p.20]{chipless}} 

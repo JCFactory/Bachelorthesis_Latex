@@ -88,7 +88,7 @@ As a conclusion, one can say, that imbalanced load in a network leads to worst-c
 
 To avoid the above mentioned energy costs, resulting from inefficient protocols, Chen et al. describe several tag searching protocols \cite[p.13 ff.]{chen} which will be discussed in the following. 
 To begin with, one should keep in mind the method 'Filtering vectors' mentioned at the very beginning of this paragraph in which the tag ID was converted into a one-dimension bit array. This first step can be compared with the first step of \ac{CATS}, a two-phased protocol to address the tag identification and its polling problem. The idea of CATS is to encode the tag IDs into a 'Bloom' filter and to transmit the Bloom filter instead of the ID. 
-\begin{mydef}{A Bloom filter is a compact data structure that encodes membership for a set of items $S=\{ e_{1},e_{2},e_{3},...,e_{n}\}$. To represent S, a bit array of length l is needed. At the beginning, all bits are initialized to zeros. To encode each element $e \in S$, k hash functions are used to map the element randomly to k bits in a bit array, so that the zeros turn into ones \cite[p.15]{chen}. \end{mydef}
+\begin{mydef} A Bloom filter is a compact data structure that encodes membership for a set of items $S=\{ e_{1},e_{2},e_{3},...,e_{n}\}$. To represent S, a bit array of length l is needed. At the beginning, all bits are initialized to zeros. To encode each element $e \in S$, k hash functions are used to map the element randomly to k bits in a bit array, so that the zeros turn into ones \cite[p.15]{chen}. \end{mydef}
 
 Consequently, in the first phase of CATS, the RFID reader encodes all IDs of the wanted tags into a Bloom filter. After encoding, the reader broadcasts the filter together with some parameters to the tags in the coverage area. Each tag receives its Bloom filter and tests whether it belongs to set X. Unwanted tags will be kept silently for the remaining time. Furthermore, a second set Y defines the coverage area of the RFID system. After filtration, the number of candidate tags in Y is reduced.
 
@@ -108,9 +108,9 @@ After the two phases the reader updates the current stage which contains a set o
 
 \subsubsection{Lightweight Anonymous RFID Authentication}
 
-There exist many different authentication mechanisms in RFID applications. To give an example of one current possibility to authenticate RFID tags, Chen et al. depict the 'Lightweight Anonymous RFID Authentication' \cite[p.39 ff.]{chen}. To start with, a fundamental system model is given (see figure~\ref{fig:lightweight}). In addition to the system model, it should be noticed that each tag is pre-installed with some keys for authentication. Furthermore, all readers are deployed at chosen locations and connected to backend servers which are connected to a central server. On the central server, each tag's key is stored.
+There exist many different authentication mechanisms in RFID applications. To give an example of one current possibility to authenticate RFID tags, Chen et al. depict the 'Lightweight Anonymous RFID Authentication' \cite[p.39 ff.]{chen}. To start with, a fundamental system model is given (see figure \ref{fig:lightweight}). In addition to the system model, it should be noticed that each tag is pre-installed with some keys for authentication. Furthermore, all readers are deployed at chosen locations and connected to backend servers which are connected to a central server. On the central server, each tag's key is stored.
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{leightweight} 
 \caption{\label{fig:lightweight} The system model of Lightweight Anonymous RFID Authentication \cite[p.40]{chen}} 
