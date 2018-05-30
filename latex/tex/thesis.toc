@@ -38,23 +38,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Basis functions of mobile computing and RFID}{14}{section*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Constraints of mobile applications and RFID}{15}{section*.32}
+\contentsline {subsubsection}{\nonumberline Constraints of mobile applications and RFID}{14}{section*.32}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Service-oriented architectures}{15}{section*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Domain Architecture}{16}{section*.34}
+\contentsline {paragraph}{\nonumberline Domain Architecture}{15}{section*.34}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Service-oriented proposal of architecture}{16}{section*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Classic Integration Mechanism}{17}{section*.36}
+\contentsline {paragraph}{\nonumberline Classic Integration Mechanism}{16}{section*.36}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\nonumberline Modern Integration Mechanism}{17}{section*.37}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\nonumberline Capabilities of SOA, mobile applications and RFID}{18}{section*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Examples of SOA applications}{19}{section*.42}
+\contentsline {paragraph}{\nonumberline Examples of SOA applications}{18}{section*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Analysis of RFID applications and their use}{20}{section.1.3}
+\contentsline {section}{\numberline {1.3}Analysis of RFID applications and their use}{19}{section.1.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.1}Process Model}{21}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
@@ -62,11 +62,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Dipole Company}{22}{section*.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Cardinal Health Inc.}{24}{section*.49}
+\contentsline {subsubsection}{\nonumberline Cardinal Health Inc.}{23}{section*.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Terso Solutions Inc.}{25}{section*.50}
+\contentsline {subsubsection}{\nonumberline Terso Solutions Inc.}{24}{section*.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Vizinex RFID}{26}{section*.53}
+\contentsline {subsubsection}{\nonumberline Vizinex RFID}{25}{section*.53}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Functionality of RFID technology, NoSQL technology}{29}{chapter.2}
 \defcounter {refsection}{0}\relax 
@@ -78,63 +78,63 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline RFID readers}{33}{section*.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline RFID backend systems}{35}{section*.66}
+\contentsline {subsubsection}{\nonumberline RFID backend systems}{34}{section*.66}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\nonumberline RFID Middleware}{35}{section*.67}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\nonumberline Data storage concepts}{36}{section*.68}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Functionality of RFID system}{37}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Functionality of RFID system}{36}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.3}Chipless RFID systems}{37}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Comparison: Chip-based vs. Chipless RFID systems}{37}{section*.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Design of chipless RFID tags}{40}{section*.80}
+\contentsline {subsubsection}{\nonumberline Design of chipless RFID tags}{39}{section*.80}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Detection, identification and localization in chipless RFID systems}{41}{section*.86}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\nonumberline Detection}{41}{section*.87}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Identification}{42}{section*.88}
+\contentsline {paragraph}{\nonumberline Identification}{41}{section*.88}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Localization}{42}{section*.89}
+\contentsline {paragraph}{\nonumberline Localization}{41}{section*.89}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.4}Security and Privacy of RFID systems}{43}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.4}Security and Privacy of RFID systems}{42}{subsection.2.1.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Security Problems and Threats}{43}{section*.92}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Solutions and Methods against Threats}{45}{section*.94}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}NoSQL technology}{47}{section.2.2}
+\contentsline {section}{\numberline {2.2}NoSQL technology}{46}{section.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Document Stores}{49}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Queries (Map and Reduce)}{50}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Queries (Map and Reduce)}{49}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.3}CAP theorem}{50}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}ACID vs. BASE}{51}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.4}ACID vs. BASE}{50}{subsection.2.2.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.5}Characteristics of NoSQL Databases}{51}{subsection.2.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.6}Excursus: BIG DATA}{52}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.6}Excursus: BIG DATA}{51}{subsection.2.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Velocity, Variety, Volume}{53}{section*.104}
+\contentsline {subsubsection}{\nonumberline Velocity, Variety, Volume}{52}{section*.104}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Usage of Big Data}{53}{section*.106}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Big Data challenges}{54}{section*.107}
+\contentsline {subsubsection}{\nonumberline Big Data challenges}{53}{section*.107}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Big Data technologies}{55}{section*.110}
+\contentsline {subsubsection}{\nonumberline Big Data technologies}{54}{section*.110}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.7}Use case of NoSQL Databases: 'Socii System'}{55}{subsection.2.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Structure and flow of data analysis and visualization systems}{56}{section*.111}
+\contentsline {subsubsection}{\nonumberline Structure and flow of data analysis and visualization systems}{55}{section*.111}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Main functionalities of 'Socii'}{56}{section*.112}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Limitations of 'Socii'}{57}{section*.113}
+\contentsline {subsubsection}{\nonumberline Limitations of 'Socii'}{56}{section*.113}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Future outlook of 'Socii'}{57}{section*.114}
 \defcounter {refsection}{0}\relax 
@@ -148,57 +148,57 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.3}First concept of system}{59}{subsection.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Used platforms and technologies}{62}{section.3.2}
+\contentsline {section}{\numberline {3.2}Used platforms and technologies}{60}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Native Development with NativeScript}{62}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Native Development with NativeScript}{60}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline NativeScript Application Logic}{64}{figure.caption.119}
+\contentsline {paragraph}{\nonumberline NativeScript Application Logic}{63}{figure.caption.119}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline NativeScript Sidekick}{65}{section*.122}
+\contentsline {subsubsection}{\nonumberline NativeScript Sidekick}{64}{section*.122}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}NoSQL Technology: MongoDB}{65}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}NoSQL Technology: MongoDB}{64}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Limitations and possibilities of MongoDB}{66}{section*.124}
+\contentsline {subsubsection}{\nonumberline Limitations and possibilities of MongoDB}{65}{section*.124}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline MongoDB: Best Practices}{68}{section*.128}
+\contentsline {subsubsection}{\nonumberline MongoDB: Best Practices}{67}{section*.128}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Impinj RFID Lector and Antenna}{69}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}Impinj RFID Lector and Antenna}{68}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline General Information}{69}{section*.132}
+\contentsline {subsubsection}{\nonumberline General Information}{68}{section*.132}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Examples}{69}{section*.133}
+\contentsline {subsubsection}{\nonumberline Examples}{68}{section*.133}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Matlab}{70}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.4}Matlab}{69}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Mathworks}{71}{section*.134}
+\contentsline {subsubsection}{\nonumberline Mathworks}{70}{section*.134}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Application development}{71}{section.3.3}
+\contentsline {section}{\numberline {3.3}Application development}{70}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Progress of development}{71}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}Progress of development}{70}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Challenges during development}{71}{section*.135}
+\contentsline {subsubsection}{\nonumberline Challenges during development}{70}{section*.135}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline User Scenario}{72}{section*.138}
+\contentsline {subsubsection}{\nonumberline User Scenario}{71}{section*.138}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Software Architecture}{74}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Software Architecture}{73}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Datamodel}{76}{section*.143}
+\contentsline {subsubsection}{\nonumberline Datamodel}{73}{section*.143}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \ac {LAN} Architecture}{76}{section*.145}
+\contentsline {subsubsection}{\nonumberline \ac {LAN} Architecture}{73}{section*.145}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Reading Process in Matlab}{77}{section*.148}
+\contentsline {subsubsection}{\nonumberline Reading Process in Matlab}{75}{section*.148}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Tests of system}{80}{section.3.4}
+\contentsline {section}{\numberline {3.4}Tests of system}{78}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Planned tests of system}{82}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.1}Planned tests of system}{78}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Test results}{82}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}Test results}{78}{subsection.3.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Evaluation of test results}{82}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.3}Evaluation of test results}{78}{subsection.3.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Summary and Outlook of application}{82}{section.3.5}
+\contentsline {section}{\numberline {3.5}Summary and Outlook of application}{78}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Extension possibilities}{82}{section*.155}
+\contentsline {subsubsection}{\nonumberline Extension possibilities}{80}{section*.155}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline List of Abbreviations}{vii}{chapter*.156}
 \defcounter {refsection}{0}\relax 
