@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.12)  6 JUN 2018 10:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.12)  6 JUN 2018 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2052,12 +2052,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Overfull \hbox (0.4147pt too wide) detected at line 211
+Overfull \hbox (0.4147pt too wide) detected at line 215
  [][][]\T1/phv/b/n/12 xvii[][]
  []
 
 
-Overfull \hbox (3.58377pt too wide) detected at line 217
+Overfull \hbox (3.58377pt too wide) detected at line 221
  [][][]\T1/phv/b/n/12 xxiii[][]
  []
 
@@ -2947,11 +2947,6 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [70]
-Package acronym Info: Label `acro:SDK' newly defined as it shall be overridden
-although it is yet undefined on input line 175.
-Package acronym Info: Label `acro:AVD' newly defined as it shall be overridden
-although it is yet undefined on input line 175.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2965,6 +2960,14 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [71]
+Package acronym Info: Label `acro:WPA2' newly defined as it shall be overridden
+
+although it is yet undefined on input line 181.
+Package acronym Info: Label `acro:SDK' newly defined as it shall be overridden
+although it is yet undefined on input line 186.
+Package acronym Info: Label `acro:AVD' newly defined as it shall be overridden
+although it is yet undefined on input line 186.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2977,34 +2980,60 @@ assets and drugs
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[72] <bilder/app_architecture.png, id=1314, 609.27625pt x 835.12pt>
-File: bilder/app_architecture.png Graphic file (type png)
+[72]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<use bilder/app_architecture.png>
-Package pdftex.def Info: bilder/app_architecture.png used on input line 188.
-(pdftex.def)             Requested size: 398.3386pt x 546.00728pt.
+
+Overfull \hbox (16.87694pt too wide) has occurred while \output is active
+ |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
+ assets and drugs
+ []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[73] <bilder/app_scenario.png, id=1321, 655.44875pt x 447.6725pt>
+File: bilder/app_scenario.png Graphic file (type png)
+
+<use bilder/app_scenario.png>
+Package pdftex.def Info: bilder/app_scenario.png used on input line 199.
+(pdftex.def)             Requested size: 398.3386pt x 272.06885pt.
 Package acronym Info: Label `acro:PZN' newly defined as it shall be overridden
-although it is yet undefined on input line 192.
+although it is yet undefined on input line 203.
 
-<bilder/Mainview.png, id=1317, 302.12875pt x 604.2575pt>
+Underfull \vbox (badness 1152) has occurred while \output is active []
+
+
+Overfull \hbox (16.87694pt too wide) has occurred while \output is active
+|\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
+assets and drugs 
+ []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[74 <./bilder/app_scenario.png>]
+<bilder/Mainview.png, id=1330, 302.12875pt x 604.2575pt>
 File: bilder/Mainview.png Graphic file (type png)
 
 <use bilder/Mainview.png>
-Package pdftex.def Info: bilder/Mainview.png used on input line 196.
+Package pdftex.def Info: bilder/Mainview.png used on input line 207.
 (pdftex.def)             Requested size: 113.80972pt x 227.61945pt.
 
-<bilder/Detailview.png, id=1318, 304.13625pt x 606.265pt>
+<bilder/Detailview.png, id=1331, 304.13625pt x 606.265pt>
 File: bilder/Detailview.png Graphic file (type png)
 
 <use bilder/Detailview.png>
-Package pdftex.def Info: bilder/Detailview.png used on input line 197.
+Package pdftex.def Info: bilder/Detailview.png used on input line 208.
 (pdftex.def)             Requested size: 113.80948pt x 227.62634pt.
 
-<bilder/administeredView.png, id=1319, 300.12125pt x 606.265pt>
+<bilder/administeredView.png, id=1332, 300.12125pt x 606.265pt>
 File: bilder/administeredView.png Graphic file (type png)
 
 <use bilder/administeredView.png>
-Package pdftex.def Info: bilder/administeredView.png used on input line 198.
+Package pdftex.def Info: bilder/administeredView.png used on input line 209.
 (pdftex.def)             Requested size: 113.80913pt x 227.62634pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3019,71 +3048,33 @@ Overfull \hbox (16.87694pt too wide) has occurred while \output is active
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[73]
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
-|\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
-assets and drugs 
- []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[74 <./bilder/app_architecture.png>]
+[75 <./bilder/Mainview.png> <./bilder/Detailview.png> <./bilder/administeredVie
+w.png>] <bilder/app_architecture.png, id=1348, 609.27625pt x 835.12pt>
 File: bilder/app_architecture.png Graphic file (type png)
- <use bilder/app_architecture.png>
-Package pdftex.def Info: bilder/app_architecture.png used on input line 208.
+
+<use bilder/app_architecture.png>
+Package pdftex.def Info: bilder/app_architecture.png used on input line 219.
 (pdftex.def)             Requested size: 398.3386pt x 546.00728pt.
 
-<bilder/Mongo_DataModel.png, id=1336, 514.92375pt x 395.4775pt>
+<bilder/Mongo_DataModel.png, id=1351, 514.92375pt x 395.4775pt>
 File: bilder/Mongo_DataModel.png Graphic file (type png)
 
 <use bilder/Mongo_DataModel.png>
-Package pdftex.def Info: bilder/Mongo_DataModel.png used on input line 218.
+Package pdftex.def Info: bilder/Mongo_DataModel.png used on input line 229.
 (pdftex.def)             Requested size: 227.62pt x 170.7158pt.
 Package acronym Info: Label `acro:LAN' newly defined as it shall be overridden
-although it is yet undefined on input line 222.
+although it is yet undefined on input line 233.
 
-Underfull \vbox (badness 1721) has occurred while \output is active []
-
-
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
- |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
- assets and drugs
- []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[75 <./bilder/Mainview.png> <./bilder/Detailview.png> <./bilder/administeredVie
-w.png>]
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
-|\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
-assets and drugs 
- []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[76] <bilder/hub_architecture.png, id=1361, 691.58376pt x 706.64pt>
+<bilder/hub_architecture.png, id=1355, 691.58376pt x 706.64pt>
 File: bilder/hub_architecture.png Graphic file (type png)
 
 <use bilder/hub_architecture.png>
-Package pdftex.def Info: bilder/hub_architecture.png used on input line 234.
+Package pdftex.def Info: bilder/hub_architecture.png used on input line 245.
 (pdftex.def)             Requested size: 398.3386pt x 407.0157pt.
 
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
- |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
- assets and drugs
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[77 <./bilder/Mongo_DataModel.png>]
 Overfull \hbox (16.87694pt too wide) has occurred while \output is active
 |\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
 assets and drugs 
@@ -3093,35 +3084,55 @@ assets and drugs
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[78 <./bilder/hub_architecture.png>]
-<bilder/reading_matlab.png, id=1380, 658.46pt x 887.315pt>
+[76]
+Overfull \hbox (16.87694pt too wide) has occurred while \output is active
+ |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
+ assets and drugs
+ []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[77 <./bilder/app_architecture.png>]
+Overfull \hbox (16.87694pt too wide) has occurred while \output is active
+|\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
+assets and drugs 
+ []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[78 <./bilder/Mongo_DataModel.png> <./bilder/hub_architecture.png>]
+<bilder/reading_matlab.png, id=1382, 658.46pt x 887.315pt>
 File: bilder/reading_matlab.png Graphic file (type png)
 
 <use bilder/reading_matlab.png>
-Package pdftex.def Info: bilder/reading_matlab.png used on input line 246.
+Package pdftex.def Info: bilder/reading_matlab.png used on input line 257.
 (pdftex.def)             Requested size: 398.3386pt x 536.79338pt.
 Package acronym Info: Label `acro:HUCA' newly defined as it shall be overridden
 
-although it is yet undefined on input line 252.
+although it is yet undefined on input line 263.
 Package acronym Info: Label `acro:SPECT' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 253.
+although it is yet undefined on input line 264.
 Package acronym Info: Label `acro:TC' newly defined as it shall be overridden
-although it is yet undefined on input line 253.
+although it is yet undefined on input line 264.
 
-Overfull \hbox (5.73373pt too wide) in paragraph at lines 252--254
+Overfull \hbox (5.73373pt too wide) in paragraph at lines 263--265
 \T1/ptm/m/n/12 cam-eras ([][][]Single-photon emis-sion com-puted to-mog-ra-phy 
 ([])[]/[][][]Technetium ([])[])
  []
 
 Package acronym Info: Label `acro:SESPA' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 255.
-<bilder/permission_HUCA.jpg, id=1388, 1854.93pt x 2802.47pt>
+although it is yet undefined on input line 266.
+<bilder/permission_HUCA.jpg, id=1390, 1854.93pt x 2802.47pt>
 File: bilder/permission_HUCA.jpg Graphic file (type jpg)
 
 <use bilder/permission_HUCA.jpg>
-Package pdftex.def Info: bilder/permission_HUCA.jpg used on input line 262.
+Package pdftex.def Info: bilder/permission_HUCA.jpg used on input line 273.
 (pdftex.def)             Requested size: 398.3386pt x 601.79236pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3147,6 +3158,55 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [80 <./bilder/reading_matlab.png>]
+<bilder/s3_01.jpg, id=1412, 649.42625pt x 1178.4025pt>
+File: bilder/s3_01.jpg Graphic file (type jpg)
+ <use bilder/s3_01.jpg>
+Package pdftex.def Info: bilder/s3_01.jpg used on input line 289.
+(pdftex.def)             Requested size: 113.80984pt x 227.62085pt.
+
+<bilder/s3_02.jpg, id=1413, 690.58pt x 1241.63875pt>
+File: bilder/s3_02.jpg Graphic file (type jpg)
+ <use bilder/s3_02.jpg>
+Package pdftex.def Info: bilder/s3_02.jpg used on input line 290.
+(pdftex.def)             Requested size: 113.80379pt x 227.61552pt.
+
+<bilder/s3_03.jpg, id=1414, 665.48625pt x 1240.635pt>
+File: bilder/s3_03.jpg Graphic file (type jpg)
+ <use bilder/s3_03.jpg>
+Package pdftex.def Info: bilder/s3_03.jpg used on input line 291.
+(pdftex.def)             Requested size: 113.80136pt x 227.62082pt.
+
+<bilder/s3_04.jpg, id=1415, 606.265pt x 1107.13625pt>
+File: bilder/s3_04.jpg Graphic file (type jpg)
+ <use bilder/s3_04.jpg>
+Package pdftex.def Info: bilder/s3_04.jpg used on input line 292.
+(pdftex.def)             Requested size: 113.80391pt x 227.62325pt.
+
+<bilder/s3_05.jpg, id=1416, 688.5725pt x 1249.66875pt>
+File: bilder/s3_05.jpg Graphic file (type jpg)
+ <use bilder/s3_05.jpg>
+Package pdftex.def Info: bilder/s3_05.jpg used on input line 293.
+(pdftex.def)             Requested size: 113.80917pt x 227.61931pt.
+
+<bilder/s3_06.jpg, id=1417, 666.49pt x 1235.61626pt>
+File: bilder/s3_06.jpg Graphic file (type jpg)
+ <use bilder/s3_06.jpg>
+Package pdftex.def Info: bilder/s3_06.jpg used on input line 294.
+(pdftex.def)             Requested size: 113.81029pt x 227.60503pt.
+
+<bilder/s3_07.jpeg, id=1418, 690.58pt x 1247.66125pt>
+File: bilder/s3_07.jpeg Graphic file (type jpg)
+ <use bilder/s3_07.jpeg>
+Package pdftex.def Info: bilder/s3_07.jpeg used on input line 295.
+(pdftex.def)             Requested size: 113.80379pt x 227.61537pt.
+
+
+LaTeX Warning: Float too large for page by 88.98187pt on input line 297.
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \hbox (16.87694pt too wide) has occurred while \output is active
  |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
  assets and drugs
@@ -3156,7 +3216,7 @@ Overfull \hbox (16.87694pt too wide) has occurred while \output is active
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[81 <./bilder/permission_HUCA.jpg>])
+[81]
 Overfull \hbox (16.87694pt too wide) has occurred while \output is active
 |\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
 assets and drugs 
@@ -3166,7 +3226,28 @@ assets and drugs
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[82]
+[82 <./bilder/permission_HUCA.jpg>]
+Overfull \hbox (16.87694pt too wide) has occurred while \output is active
+ |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
+ assets and drugs
+ []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[83 <./bilder/s3_01.jpg> <./bilder/s3_02.jpg> <./bilder/s3_03.jpg> <./bilder/s3
+_04.jpg> <./bilder/s3_05.jpg> <./bilder/s3_06.jpg> <./bilder/s3_07.jpeg>]
+Overfull \hbox (16.87694pt too wide) has occurred while \output is active
+|\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
+assets and drugs 
+ []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[84]
 chapter without number
 (./kapitel/abkuerzungen.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3194,7 +3275,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.90 \acro{RAIN}{RAdio frequency IdentificatioN}
+l.91 \acro{RAIN}{RAdio frequency IdentificatioN}
                                                 ) [9] [10
 
 
@@ -3262,7 +3343,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 0C70009822D07044B19A167500BD6876;4080.
+(rerunfilecheck)             Checksum: B6C407D1F6A5BD8321AD8A9072535CD9;4090.
 
 
 LaTeX Warning: There were undefined references.
@@ -3272,10 +3353,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39367 strings out of 492995
- 724150 string characters out of 6132704
- 1277345 words of memory out of 5000000
- 41837 multiletter control sequences out of 15000+600000
+ 39430 strings out of 492995
+ 725282 string characters out of 6132704
+ 1277528 words of memory out of 5000000
+ 41876 multiletter control sequences out of 15000+600000
  68401 words of font info for 73 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  75i,9n,66p,10499b,2708s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3294,10 +3375,10 @@ type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on thesis.pdf (107 pages, 2386918 bytes).
+Output written on thesis.pdf (109 pages, 4170217 bytes).
 PDF statistics:
- 1715 PDF objects out of 1728 (max. 8388607)
- 1531 compressed objects within 16 object streams
- 441 named destinations out of 1000 (max. 500000)
- 556 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1752 PDF objects out of 2073 (max. 8388607)
+ 1557 compressed objects within 16 object streams
+ 455 named destinations out of 1000 (max. 500000)
+ 596 words of extra memory for PDF output out of 10000 (max. 10000000)
 

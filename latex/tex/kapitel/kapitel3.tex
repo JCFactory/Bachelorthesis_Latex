@@ -169,14 +169,21 @@ Mathworks is the leader of software development of mathematic calculation, espec
 
 \subsection{Progress of development}
 
-To begin with 
+The development process can be devided into four large steps which will be described in the following section. 
 
+To begin with, during the very first weeks one work package was learning how to create a NativeScript application from scratch. This phase included making experience with the common NativeScript templates, views and framework logic as well as the data binding and data handling.
 
+As a second work package, the challenge of how to connect the NativeScript application to the backend (MongoDB) was faced. As a first solution, the connection to the MongoDB server was implemented using HTTP request/response. But in practice, this solution offered the problem that only one client could access the database. But in reality, there might be at least two devices (used by a nurse or doctor) which have to be connected to the database. For that reason, a socket connection (using the Socket.IO library) was established. With this technology, it was possible to connect multiple clients to the server instance and to synchronize all data in real-time.
+
+After that, the third work package introduced the handling of Matlab, its connection to MongoDB and to the Impinj RFID reader. In order to connect to the RFID reader, the Impinj Octane SDK was implemented. By using the Impinj Octane SDK, it was possible to configure several functions for each antenna of the reader. This enables a precise identification of each antenna as well as the precise location of each detected item or drug. To give an example, antenna 1 could be set as hallway or floor whereas antenna 2 stands for patient's room. 
+Concerning the connection between RFID reader and MongoDB, there exists a MongoDB plugin for Matlab. This provides several methods to connect to a MongoDB server and to retrieve and change the data from a specific database. Concluding these two implemented functionalities, Matlab serves both as a detection and information medium.
+
+The last large work package refers to the challenge of establishing a stable connection between all components (RFID reader, MongoDB database, NativeScript application and mobile devices). Therefore, two networks had to be created. The first network (LAN) connects the development laptop (MacOS) where both the NativeScript application and MongoDB database are running to the Windows PC where Matlab is running. Due to the use of .NET libraries in Impinj Octane SDK, Matlab had to be installed on a Windows PC. Another solution would be to run Windows on a VM on the MacOS developer machine, but unfortunately the RAM as well as disk space restricted the functionality of the VM. The second network that was installed was a private WLAN which connected all mobile devices (smartphones and tablets) with the MacOS developer machine. This connection enables receiving and transfering all data from the MongoDB database into the mobile app. To be precisely, the WLAN provides a secure connection to all mobile devices by using a \ac{WPA2}.
 
 \subsubsection{Challenges during development} \label{challenge}
 
 During the development, many difficulties and challenges had been faced. The following section will focuss on some big problems during development.
-To start with, the setup of the development environment of a NativeScript application was complicate because for example on Windows computers there cannot be installed XCode. So, the only solution to develop and run the application both on Android and iOS devices was to use a MacOS computer or to execute the application on Nativescript Sidekick (using its cloud service). Furthermore, during the setup of Android Studio and the runtime environment of Android on MacOS caused other complications. To give an example, sometimes having installed the Android \ac{SDK} 25 the Android \ac{AVD} Manager required exactly the same version being installed on its virtual device. 
+To start with, the setup of the development environment of a NativeScript application was complicate because for example on Windows computers there cannot be installed XCode. So, the only solution to develop and run the application both on Android and iOS devices was to use a MacOS computer or to execute the application on Nativescript Sidekick (using its cloud build service). Furthermore, during the setup of Android Studio and the runtime environment of Android on MacOS caused other complications. To give an example, sometimes having installed the Android \ac{SDK} 25 the Android \ac{AVD} Manager required exactly the same version being installed on its virtual device. 
 
 Another challenge was the real-time synchronization of the mobile application with MongoDB server was difficult. Firstly, a HTTP request/response was implemented to connect the mobile device with the RFID reader and the database. But using the HTTP request/response was a very static and non-scalable solution (only one device was enabled to connect to the server). Furthermore, refreshing the page was not automated. Thus, another solution had to be considered. Finally, a Socket.IO connection was implemented between both server and client. Socket.IO enables automatic two-way data synchronization and cannot be compared to HTTP Request/Response. By opening a Socket connection between the server and all clients, it was possible to run the application on various mobile devices without any complication. 
 After that, another complication was the connection between MongoDB, Matlab and the NativeScript application. This was solved by using a server instance which both connects the database as well as the Nativescript application. Section \ref{section_architecture} explains the exact implementation and the used architecture to connect all system components. 
@@ -189,8 +196,8 @@ At the bottom of the figure, there is a drawn a intranet/internet connection. Th
 
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{app_architecture} 
-\caption{\label{fig:appfunctionality}Application scenario of RFID application} 
+\includegraphics[width=\textwidth]{app_scenario} 
+\caption{\label{fig:appfunctionality}User scenario of RFID application} 
 \end{figure}
 
 Figure \ref{fig:app_screenshot} shows three screenshots of the developed application. The left picture shows the start screens containing a list of all drugs which were detected by the RFID reader and are stored in the database. The screenshot in the middle shows the screen after selecting one drug of the start page. It gives further information of the selected item. Each drug is stored with an 'ID' (which is the same as the RFID tag number). The 'Countrycode' attribute refers to the country-specific number of each drug. For example, in Germany 'Aspirin' has a specific unique code which is called \ac{PZN}, and contains a 7- or 8-place number (e.g. 04114918). The 'Location' attribute describes the exact location of a drug and refers to the location system in the stock (e.g. in pharmacies). The information 'Timestamp' refers to the last time a drug was detected. The value on the right side of 'Timestamp' is the default value for storing timestamps in MongoDB. If another date format is required, this can be easily defined in the MongoDB schema definition. The last information about the selected drug, named 'Event', represents the information about a drug being detected by one of the antennas or administered to a patient. If the nurse or doctor selects the button 'Administer to patient', the system checks, if the selected drug is permitted to be administered to the patient in the room or not. If it is permitted, the information about the administrated drug will be stored in the database and the content of the 'Event' changes to 'Administered to patient in room XX'.
@@ -215,7 +222,7 @@ The following section focusses on the system's architecture which can be seen on
 
 \subsubsection{Datamodel}
 
-Concerning a useful datamodel, the following figure \ref{fig:datamodel} reflects the outline of the developed MongoDB document related to its context and the MongoDB database. As described in figure \ref{fig:app_screenshot}, 'Details', each drug entry contains information about its ID, name, countrycode, size, location and timestamp. All documents are pooled in a drugs collection which forms a part of medication database. This data model can be extended for example, with other collections, containing information about several equipment or patients. 
+Concerning a useful datamodel, the following figure \ref{fig:datamodel} reflects the outline of the developed MongoDB document related to its context and the MongoDB database. As described in figure \ref{fig:app_screenshot}, 'Details', each drug entry contains information about its ID, name, countrycode, size, location, timestamp and event. All documents are pooled in a drugs collection which forms a part of medication database. This data model can be extended for example by other collections containing information about several equipment or patients. 
 
 \begin{figure}
 \centering
@@ -251,7 +258,7 @@ After initializing, Matlab starts reading tags during a predefined time (t). In 
 \caption{\label{fig:reading_matlab}Activity diagram: reading process in Matlab} 
 \end{figure}
 
-\section{Tests of system} \label{tests}
+\section{Tests of system}\label{tests}
 
 \ac{HUCA} which is situated in Oviedo, was created in 13 December 1989 and depends on the 'Servicio de Salud del Principado de Asturias' \cite{huca}. Since 28 February 1990, HUCA has the character of an University Hospital due to the cooperation with the university of Oviedo as well as 'Insalud' and Principado de Asturias, established in 'la Orden'. 
 HUCA provides 944 beds, 25 operating suites, 238 rooms for external surgical as well as two gamma cameras (\ac{SPECT}/\ac{TC}) \cite{huca}. Altogether, HUCA is divided into 43 medical subjects, such as Alergology, clinical analysis, clinical biochemistry, surgery, Nephrology, Neurology, Rehabilitation, prevention of work-related risks, radiodiagnostics etc. 
@@ -269,7 +276,27 @@ The tests are planned for June 2018, an exact date is not fixed already (effecti
 
 \subsection{Planned tests of system}
 
-drawing/image of test scenarios...
+\subsubsection{Test scenario}
+
+drawing/image of test scenarios...HUCA 11 June 2018
+
+\subsubsection{Device test}
+
+the following figure will be replaced by beautiful screenshots from android app
+
+\begin{figure}
+\centering
+\subfigure{\includegraphics[width=4cm, height=8cm]{s3_01}}
+\subfigure{\includegraphics[width=4cm, height=8cm]{s3_02}}
+\subfigure{\includegraphics[width=4cm, height=8cm]{s3_03}}
+\subfigure{\includegraphics[width=4cm, height=8cm]{s3_04}}
+\subfigure{\includegraphics[width=4cm, height=8cm]{s3_05}}
+\subfigure{\includegraphics[width=4cm, height=8cm]{s3_06}}
+\subfigure{\includegraphics[width=4cm, height=8cm]{s3_07}}
+\caption{\label{fig:s3_screenshots}Layout of application, Screenshot of iOS Simulator}
+\end{figure}
+
+successfull device tests: Samsung S3 GT I9300 (smartphone) see figure \ref{fig:s3_screenshots}
 
 \subsection{Test results}
 
