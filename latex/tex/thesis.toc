@@ -142,15 +142,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Proposed solution of application}{59}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Scope of developed application}{59}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}Aim of developed system}{59}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Aim of developed system}{60}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Scope of developed application}{60}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}First concept of system}{60}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.3}First concept of system}{61}{subsection.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Used platforms and technologies}{61}{section.3.2}
+\contentsline {section}{\numberline {3.2}Used platforms and technologies}{63}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Native Development with NativeScript}{61}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Native Development with NativeScript}{63}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\nonumberline NativeScript Application Logic}{64}{figure.caption.121}
 \defcounter {refsection}{0}\relax 
@@ -166,7 +166,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline General Information}{69}{section*.134}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Examples}{69}{section*.135}
+\contentsline {subsubsection}{\nonumberline Examples}{70}{section*.135}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.4}Matlab}{70}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
@@ -180,7 +180,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline User Scenario}{72}{section*.140}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Software Architecture}{75}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Software Architecture}{73}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Datamodel}{75}{section*.145}
 \defcounter {refsection}{0}\relax 
@@ -188,15 +188,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Reading Process in Matlab}{77}{section*.150}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Tests of system}{80}{section.3.4}
+\contentsline {section}{\numberline {3.4}Tests of system}{79}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Planned tests of system}{80}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.1}Planned tests of system}{79}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Test results}{80}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}Test results}{82}{subsection.3.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Evaluation of test results}{80}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.3}Evaluation of test results}{82}{subsection.3.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Summary and Outlook of application}{80}{section.3.5}
+\contentsline {section}{\numberline {3.5}Summary and Outlook of application}{82}{section.3.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Extension possibilities}{82}{section*.157}
 \defcounter {refsection}{0}\relax 

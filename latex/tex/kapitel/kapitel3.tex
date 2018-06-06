@@ -5,6 +5,12 @@ The third and last chapter of this Bachelor Thesis gives information about the d
 
 \section{Proposed solution of application}\label{requirements}
 
+\subsection{Aim of developed application}
+
+The aim of the proposed system is to improve logistics and the management of drugs in hospitals. Considering the risk of errors or mistakes that might occur when administering drugs to patients, the developed mobile application can prevent these situations. Furthermore, when patients are in a critical situation, the system offers the possibility to respond faster to emergencies as well as to improve patients' monitoring. Finally, the placement and usage of medical assets can be pursued and controlled better. 
+
+The above mentioned reasons lead to the necessity of disposable, low cost sensors which might be tagged to patients, drugs and medical assets. Moreover, there has to be established a network between the mobile devices as well as the reader and the synchronizing software. 
+
 \subsection{Scope of developed application}
 
 \begin{figure}
@@ -21,9 +27,7 @@ Therefore, the present bachelor thesis introduces the use of 868 MHz frequency b
 
 In a nutshell, this bachelor thesis modifies the \ac{RF} hardware as well as the front end whereas the back-end and core network remains the same.
 
-\subsection{Aim of developed system}
-
-\subsection{First concept of system} \label{firstconcept}
+\subsection{First concept of application} \label{firstconcept}
 
 Figure \ref{fig:first_draft} describes the very first draft of the workflow of the application. Actually, it is not very precise but should help to describe the general scope of the medication tracking system. 
 At the top of the picture, there is an Excel program which stores all data of the database and converts them into *.CSV files. These converted files should be imported into the running MongoDB instance on the PC. 
@@ -75,7 +79,7 @@ Between Model and View, data can either be bound as one-way (default setting, th
 
 In the NativeScript Documentation \cite{nativescript} declares the model files as 'Code Behind' because they have the same name as the view file and are written in Javascript or Typescript. By adding attributes to any XML element in the view file, methods can be implemented in the related model file (in Javascript). 
 
-\subsubsection{NativeScript Sidekick} \label{Native}
+\subsubsection{NativeScript Sidekick}\label{Native}
 
 Nativescript Sidekick is a solution to run the developed application on unsupported platforms in the cloud. It uses both the local build infrastructure and the cloud build service. Nativescript Sidekick offers users to develop with the provided starter templates, to use verified plugins and to build the app in the cloud. Furthermore, Nativescript Sidekick enables developers to debug, test and refactor their application. 
 To search for plugins and to manage these, developers can use the Nativescript Marketplace \cite{nsmarket}.
