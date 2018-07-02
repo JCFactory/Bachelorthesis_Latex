@@ -9,47 +9,40 @@
 \BOOKMARK [2][-]{subsection.1.1.6}{Wisely Aware RFID Dosage}{section.1.1}% 9
 \BOOKMARK [2][-]{subsection.1.1.7}{RFID applications in hospitals: A case study}{section.1.1}% 10
 \BOOKMARK [1][-]{section.1.2}{Aim and Scope}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.2.1}{RFID and the IoT}{section.1.2}% 12
-\BOOKMARK [2][-]{subsection.1.2.2}{RFID and Mobile Computing}{section.1.2}% 13
-\BOOKMARK [1][-]{section.1.3}{Analysis of RFID applications and their use}{chapter.1}% 14
-\BOOKMARK [2][-]{subsection.1.3.1}{Process Model}{section.1.3}% 15
-\BOOKMARK [2][-]{subsection.1.3.2}{State of the Art, Examples of Companies}{section.1.3}% 16
-\BOOKMARK [0][-]{chapter.2}{Functionality of RFID technology, NoSQL technology}{}% 17
-\BOOKMARK [1][-]{section.2.1}{RFID technology}{chapter.2}% 18
-\BOOKMARK [2][-]{subsection.2.1.1}{Components of an RFID application}{section.2.1}% 19
-\BOOKMARK [2][-]{subsection.2.1.2}{Functionality of RFID system}{section.2.1}% 20
-\BOOKMARK [2][-]{subsection.2.1.3}{Chipless RFID systems}{section.2.1}% 21
-\BOOKMARK [2][-]{subsection.2.1.4}{Security and Privacy of RFID systems}{section.2.1}% 22
-\BOOKMARK [1][-]{section.2.2}{NoSQL technology}{chapter.2}% 23
-\BOOKMARK [2][-]{subsection.2.2.1}{Document Stores}{section.2.2}% 24
-\BOOKMARK [2][-]{subsection.2.2.2}{Queries \(Map and Reduce\)}{section.2.2}% 25
-\BOOKMARK [2][-]{subsection.2.2.3}{CAP theorem}{section.2.2}% 26
-\BOOKMARK [2][-]{subsection.2.2.4}{ACID vs. BASE}{section.2.2}% 27
-\BOOKMARK [2][-]{subsection.2.2.5}{Characteristics of NoSQL Databases}{section.2.2}% 28
-\BOOKMARK [2][-]{subsection.2.2.6}{Excursus: BIG DATA}{section.2.2}% 29
-\BOOKMARK [2][-]{subsection.2.2.7}{Use case of NoSQL Databases: 'Socii System'}{section.2.2}% 30
-\BOOKMARK [0][-]{chapter.3}{Development of RFID application for management and tracking assets and drugs}{}% 31
-\BOOKMARK [1][-]{section.3.1}{Proposed solution of application}{chapter.3}% 32
-\BOOKMARK [2][-]{subsection.3.1.1}{Aim of developed application}{section.3.1}% 33
-\BOOKMARK [2][-]{subsection.3.1.2}{Scope of developed application}{section.3.1}% 34
-\BOOKMARK [2][-]{subsection.3.1.3}{First concept of application}{section.3.1}% 35
-\BOOKMARK [1][-]{section.3.2}{Used platforms and technologies}{chapter.3}% 36
-\BOOKMARK [2][-]{subsection.3.2.1}{Native Development with NativeScript}{section.3.2}% 37
-\BOOKMARK [2][-]{subsection.3.2.2}{NoSQL Technology: MongoDB}{section.3.2}% 38
-\BOOKMARK [2][-]{subsection.3.2.3}{Impinj RFID Lector and Antenna}{section.3.2}% 39
-\BOOKMARK [2][-]{subsection.3.2.4}{Matlab}{section.3.2}% 40
-\BOOKMARK [1][-]{section.3.3}{Application development}{chapter.3}% 41
-\BOOKMARK [2][-]{subsection.3.3.1}{Progress of development}{section.3.3}% 42
-\BOOKMARK [2][-]{subsection.3.3.2}{Software Architecture}{section.3.3}% 43
-\BOOKMARK [1][-]{section.3.4}{Tests of system}{chapter.3}% 44
-\BOOKMARK [2][-]{subsection.3.4.1}{Planned tests of system}{section.3.4}% 45
-\BOOKMARK [2][-]{subsection.3.4.2}{Test results}{section.3.4}% 46
-\BOOKMARK [2][-]{subsection.3.4.3}{Evaluation of test results}{section.3.4}% 47
-\BOOKMARK [1][-]{section.3.5}{Summary and Outlook of application}{chapter.3}% 48
-\BOOKMARK [0][-]{chapter*.162}{List of Abbreviations}{}% 49
-\BOOKMARK [0][-]{section*.163}{List of Tables}{}% 50
-\BOOKMARK [0][-]{section*.165}{List of Figures}{}% 51
-\BOOKMARK [0][-]{section*.167}{Listings}{}% 52
-\BOOKMARK [0][-]{section*.169}{Index}{}% 53
-\BOOKMARK [0][-]{appendix.A}{First Appendix}{}% 54
-\BOOKMARK [0][-]{appendix.B}{Second Appendix}{}% 55
+\BOOKMARK [2][-]{subsection.1.2.1}{RFID and Mobile Computing}{section.1.2}% 12
+\BOOKMARK [2][-]{subsection.1.2.2}{Analysis of RFID applications and their use}{section.1.2}% 13
+\BOOKMARK [0][-]{chapter.2}{Functionality of RFID technology, NoSQL technology}{}% 14
+\BOOKMARK [1][-]{section.2.1}{RFID technology}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.1.1}{Components of an RFID application}{section.2.1}% 16
+\BOOKMARK [2][-]{subsection.2.1.2}{Functionality of RFID system}{section.2.1}% 17
+\BOOKMARK [2][-]{subsection.2.1.3}{Security and Privacy of RFID systems}{section.2.1}% 18
+\BOOKMARK [1][-]{section.2.2}{NoSQL technology}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.1}{Characteristics of NoSQL Databases}{section.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.2}{Excursus: BIG DATA}{section.2.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.3}{Example for using NoSQL Databases: 'Socii System'}{section.2.2}% 22
+\BOOKMARK [0][-]{chapter.3}{Development of RFID application for management and tracking assets and drugs}{}% 23
+\BOOKMARK [1][-]{section.3.1}{Proposed solution of application}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.1.1}{Aim of developed application}{section.3.1}% 25
+\BOOKMARK [2][-]{subsection.3.1.2}{Scope of developed application}{section.3.1}% 26
+\BOOKMARK [2][-]{subsection.3.1.3}{First concept of application}{section.3.1}% 27
+\BOOKMARK [1][-]{section.3.2}{Used platforms and technologies}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.2.1}{Native Development with NativeScript}{section.3.2}% 29
+\BOOKMARK [2][-]{subsection.3.2.2}{NoSQL Technology: MongoDB}{section.3.2}% 30
+\BOOKMARK [2][-]{subsection.3.2.3}{Impinj RFID Lector and Antenna}{section.3.2}% 31
+\BOOKMARK [2][-]{subsection.3.2.4}{Matlab}{section.3.2}% 32
+\BOOKMARK [1][-]{section.3.3}{Application development}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.3.1}{Progress of development}{section.3.3}% 34
+\BOOKMARK [2][-]{subsection.3.3.2}{Software Architecture}{section.3.3}% 35
+\BOOKMARK [1][-]{section.3.4}{Tests of system}{chapter.3}% 36
+\BOOKMARK [2][-]{subsection.3.4.1}{Planned tests of system}{section.3.4}% 37
+\BOOKMARK [2][-]{subsection.3.4.2}{Test results}{section.3.4}% 38
+\BOOKMARK [2][-]{subsection.3.4.3}{Evaluation of test results}{section.3.4}% 39
+\BOOKMARK [1][-]{section.3.5}{Summary and Outlook of application}{chapter.3}% 40
+\BOOKMARK [0][-]{chapter*.123}{List of Abbreviations}{}% 41
+\BOOKMARK [0][-]{section*.124}{List of Tables}{}% 42
+\BOOKMARK [0][-]{section*.126}{List of Figures}{}% 43
+\BOOKMARK [0][-]{section*.128}{Listings}{}% 44
+\BOOKMARK [0][-]{chapter*.130}{Bibliography}{}% 45
+\BOOKMARK [0][-]{section*.131}{Index}{}% 46
+\BOOKMARK [0][-]{appendix.A}{First Appendix}{}% 47
+\BOOKMARK [0][-]{appendix.B}{Second Appendix}{}% 48
