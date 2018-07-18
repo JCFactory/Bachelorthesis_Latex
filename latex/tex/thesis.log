@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.26)  2 JUL 2018 18:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.26)  18 JUL 2018 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1711,7 +1711,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \bindekorrektur=\skip104
 \seitenanfang=\skip105
 \seitenbreite=\skip106
-<bilder/hsma-logo.pdf, id=199, 642.4pt x 177.66376pt>
+<bilder/hsma-logo.pdf, id=216, 642.4pt x 177.66376pt>
 File: bilder/hsma-logo.pdf Graphic file (type pdf)
 <use bilder/hsma-logo.pdf>
 Package pdftex.def Info: bilder/hsma-logo.pdf  used on input line 337.
@@ -1804,19 +1804,22 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [5
+)
+Underfull \vbox (badness 1609) has occurred while \output is active []
+
+ [5
 
 
 
 
 ]
-Overfull \hbox (0.4147pt too wide) detected at line 171
+Overfull \hbox (0.4147pt too wide) detected at line 141
  [][][]\T1/phv/b/n/12 xvii[][]
  []
 
 
-Overfull \hbox (3.58377pt too wide) detected at line 177
- [][][]\T1/phv/b/n/12 xxiii[][]
+Overfull \hbox (0.4147pt too wide) detected at line 143
+ [][][]\T1/phv/b/n/12 xvii[][]
  []
 
 )
@@ -1844,6 +1847,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
+Package acronym Info: Label `acro:HIS' newly defined as it shall be overridden
+although it is yet undefined on input line 25.
+Package acronym Info: Label `acro:RIS' newly defined as it shall be overridden
+although it is yet undefined on input line 25.
+Package acronym Info: Label `acro:LIS' newly defined as it shall be overridden
+although it is yet undefined on input line 25.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1851,12 +1861,6 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [2]
-Package acronym Info: Label `acro:HIS' newly defined as it shall be overridden
-although it is yet undefined on input line 25.
-Package acronym Info: Label `acro:RIS' newly defined as it shall be overridden
-although it is yet undefined on input line 25.
-Package acronym Info: Label `acro:LIS' newly defined as it shall be overridden
-although it is yet undefined on input line 25.
 Package acronym Info: Label `acro:WARD' newly defined as it shall be overridden
 
 although it is yet undefined on input line 33.
@@ -1910,12 +1914,8 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [6]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 69.
-
-
-LaTeX Warning: Reference `inventory' on page 7 undefined on input line 69.
-
+Package acronym Info: Label `acro:SOA' newly defined as it shall be overridden
+although it is yet undefined on input line 74.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1924,8 +1924,6 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [7]
-Package acronym Info: Label `acro:SOA' newly defined as it shall be overridden
-although it is yet undefined on input line 74.
 Package acronym Info: Label `acro:WLAN' newly defined as it shall be overridden
 
 although it is yet undefined on input line 79.
@@ -1949,60 +1947,28 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [9]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 101.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 101.
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[10]
-Overfull \hbox (3.24858pt too wide) in paragraph at lines 108--109
+Overfull \hbox (3.24858pt too wide) in paragraph at lines 99--100
 []\T1/ptm/m/n/12 Modern ap-pli-ca-tion sys-tems are mul-ti-lay-ered, for ex-am-
 ple 3-tier/n-tier-architectures.
  []
 
 
-Underfull \vbox (badness 2158) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [11]
-Package acronym Info: Label `acro:SOAP' newly defined as it shall be overridden
-
-although it is yet undefined on input line 121.
-Package acronym Info: Label `acro:ESB' newly defined as it shall be overridden
-although it is yet undefined on input line 121.
-Package acronym Info: Label `acro:API' newly defined as it shall be overridden
-although it is yet undefined on input line 123.
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[12]
-Package acronym Info: Label `acro:WfMS' newly defined as it shall be overridden
-
-although it is yet undefined on input line 137.
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[13]
-Package acronym Info: Label `acro:ASP' newly defined as it shall be overridden
-although it is yet undefined on input line 146.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[14]
 Package acronym Info: Label `acro:SME' newly defined as it shall be overridden
-although it is yet undefined on input line 158.
+although it is yet undefined on input line 115.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2010,11 +1976,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[15]) (./kapitel/kapitel2.tex
+[12]) (./kapitel/kapitel2.tex
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[16]
+[13] [14
+
+
+]
 chapter 2.
 Package acronym Info: Label `acro:LOS' newly defined as it shall be overridden
 although it is yet undefined on input line 8.
@@ -2023,25 +1992,61 @@ although it is yet undefined on input line 12.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17
+ [15]
+Overfull \hbox (2.70937pt too wide) in paragraph at lines 18--19
+[]\T1/ptm/m/n/12 The 'EPC-global', an in-dus-trial con-sor-tium, pro-poses an-o
+ther kind of RFID transpon-
+ []
 
 
-]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[18]
+[16]
 Package acronym Info: Label `acro:EPC' newly defined as it shall be overridden
-although it is yet undefined on input line 24.
+although it is yet undefined on input line 22.
 Package acronym Info: Label `acro:WORM' newly defined as it shall be overridden
 
-although it is yet undefined on input line 24.
+although it is yet undefined on input line 22.
 Package acronym Info: Label `acro:SMLE' newly defined as it shall be overridden
 
-although it is yet undefined on input line 27.
+although it is yet undefined on input line 25.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[17]
+<bilder/rfidtagdesign.png, id=578, 342.5297pt x 136.25906pt>
+File: bilder/rfidtagdesign.png Graphic file (type png)
+<use bilder/rfidtagdesign.png>
+Package pdftex.def Info: bilder/rfidtagdesign.png  used on input line 31.
+(pdftex.def)             Requested size: 398.3386pt x 158.47227pt.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 32.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 32.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 8.54997pt on input line 32.
+
+Underfull \vbox (badness 3386) has occurred while \output is active []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[18 <./bilder/rfidtagdesign.png>]
+Package acronym Info: Label `acro:PC' newly defined as it shall be overridden
+although it is yet undefined on input line 44.
+Package acronym Info: Label `acro:LF' newly defined as it shall be overridden
+although it is yet undefined on input line 47.
+Package acronym Info: Label `acro:HF' newly defined as it shall be overridden
+although it is yet undefined on input line 47.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2050,43 +2055,15 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [19]
-<bilder/rfidtagdesign.png, id=592, 342.5297pt x 136.25906pt>
-File: bilder/rfidtagdesign.png Graphic file (type png)
-<use bilder/rfidtagdesign.png>
-Package pdftex.def Info: bilder/rfidtagdesign.png  used on input line 33.
-(pdftex.def)             Requested size: 398.3386pt x 158.47227pt.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 34.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 34.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.54997pt on input line 34.
+Overfull \hbox (0.93353pt too wide) in paragraph at lines 53--55
+[]\T1/ptm/m/n/12 This mech-a-nism does not work in far field where the in-ter-r
+o-ga-tion sig-nal is backscat-
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[20 <./bilder/rfidtagdesign.png>]
-Package acronym Info: Label `acro:PC' newly defined as it shall be overridden
-although it is yet undefined on input line 46.
-Package acronym Info: Label `acro:LF' newly defined as it shall be overridden
-although it is yet undefined on input line 49.
-Package acronym Info: Label `acro:HF' newly defined as it shall be overridden
-although it is yet undefined on input line 49.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[21]
-<bilder/rfidreaderdesign.png, id=631, 414.79968pt x 208.52907pt>
+<bilder/rfidreaderdesign.png, id=616, 414.79968pt x 208.52907pt>
 File: bilder/rfidreaderdesign.png Graphic file (type png)
 <use bilder/rfidreaderdesign.png>
-Package pdftex.def Info: bilder/rfidreaderdesign.png  used on input line 60.
+Package pdftex.def Info: bilder/rfidreaderdesign.png  used on input line 58.
 (pdftex.def)             Requested size: 398.3386pt x 200.26198pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2095,27 +2072,39 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[22]
-Overfull \hbox (0.63022pt too wide) in paragraph at lines 78--80
-[] []\T1/phv/b/n/10.95 Data stor-age con-cepts[][] \T1/ptm/m/n/12 Con-cern-ing 
-the data man-age-ment of RFID sys-tems, Tamm
- []
+[20 <./bilder/rfidreaderdesign.png>]
+Package acronym Info: Label `acro:CEP' newly defined as it shall be overridden
+although it is yet undefined on input line 75.
 
-
-Underfull \vbox (badness 1231) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[23 <./bilder/rfidreaderdesign.png>]
-Package acronym Info: Label `acro:CEP' newly defined as it shall be overridden
-although it is yet undefined on input line 81.
+[21]
 Package acronym Info: Label `acro:SSL' newly defined as it shall be overridden
-although it is yet undefined on input line 83.
+although it is yet undefined on input line 77.
 Package acronym Info: Label `acro:TLS' newly defined as it shall be overridden
-although it is yet undefined on input line 83.
+although it is yet undefined on input line 77.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[22]
+Package acronym Info: Label `acro:FDA' newly defined as it shall be overridden
+although it is yet undefined on input line 100.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2130,11 +2119,8 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [25]
-
-LaTeX Warning: Reference `tags' on page 26 undefined on input line 105.
-
-Package acronym Info: Label `acro:FDA' newly defined as it shall be overridden
-although it is yet undefined on input line 106.
+Package acronym Info: Label `acro:SQL' newly defined as it shall be overridden
+although it is yet undefined on input line 139.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2143,6 +2129,9 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [26]
+Package acronym Info: Label `acro:XML' newly defined as it shall be overridden
+although it is yet undefined on input line 149.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2150,6 +2139,10 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [27]
+Package acronym Info: Label `acro:JSON' newly defined as it shall be overridden
+
+although it is yet undefined on input line 151.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2157,8 +2150,24 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [28]
-Package acronym Info: Label `acro:SQL' newly defined as it shall be overridden
-although it is yet undefined on input line 145.
+Package acronym Info: Label `acro:DBMS' newly defined as it shall be overridden
+
+although it is yet undefined on input line 160.
+
+Overfull \hbox (5.73245pt too wide) in paragraph at lines 160--161
+[]\T1/ptm/m/n/12 A [][][]Database Man-age-ment Sys-tem ([])[] de-fines a soft-w
+are which de-scribes, stores,
+ []
+
+Package acronym Info: Label `acro:RDBMS' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 166.
+
+Overfull \hbox (2.46983pt too wide) in paragraph at lines 170--171
+[]\T1/ptm/m/n/12 Another im-por-tant point con-cern-ing large amount of data is
+ the 'con-suma-tion model'
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2167,11 +2176,8 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [29]
-Package acronym Info: Label `acro:XML' newly defined as it shall be overridden
-although it is yet undefined on input line 155.
-Package acronym Info: Label `acro:JSON' newly defined as it shall be overridden
-
-although it is yet undefined on input line 157.
+Package acronym Info: Label `acro:OSN' newly defined as it shall be overridden
+although it is yet undefined on input line 182.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2180,19 +2186,6 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [30]
-Package acronym Info: Label `acro:DBMS' newly defined as it shall be overridden
-
-although it is yet undefined on input line 166.
-
-Overfull \hbox (5.73245pt too wide) in paragraph at lines 166--167
-[]\T1/ptm/m/n/12 A [][][]Database Man-age-ment Sys-tem ([])[] de-fines a soft-w
-are which de-scribes, stores,
- []
-
-Package acronym Info: Label `acro:RDBMS' newly defined as it shall be overridde
-n
-although it is yet undefined on input line 172.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2200,68 +2193,30 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [31]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+Package acronym Info: Label `acro:NAS' newly defined as it shall be overridden
+although it is yet undefined on input line 200.
+Package acronym Info: Label `acro:SAN' newly defined as it shall be overridden
+although it is yet undefined on input line 200.
+) (./kapitel/kapitel3.tex
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [32]
-Package acronym Info: Label `acro:OSN' newly defined as it shall be overridden
-although it is yet undefined on input line 188.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[33]
-Package acronym Info: Label `acro:NAS' newly defined as it shall be overridden
-although it is yet undefined on input line 204.
-Package acronym Info: Label `acro:SAN' newly defined as it shall be overridden
-although it is yet undefined on input line 204.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[34]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[35]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[36]) (./kapitel/kapitel3.tex
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[37] [38
-
-
-]
 chapter 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
-<bilder/existing_apps.png, id=834, 548.7702pt x 414.348pt>
+ [33
+
+
+]
+<bilder/existing_apps.png, id=783, 548.7702pt x 414.348pt>
 File: bilder/existing_apps.png Graphic file (type png)
 <use bilder/existing_apps.png>
 Package pdftex.def Info: bilder/existing_apps.png  used on input line 18.
 (pdftex.def)             Requested size: 398.3386pt x 300.77078pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4316) has occurred while \output is active []
 
 
 Overfull \hbox (16.87694pt too wide) has occurred while \output is active
@@ -2273,19 +2228,12 @@ assets and drugs
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[40 <./bilder/existing_apps.png>]
-Package acronym Info: Label `acro:RF' newly defined as it shall be overridden
-although it is yet undefined on input line 28.
-<bilder/first_draft.png, id=845, 740.7675pt x 947.54pt>
+[34 <./bilder/existing_apps.png>]
+<bilder/first_draft.png, id=793, 740.7675pt x 947.54pt>
 File: bilder/first_draft.png Graphic file (type png)
 <use bilder/first_draft.png>
-Package pdftex.def Info: bilder/first_draft.png  used on input line 39.
+Package pdftex.def Info: bilder/first_draft.png  used on input line 37.
 (pdftex.def)             Requested size: 398.3386pt x 509.5386pt.
-
-
-LaTeX Warning: Reference `fig:app_architecture' on page 41 undefined on input l
-ine 43.
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2299,7 +2247,7 @@ Overfull \hbox (16.87694pt too wide) has occurred while \output is active
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[41]
+[35]
 Overfull \hbox (16.87694pt too wide) has occurred while \output is active
 |\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
 assets and drugs 
@@ -2309,19 +2257,126 @@ assets and drugs
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[42 <./bilder/first_draft.png>]
+[36 <./bilder/first_draft.png>]
 Package acronym Info: Label `acro:CLI' newly defined as it shall be overridden
-although it is yet undefined on input line 58.
-<bilder/ns-architecture.png, id=867, 916.42375pt x 627.34375pt>
+although it is yet undefined on input line 56.
+<bilder/ns-architecture.png, id=814, 916.42375pt x 627.34375pt>
 File: bilder/ns-architecture.png Graphic file (type png)
 <use bilder/ns-architecture.png>
-Package pdftex.def Info: bilder/ns-architecture.png  used on input line 62.
+Package pdftex.def Info: bilder/ns-architecture.png  used on input line 60.
 (pdftex.def)             Requested size: 398.3386pt x 272.68173pt.
-<bilder/mvvm_ns.png, id=871, 474.77374pt x 290.08376pt>
+<bilder/mvvm_ns.png, id=818, 474.77374pt x 290.08376pt>
 File: bilder/mvvm_ns.png Graphic file (type png)
 <use bilder/mvvm_ns.png>
-Package pdftex.def Info: bilder/mvvm_ns.png  used on input line 72.
+Package pdftex.def Info: bilder/mvvm_ns.png  used on input line 70.
 (pdftex.def)             Requested size: 398.3386pt x 243.38983pt.
+Package acronym Info: Label `acro:MVVM' newly defined as it shall be overridden
+
+although it is yet undefined on input line 74.
+Package acronym Info: Label `acro:MVC' newly defined as it shall be overridden
+although it is yet undefined on input line 74.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (16.87694pt too wide) has occurred while \output is active
+ |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
+ assets and drugs
+ []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[37]
+Overfull \hbox (16.87694pt too wide) has occurred while \output is active
+|\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
+assets and drugs 
+ []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[38 <./bilder/ns-architecture.png> <./bilder/mvvm_ns.png>]
+Overfull \hbox (6.32164pt too wide) in paragraph at lines 78--79
+\T1/ptm/m/n/12 Be-hind' be-cause they have the same name as the view file and a
+re writ-ten in Javascript
+ []
+
+Package acronym Info: Label `acro:BSON' newly defined as it shall be overridden
+
+although it is yet undefined on input line 91.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (16.87694pt too wide) has occurred while \output is active
+ |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
+ assets and drugs
+ []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[39]
+Overfull \hbox (19.06451pt too wide) in paragraph at lines 102--103
+\T1/ptm/m/n/12 Concerning the im-ple-men-ta-tion of the sys-tem, a Speed-way R4
+20 RAIN RFID READER
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (16.87694pt too wide) has occurred while \output is active
+|\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
+assets and drugs 
+ []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (16.87694pt too wide) has occurred while \output is active
+ |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
+ assets and drugs
+ []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[41]
+Package acronym Info: Label `acro:WPA2' newly defined as it shall be overridden
+
+although it is yet undefined on input line 124.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (16.87694pt too wide) has occurred while \output is active
+|\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
+assets and drugs 
+ []
+
+
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[42]
+<bilder/app_scenario.png, id=893, 655.44875pt x 447.6725pt>
+File: bilder/app_scenario.png Graphic file (type png)
+<use bilder/app_scenario.png>
+Package pdftex.def Info: bilder/app_scenario.png  used on input line 144.
+(pdftex.def)             Requested size: 398.3386pt x 272.06885pt.
+Package acronym Info: Label `acro:PZN' newly defined as it shall be overridden
+although it is yet undefined on input line 148.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2336,19 +2391,23 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [43]
-Package acronym Info: Label `acro:MVVM' newly defined as it shall be overridden
+<bilder/Mainview.png, id=905, 302.12875pt x 604.2575pt>
+File: bilder/Mainview.png Graphic file (type png)
+<use bilder/Mainview.png>
+Package pdftex.def Info: bilder/Mainview.png  used on input line 152.
+(pdftex.def)             Requested size: 113.80972pt x 227.61945pt.
+<bilder/Detailview.png, id=906, 304.13625pt x 606.265pt>
+File: bilder/Detailview.png Graphic file (type png)
+<use bilder/Detailview.png>
+Package pdftex.def Info: bilder/Detailview.png  used on input line 153.
+(pdftex.def)             Requested size: 113.80948pt x 227.62634pt.
+<bilder/administeredView.png, id=907, 300.12125pt x 606.265pt>
+File: bilder/administeredView.png Graphic file (type png)
+<use bilder/administeredView.png>
+Package pdftex.def Info: bilder/administeredView.png  used on input line 154.
+(pdftex.def)             Requested size: 113.80913pt x 227.62634pt.
 
-although it is yet undefined on input line 76.
-Package acronym Info: Label `acro:MVC' newly defined as it shall be overridden
-although it is yet undefined on input line 76.
-
-Overfull \hbox (19.87885pt too wide) in paragraph at lines 76--77
-[] []\T1/phv/b/n/10.95 NativeScript Ap-pli-ca-tion Logic[][] \T1/ptm/m/n/12 Na-
-tive-Script has a [][][]Model View View Model ([])[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1990) has occurred while \output is active []
 
 
 Overfull \hbox (16.87694pt too wide) has occurred while \output is active
@@ -2360,10 +2419,21 @@ assets and drugs
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[44 <./bilder/ns-architecture.png>]
+[44 <./bilder/app_scenario.png>]
+<bilder/app_architecture.png, id=915, 609.27625pt x 835.12pt>
+File: bilder/app_architecture.png Graphic file (type png)
+<use bilder/app_architecture.png>
+Package pdftex.def Info: bilder/app_architecture.png  used on input line 164.
+(pdftex.def)             Requested size: 398.3386pt x 546.00728pt.
+<bilder/Mongo_DataModel.png, id=917, 514.92375pt x 395.4775pt>
+File: bilder/Mongo_DataModel.png Graphic file (type png)
+<use bilder/Mongo_DataModel.png>
+Package pdftex.def Info: bilder/Mongo_DataModel.png  used on input line 174.
+(pdftex.def)             Requested size: 227.62pt x 170.7158pt.
+Package acronym Info: Label `acro:LAN' newly defined as it shall be overridden
+although it is yet undefined on input line 178.
 
-LaTeX Warning: Reference `documentstore' on page 45 undefined on input line 89.
-
+Underfull \vbox (badness 1721) has occurred while \output is active []
 
 
 Overfull \hbox (16.87694pt too wide) has occurred while \output is active
@@ -2375,16 +2445,8 @@ Overfull \hbox (16.87694pt too wide) has occurred while \output is active
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[45 <./bilder/mvvm_ns.png>]
-Package acronym Info: Label `acro:BSON' newly defined as it shall be overridden
-
-although it is yet undefined on input line 93.
-Package acronym Info: Label `acro:VM' newly defined as it shall be overridden
-although it is yet undefined on input line 106.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[45 <./bilder/Mainview.png> <./bilder/Detailview.png> <./bilder/administeredVie
+w.png>]
 Overfull \hbox (16.87694pt too wide) has occurred while \output is active
 |\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
 assets and drugs 
@@ -2394,15 +2456,12 @@ assets and drugs
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[46]
-Package acronym Info: Label `acro:FIFO' newly defined as it shall be overridden
-
-although it is yet undefined on input line 108.
-Package acronym Info: Label `acro:GB' newly defined as it shall be overridden
-although it is yet undefined on input line 112.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+[46 <./bilder/app_architecture.png>]
+<bilder/hub_architecture.png, id=942, 691.58376pt x 706.64pt>
+File: bilder/hub_architecture.png Graphic file (type png)
+<use bilder/hub_architecture.png>
+Package pdftex.def Info: bilder/hub_architecture.png  used on input line 190.
+(pdftex.def)             Requested size: 398.3386pt x 407.0157pt.
 
 Overfull \hbox (16.87694pt too wide) has occurred while \output is active
  |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
@@ -2413,17 +2472,7 @@ Overfull \hbox (16.87694pt too wide) has occurred while \output is active
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[47]
-Package acronym Info: Label `acro:CPU' newly defined as it shall be overridden
-although it is yet undefined on input line 123.
-Package acronym Info: Label `acro:RAM' newly defined as it shall be overridden
-although it is yet undefined on input line 123.
-Package acronym Info: Label `acro:PCI' newly defined as it shall be overridden
-although it is yet undefined on input line 123.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[47 <./bilder/Mongo_DataModel.png>]
 Overfull \hbox (16.87694pt too wide) has occurred while \output is active
 |\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
 assets and drugs 
@@ -2433,16 +2482,13 @@ assets and drugs
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[48]
-Overfull \hbox (9.18933pt too wide) in paragraph at lines 137--139
-\T1/ptm/m/n/12 The de-vel-oped sys-tem was tested and run on a Speed-way R420 R
-AIN RFID READER
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[48 <./bilder/hub_architecture.png>]
+<bilder/reading_matlab.png, id=962, 658.46pt x 887.315pt>
+File: bilder/reading_matlab.png Graphic file (type png)
+<use bilder/reading_matlab.png>
+Package pdftex.def Info: bilder/reading_matlab.png  used on input line 202.
+(pdftex.def)             Requested size: 398.3386pt x 536.79338pt.
+) (./kapitel/kapitel4.tex
 Overfull \hbox (16.87694pt too wide) has occurred while \output is active
  |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
  assets and drugs
@@ -2453,15 +2499,6 @@ Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [49]
-Overfull \hbox (0.83727pt too wide) in paragraph at lines 148--150
-\T1/ptm/m/n/12 RAIN RFID READER: In-ven-tory Man-age-ment, As-set Track-ing and
- en-hanced shop-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \hbox (16.87694pt too wide) has occurred while \output is active
 |\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
 assets and drugs 
@@ -2471,311 +2508,108 @@ assets and drugs
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[50]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
- |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
- assets and drugs
- []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[51]
-Package acronym Info: Label `acro:WPA2' newly defined as it shall be overridden
-
-although it is yet undefined on input line 181.
-Package acronym Info: Label `acro:SDK' newly defined as it shall be overridden
-although it is yet undefined on input line 186.
-Package acronym Info: Label `acro:AVD' newly defined as it shall be overridden
-although it is yet undefined on input line 186.
+[50 <./bilder/reading_matlab.png>]
+chapter 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [51
 
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
-|\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
-assets and drugs 
- []
+
+]
+<bilder/s3_01.png, id=978, 722.7pt x 1284.8pt>
+File: bilder/s3_01.png Graphic file (type png)
+<use bilder/s3_01.png>
+Package pdftex.def Info: bilder/s3_01.png  used on input line 29.
+(pdftex.def)             Requested size: 170.71672pt x 284.5193pt.
+<bilder/s3_02.png, id=979, 722.7pt x 1284.8pt>
+File: bilder/s3_02.png Graphic file (type png)
+<use bilder/s3_02.png>
+Package pdftex.def Info: bilder/s3_02.png  used on input line 30.
+(pdftex.def)             Requested size: 170.71672pt x 284.5193pt.
+<bilder/s3_03.png, id=980, 722.7pt x 1284.8pt>
+File: bilder/s3_03.png Graphic file (type png)
+<use bilder/s3_03.png>
+Package pdftex.def Info: bilder/s3_03.png  used on input line 31.
+(pdftex.def)             Requested size: 170.71672pt x 284.5193pt.
+<bilder/s3_04.png, id=981, 722.7pt x 1284.8pt>
+File: bilder/s3_04.png Graphic file (type png)
+<use bilder/s3_04.png>
+Package pdftex.def Info: bilder/s3_04.png  used on input line 32.
+(pdftex.def)             Requested size: 170.71672pt x 284.5193pt.
+Package acronym Info: Label `acro:HUCA' newly defined as it shall be overridden
+
+although it is yet undefined on input line 38.
+Package acronym Info: Label `acro:SPECT' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 40.
+Package acronym Info: Label `acro:TC' newly defined as it shall be overridden
+although it is yet undefined on input line 40.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
 [52]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
- |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
- assets and drugs
- []
-
-
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[53]
-<bilder/app_scenario.png, id=1025, 655.44875pt x 447.6725pt>
-File: bilder/app_scenario.png Graphic file (type png)
-<use bilder/app_scenario.png>
-Package pdftex.def Info: bilder/app_scenario.png  used on input line 200.
-(pdftex.def)             Requested size: 398.3386pt x 272.06885pt.
-Package acronym Info: Label `acro:PZN' newly defined as it shall be overridden
-although it is yet undefined on input line 204.
-
-Underfull \vbox (badness 1152) has occurred while \output is active []
-
-
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
-|\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
-assets and drugs 
- []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[54 <./bilder/app_scenario.png>]
-<bilder/Mainview.png, id=1034, 302.12875pt x 604.2575pt>
-File: bilder/Mainview.png Graphic file (type png)
-<use bilder/Mainview.png>
-Package pdftex.def Info: bilder/Mainview.png  used on input line 208.
-(pdftex.def)             Requested size: 113.80972pt x 227.61945pt.
-<bilder/Detailview.png, id=1035, 304.13625pt x 606.265pt>
-File: bilder/Detailview.png Graphic file (type png)
-<use bilder/Detailview.png>
-Package pdftex.def Info: bilder/Detailview.png  used on input line 209.
-(pdftex.def)             Requested size: 113.80948pt x 227.62634pt.
-<bilder/administeredView.png, id=1036, 300.12125pt x 606.265pt>
-File: bilder/administeredView.png Graphic file (type png)
-<use bilder/administeredView.png>
-Package pdftex.def Info: bilder/administeredView.png  used on input line 210.
-(pdftex.def)             Requested size: 113.80913pt x 227.62634pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
- |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
- assets and drugs
- []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[55 <./bilder/Mainview.png> <./bilder/Detailview.png> <./bilder/administeredVie
-w.png>]
-<bilder/app_architecture.png, id=1051, 609.27625pt x 835.12pt>
-File: bilder/app_architecture.png Graphic file (type png)
-<use bilder/app_architecture.png>
-Package pdftex.def Info: bilder/app_architecture.png  used on input line 220.
-(pdftex.def)             Requested size: 398.3386pt x 546.00728pt.
-<bilder/Mongo_DataModel.png, id=1054, 514.92375pt x 395.4775pt>
-File: bilder/Mongo_DataModel.png Graphic file (type png)
-<use bilder/Mongo_DataModel.png>
-Package pdftex.def Info: bilder/Mongo_DataModel.png  used on input line 230.
-(pdftex.def)             Requested size: 227.62pt x 170.7158pt.
-Package acronym Info: Label `acro:LAN' newly defined as it shall be overridden
-although it is yet undefined on input line 234.
-<bilder/hub_architecture.png, id=1058, 691.58376pt x 706.64pt>
-File: bilder/hub_architecture.png Graphic file (type png)
-<use bilder/hub_architecture.png>
-Package pdftex.def Info: bilder/hub_architecture.png  used on input line 246.
-(pdftex.def)             Requested size: 398.3386pt x 407.0157pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
-|\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
-assets and drugs 
- []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[56]
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
- |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
- assets and drugs
- []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[57 <./bilder/app_architecture.png>]
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
-|\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
-assets and drugs 
- []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[58 <./bilder/Mongo_DataModel.png> <./bilder/hub_architecture.png>]
-<bilder/reading_matlab.png, id=1085, 658.46pt x 887.315pt>
-File: bilder/reading_matlab.png Graphic file (type png)
-<use bilder/reading_matlab.png>
-Package pdftex.def Info: bilder/reading_matlab.png  used on input line 258.
-(pdftex.def)             Requested size: 398.3386pt x 536.79338pt.
-Package acronym Info: Label `acro:HUCA' newly defined as it shall be overridden
-
-although it is yet undefined on input line 264.
-Package acronym Info: Label `acro:SPECT' newly defined as it shall be overridde
-n
-although it is yet undefined on input line 265.
-Package acronym Info: Label `acro:TC' newly defined as it shall be overridden
-although it is yet undefined on input line 265.
-
-Overfull \hbox (5.73373pt too wide) in paragraph at lines 264--266
-\T1/ptm/m/n/12 cam-eras ([][][]Single-photon emis-sion com-puted to-mog-ra-phy 
-([])[]/[][][]Technetium ([])[])
- []
-
+[53 <./bilder/s3_01.png> <./bilder/s3_02.png> <./bilder/s3_03.png> <./bilder/s3
+_04.png>]
 Package acronym Info: Label `acro:SESPA' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 267.
-<bilder/permission_HUCA.jpg, id=1093, 1854.93pt x 2802.47pt>
+although it is yet undefined on input line 42.
+<bilder/permission_HUCA.jpg, id=1010, 1854.93pt x 2802.47pt>
 File: bilder/permission_HUCA.jpg Graphic file (type jpg)
 <use bilder/permission_HUCA.jpg>
-Package pdftex.def Info: bilder/permission_HUCA.jpg  used on input line 274.
+Package pdftex.def Info: bilder/permission_HUCA.jpg  used on input line 49.
 (pdftex.def)             Requested size: 398.3386pt x 601.79236pt.
+) (./kapitel/kapitel5.tex
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[54]
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[55 <./bilder/permission_HUCA.jpg>] [56
+
+
+]
+chapter 5.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
- |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
- assets and drugs
- []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[59]
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
-|\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
-assets and drugs 
- []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[60 <./bilder/reading_matlab.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
- |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
- assets and drugs
- []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[61]
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
-|\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
-assets and drugs 
- []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[62 <./bilder/permission_HUCA.jpg>]
-<bilder/s3_01.png, id=1128, 722.7pt x 1284.8pt>
-File: bilder/s3_01.png Graphic file (type png)
-<use bilder/s3_01.png>
-Package pdftex.def Info: bilder/s3_01.png  used on input line 299.
-(pdftex.def)             Requested size: 189.21326pt x 336.37305pt.
-<bilder/s3_02.png, id=1129, 722.7pt x 1284.8pt>
-File: bilder/s3_02.png Graphic file (type png)
-<use bilder/s3_02.png>
-Package pdftex.def Info: bilder/s3_02.png  used on input line 300.
-(pdftex.def)             Requested size: 189.21326pt x 336.37305pt.
-<bilder/s3_03.png, id=1130, 722.7pt x 1284.8pt>
-File: bilder/s3_03.png Graphic file (type png)
-<use bilder/s3_03.png>
-Package pdftex.def Info: bilder/s3_03.png  used on input line 301.
-(pdftex.def)             Requested size: 189.21326pt x 336.37305pt.
-<bilder/s3_04.png, id=1131, 722.7pt x 1284.8pt>
-File: bilder/s3_04.png Graphic file (type png)
-<use bilder/s3_04.png>
-Package pdftex.def Info: bilder/s3_04.png  used on input line 302.
-(pdftex.def)             Requested size: 189.21326pt x 336.37305pt.
-
-
-LaTeX Warning: Float too large for page by 67.86853pt on input line 304.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
- |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
- assets and drugs
- []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[63]
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
-|\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
-assets and drugs 
- []
-
-
-Overfull \vbox (1.76944pt too high) has occurred while \output is active []
-
-
-[64 <./bilder/s3_01.png> <./bilder/s3_02.png> <./bilder/s3_03.png> <./bilder/s3
-_04.png>]
-<bilder/extension_mongodatamodel.png, id=1147, 730.73pt x 607.26875pt>
+ [57]
+<bilder/extension_mongodatamodel.png, id=1034, 730.73pt x 607.26875pt>
 File: bilder/extension_mongodatamodel.png Graphic file (type png)
 <use bilder/extension_mongodatamodel.png>
 Package pdftex.def Info: bilder/extension_mongodatamodel.png  used on input lin
-e 321.
+e 25.
 (pdftex.def)             Requested size: 398.3386pt x 331.03368pt.
-
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
- |\T1/phv/m/n/12 3. Development of RFID application for management and tracking
- assets and drugs
- []
-
-
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[65 <./bilder/extension_mongodatamodel.png>])
-Overfull \hbox (16.87694pt too wide) has occurred while \output is active
-|\T1/phv/m/n/12 3. Development of RFID application for management and tracking 
-assets and drugs 
- []
-
-
+[58]
 Overfull \vbox (1.76944pt too high) has occurred while \output is active []
 
 
-[66]
+[59 <./bilder/extension_mongodatamodel.png>]
+Overfull \vbox (1.76944pt too high) has occurred while \output is active []
+
+
+[60]
 chapter without number
 (./kapitel/abkuerzungen.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 4.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7
@@ -2783,16 +2617,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+])
+[8] (./thesis.lot
+Overfull \hbox (3.4076pt too wide) detected at line 21
+ [][][]\T1/ptm/m/n/12 xviii[][]
+ []
 
- [8])
-[9] [10
-
-
-] (./thesis.lot)
+)
 \tf@lot=\write9
 \openout9 = `thesis.lot'.
+
+ [9
+
+
+
+
+] [10
+
+
+] (./thesis.lof)
+\tf@lof=\write10
+\openout10 = `thesis.lof'.
 
  [11
 
@@ -2800,73 +2645,58 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ] [12
 
 
-] (./thesis.lof)
-\tf@lof=\write10
-\openout10 = `thesis.lof'.
-
- [13
-
-
-] [14
-
-
-] (./thesis.lol)
-\tf@lol=\write11
-\openout11 = `thesis.lol'.
-
-
-[15
-
-
-] [16
-
-
 ]
 chapter without number
-[17]
+[13]
 
 Package biblatex Warning: No driver for entry type 'software'.
-(biblatex)                Using fallback driver on input line 83.
+(biblatex)                Using fallback driver on input line 86.
 
-[18] [19] [20
+[14] [15] [16
 
 
 ]
 No file thesis.ind.
 (./kapitel/anhang-a.tex
 chapter A.
-) (./kapitel/anhang-b.tex [21
+<presupuesto.pdf, id=1158, 614.295pt x 794.97pt>
+File: presupuesto.pdf Graphic file (type pdf)
+<use presupuesto.pdf>
+Package pdftex.def Info: presupuesto.pdf  used on input line 4.
+(pdftex.def)             Requested size: 398.3386pt x 515.49922pt.
+) (./kapitel/anhang-b.tex [17
 
 
-] [22
-
-
-]
+] [18 <./presupuesto.pdf>]
 chapter B.
-) [23]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
+<gantt.pdf, id=1200, 614.295pt x 794.97pt>
+File: gantt.pdf Graphic file (type pdf)
+<use gantt.pdf>
+Package pdftex.def Info: gantt.pdf  used on input line 4.
+(pdftex.def)             Requested size: 398.3386pt x 515.49922pt.
+) [19
+
+
+] [20 <./gantt.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 04935D6DF13AB76D835FCE0324BAD0DC;3517.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 6B8386F7855F8464820D9286AD37C345;3683.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39931 strings out of 492649
- 747654 string characters out of 6129622
- 1315125 words of memory out of 5000000
- 42817 multiletter control sequences out of 15000+600000
- 595033 words of font info for 81 fonts, out of 8000000 for 9000
+ 39835 strings out of 492649
+ 746631 string characters out of 6129622
+ 1313666 words of memory out of 5000000
+ 42774 multiletter control sequences out of 15000+600000
+ 592303 words of font info for 79 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 75i,9n,66p,10499b,2859s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,9n,66p,10499b,2790s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texl
@@ -2878,10 +2708,10 @@ ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/u
 rw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on thesis.pdf (91 pages, 2663750 bytes).
+Output written on thesis.pdf (82 pages, 2767016 bytes).
 PDF statistics:
- 1411 PDF objects out of 1440 (max. 8388607)
- 1254 compressed objects within 13 object streams
- 360 named destinations out of 1000 (max. 500000)
- 502 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1335 PDF objects out of 1440 (max. 8388607)
+ 1177 compressed objects within 12 object streams
+ 303 named destinations out of 1000 (max. 500000)
+ 544 words of extra memory for PDF output out of 10000 (max. 10000000)
 

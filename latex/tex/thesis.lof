@@ -6,43 +6,47 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces The design of a RFID tag \cite [p.13]{chipless}\relax }}{20}{figure.caption.45}
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Elements of a RFID tag \cite [p.13]{chipless}\relax }}{18}{figure.caption.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces The design of a RFID reader \cite [p.17]{chipless}\relax }}{23}{figure.caption.50}
+\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces The design of a RFID reader \cite [p.17]{chipless}\relax }}{20}{figure.caption.39}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Existing RFID systems, based on 13.56 MHz short-range, inductive RFID tags\relax }}{40}{figure.caption.76}
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Existing RFID systems, based on 13.56 MHz short-range, inductive RFID tags\relax }}{34}{figure.caption.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces The first draft of the developed system\relax }}{42}{figure.caption.78}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces The first draft of the developed system\relax }}{36}{figure.caption.60}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces The architecture of NativeScript Applications, adopted from \cite {nsarchitecture}\relax }}{44}{figure.caption.80}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces The architecture of NativeScript Applications, adopted from \cite {nsarchitecture}\relax }}{38}{figure.caption.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces The MVVM application logic, adopted from \cite {nativescript}\relax }}{45}{figure.caption.82}
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces The MVVM application logic, adopted from \cite {nativescript}\relax }}{38}{figure.caption.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces User scenario of RFID application\relax }}{54}{figure.caption.103}
+\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces User scenario of RFID application\relax }}{44}{figure.caption.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Layout of application, Screenshot of iOS Simulator\relax }}{55}{figure.caption.105}
+\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Layout of application, Screenshot of iOS Simulator\relax }}{45}{figure.caption.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Start page of application}}}{55}{figure.caption.105}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Initial page of application}}}{45}{figure.caption.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Item information page}}}{55}{figure.caption.105}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Item information page}}}{45}{figure.caption.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Information about administered drug to patient}}}{55}{figure.caption.105}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Information about administered drug to patient}}}{45}{figure.caption.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces The developed system architecture of the mobile RFID application\relax }}{57}{figure.caption.106}
+\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces The developed system architecture of the mobile RFID application\relax }}{46}{figure.caption.75}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Applied data model\relax }}{58}{figure.caption.108}
+\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Applied data model\relax }}{47}{figure.caption.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces The LAN architecture of the developed system\relax }}{58}{figure.caption.111}
+\contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces The LAN architecture of the developed system\relax }}{48}{figure.caption.80}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces Activity diagram: reading process in Matlab\relax }}{60}{figure.caption.113}
+\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces Activity diagram: reading process in Matlab\relax }}{50}{figure.caption.82}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.11}{\ignorespaces Permission letter about application tests in HUCA\relax }}{62}{figure.caption.118}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.12}{\ignorespaces Test screenshots, Samsung S3 GT I9300\relax }}{64}{figure.caption.122}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Test screenshots, Samsung S3 GT I9300\relax }}{53}{figure.caption.83}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.13}{\ignorespaces Example of extended data model, each patient entry is associated to the medication list\relax }}{65}{figure.caption.123}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Permission letter about application tests in HUCA\relax }}{55}{figure.caption.88}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Example of extended data model, each patient entry is associated to the medication list\relax }}{59}{figure.caption.89}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
