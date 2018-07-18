@@ -138,8 +138,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Bibliography}{xiii}{chapter*.95}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Index}{xvii}{section*.96}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Budget}{xvii}{appendix.A}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {B}Gantt chart}{xix}{appendix.B}
