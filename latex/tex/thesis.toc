@@ -132,9 +132,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline List of Abbreviations}{vii}{chapter*.90}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{ix}{section*.91}
+\contentsline {chapter}{List of Tables}{viii}{section*.91}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{xi}{section*.93}
+\contentsline {chapter}{List of Figures}{ix}{section*.93}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Bibliography}{xiii}{chapter*.95}
 \defcounter {refsection}{0}\relax 

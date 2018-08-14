@@ -1,15 +1,15 @@
 [1] Config.pm:302> INFO - This is Biber 2.11
 [1] Config.pm:305> INFO - Logfile is 'thesis.blg'
-[98] biber-darwin:313> INFO - === mié jul 18, 2018, 15:07:51
-[159] Biber.pm:371> INFO - Reading 'thesis.bcf'
-[433] Biber.pm:857> INFO - Found 19 citekeys in bib section 0
-[468] Biber.pm:3976> INFO - Processing section 0
-[495] Biber.pm:4136> INFO - Looking for bibtex format file 'literatur.bib' for section 0
-[503] bibtex.pm:1500> INFO - LaTeX decoding ...
-[638] bibtex.pm:1316> INFO - Found BibTeX data source 'literatur.bib'
-[880] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[880] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[880] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en_US'
-[881] Biber.pm:3810> INFO - No sort tailoring available for locale 'en_US'
-[920] bbl.pm:617> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[938] bbl.pm:720> INFO - Output to thesis.bbl
+[114] biber-darwin:313> INFO - === mar ago 14, 2018, 09:08:22
+[187] Biber.pm:371> INFO - Reading 'thesis.bcf'
+[460] Biber.pm:857> INFO - Found 19 citekeys in bib section 0
+[496] Biber.pm:3976> INFO - Processing section 0
+[527] Biber.pm:4136> INFO - Looking for bibtex format file 'literatur.bib' for section 0
+[537] bibtex.pm:1500> INFO - LaTeX decoding ...
+[696] bibtex.pm:1316> INFO - Found BibTeX data source 'literatur.bib'
+[1000] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1000] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1001] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en_US'
+[1001] Biber.pm:3810> INFO - No sort tailoring available for locale 'en_US'
+[1072] bbl.pm:617> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[1107] bbl.pm:720> INFO - Output to thesis.bbl
